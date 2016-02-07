@@ -1,52 +1,81 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>Open Carry in Austin, Texas</title>
-<script
-src="http://maps.googleapis.com/maps/api/js">
-</script>
+	<title>Open Carry in Austin</title>
 
-<script>
-var house=new google.maps.LatLng(30.2571543,-97.7353312);
-function initialize()
-{
-var mapProp = {
-    center: house,
-    zoom:14,
-    styles: [{"featureType":"water","elementType":"geometry","stylers":[{"color":"#e9e9e9"},{"lightness":17}]},{"featureType":"landscape","elementType":"geometry","stylers":[{"color":"#f5f5f5"},{"lightness":20}]},{"featureType":"road.highway","elementType":"geometry.fill","stylers":[{"color":"#ffffff"},{"lightness":17}]},{"featureType":"road.highway","elementType":"geometry.stroke","stylers":[{"color":"#ffffff"},{"lightness":29},{"weight":0.2}]},{"featureType":"road.arterial","elementType":"geometry","stylers":[{"color":"#ffffff"},{"lightness":18}]},{"featureType":"road.local","elementType":"geometry","stylers":[{"color":"#ffffff"},{"lightness":16}]},{"featureType":"poi","elementType":"geometry","stylers":[{"color":"#f5f5f5"},{"lightness":21}]},{"featureType":"poi.park","elementType":"geometry","stylers":[{"color":"#dedede"},{"lightness":21}]},{"elementType":"labels.text.stroke","stylers":[{"visibility":"on"},{"color":"#ffffff"},{"lightness":16}]},{"elementType":"labels.text.fill","stylers":[{"saturation":36},{"color":"#333333"},{"lightness":40}]},{"elementType":"labels.icon","stylers":[{"visibility":"off"}]},{"featureType":"transit","elementType":"geometry","stylers":[{"color":"#f2f2f2"},{"lightness":19}]},{"featureType":"administrative","elementType":"geometry.fill","stylers":[{"color":"#fefefe"},{"lightness":20}]},{"featureType":"administrative","elementType":"geometry.stroke","stylers":[{"color":"#fefefe"},{"lightness":17},{"weight":1.2}]}],
-    panControl:true,
-    zoomControl:true,
-    mapTypeControl:true,
-    scaleControl:true,
-    streetViewControl:true,
-    overviewMapControl:true,
-    rotateControl:true,    
-    mapTypeId: google.maps.MapTypeId.ROADMAP
-  };
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/style.css">
 
-var map =new google.maps.Map(document.getElementById("googleMap"),mapProp);
+	<meta name="viewport" content="width=device-width" />
 
-var marker=new google.maps.Marker({
-  position:house,
-  animation:google.maps.Animation.DROP
-  });
-
-marker.setMap(map);
-
-var infowindow = new google.maps.InfoWindow({
-	content:"Garten Haus!"
-})
-
-infowindow.open(map,marker);
-
-myCity.setMap(map);
-}
-
-google.maps.event.addDomListener(window, 'load', initialize);
-</script>
+	<link href='https://fonts.googleapis.com/css?family=Playfair+Display:400,700,400italic,700italic,900,900italic|Muli:400,300,300italic,400italic' rel='stylesheet' type='text/css'>
 </head>
 
 <body>
-<div id="googleMap" style="width:1000px;height:1000px;"></div>
+	<div class="fullscreen-bg">
+	    <video loop muted autoplay poster="images/gun_frame.png" class="fullscreen-bg__video">
+	    <source src="videos/gun_fire.mp4" type="video/mp4">
+	    </video>
+	</div>
+
+    <div class="video-content">
+    	<h1>Open Carry in Austin</h1>
+		<h4>On December 28, 2015 at 11:23 PM, I was walking back home. A man approached me, pointed a gun to my head and demanded I give him all of my belongings.*<br><br>That night I realized two things:</h4>
+		<h2>First, I really enjoy being alive. Second, I knew nothing about gun laws in Texas.</h2>
+		<p class="tiny_text">*Well most of my belongings, he didn't want my Burt's Bees chapstick.</p>
+	</div>
+
+	<div class="scroll">
+	<a class="video_down" href="#container">&#65516; <br><span class="learn_more">Learn More</span></a>
+	</div>
+
+	<!--End video-->
+
+	<!--Begin content-->
+	<div id="container">
+
+		<section id="question">
+			<div class="inner_content">
+				<img src="images/bullet.svg"/>
+				<h2>What does open carry mean?</h2>
+				<h1>Texans can carry their guns in plain view in a shoulder or belt holster anywhere that is not expressly prohibited by law.</h1>
+				<p>Governor Greg Abbott signed House Bill 910 on January 1, 2016 which allows open carry in Texas.</p>
+			</div>
+		</section>
+
+		<section id="question" class="blue">
+				<div class="inner_content">
+				<img src="images/bullet.svg"/>
+				<h2>What is required to open carry?</h2>
+				<h1>License to Carry</h1>
+				<p>This is also known as a concealed handgun license.</p>
+				<h1>Holster</h1>
+				<p>You must carry your gun in a shoulder or hip holster.</p>
+			</div>
+		</section>
+
+		<section id="question">
+			<div class="inner_content">
+				<img src="images/bullet.svg"/>
+				<h2>What are the license to carry requirements?</h2>
+					<ul class="requirements">
+						<li><h1>21 years of age</h1></li>
+						<li><h1>Online application</h1></li>
+						<li><h1>Fingerprints</h1></li>
+						<li><h1>Classroom training</h1></li>
+						<li><h1>Written exam</h1></li>
+						<li><h1>Proficiency exam</h1></li>
+						<li><h1>Background check</h1></li>
+					</ul>
+			</div>
+		</section>
+
+
+
+
+
+	</div>
+
 </body>
 </html>

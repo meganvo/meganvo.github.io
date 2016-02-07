@@ -1,11 +1,202 @@
-/******************************************
-/* SETUP
-/*******************************************/
-
-/* Box Model Hack */
-
-* {
-     -moz-box-sizing: border-box; /* Firexfox */
-     -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
-     box-sizing: border-box; /* IE */
+html {
+  box-sizing: border-box;
 }
+*, *:before, *:after {
+  box-sizing: inherit;
+  transition: all 0.2s ease-in-out;
+}
+
+body{
+    margin:0;
+    padding:0;
+    font-family: 'Muli', sans-serif, 'Helvetica Neue', 'Lucida Grande';
+}
+
+h1, h2, h4, p{
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-family: 'Playfair Display';
+    font-size: 52px;
+}
+
+h2 {
+    font-family: 'Muli';
+    font-weight: 300;
+    font-size: 30px;
+    line-height: 1.6em;
+}
+
+
+h4 {
+    font-family: 'Muli';
+    font-size: 19px;
+    line-height: 1.6em;
+    font-weight: 300;
+
+}
+
+p {
+  font-family: 'Muli';
+  font-size: 23px;
+  color: #5E5D5A;
+  line-height: 34px;
+}
+.fullscreen-bg {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  overflow: hidden;
+  z-index: -100;
+}
+
+.fullscreen-bg__video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transform: rotateY(180deg);
+  -webkit-transform:rotateY(180deg); /* Safari and Chrome */
+  -moz-transform:rotateY(180deg); /* Firefox */
+}
+
+
+.video-content {
+    width: 50%;
+    padding: 80px 50px 40px 50px;
+    color: white;
+}
+
+.video-content h1 {
+  padding-bottom: 30px;
+  font-weight: 900;
+}
+
+.tiny_text {
+  font-size: 10px;
+  font-weight: 300;
+  margin-top: 50px;
+  line-height: 1.2em;
+}
+
+.scroll a{
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    padding: 0 0 40px 0;
+    opacity: .5;
+    font-size: 30px;
+}
+
+.scroll a:hover {
+  color: red;
+}
+
+.requirements ul {
+  text-align: left;
+}
+
+.learn_more {
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: .5em;
+    padding-bottom: 20px;
+}
+
+#container{
+    width:100%;
+    background: white;
+    text-align: center;
+    margin: 0 auto;
+    max-width: 1400px;
+}
+
+
+section {
+  padding: 100px 0;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.inner_content {
+  width: 60%;
+  margin: 0 auto;
+}
+.blue {
+  background-color: #E2F5F9;
+}
+
+#question h1 {
+  font-family: 'PlayfairDisplay';
+  font-weight: 900;
+  font-size: 40px;
+  color: #F02F23;
+  letter-spacing: 0.1px;
+  line-height: 44px;
+  padding-bottom: 30px;
+}
+
+#question h2 {
+  font-family: 'Muli';
+  font-weight: 400;
+  font-size: 17px;
+  color: #545454;
+  padding-bottom: 20px;
+  letter-spacing: 1.69px;
+  line-height: 34px;
+  text-transform: uppercase;
+}
+
+
+@media (min-aspect-ratio: 16/9) {
+  .fullscreen-bg__video {
+    height: 300%;
+    top: -100%;
+  }
+}
+
+@media (max-aspect-ratio: 16/9) {
+  .fullscreen-bg__video {
+    width: 300%;
+    left: -100%;
+  }
+}
+
+@media (max-width: 600px) {
+  .fullscreen-bg {
+    background: url(../images/gun_frame.png) no-repeat center;
+    transform: rotateY(180deg);
+    -webkit-transform:rotateY(180deg); /* Safari and Chrome */
+    -moz-transform:rotateY(180deg); /* Firefox */
+    background-color: black;
+  }
+
+  .fullscreen-bg__video {
+    display: none;
+  }
+
+  .video-content {
+    width: 90%;
+    padding: 50px 0;
+    margin: 0 auto;
+  }
+
+  .inner_content {
+    width: 94%;
+  }
+
+  section {
+    padding: 50px 0;
+  }
+
+  .scroll {
+    display: none;
+  }
+
