@@ -3,7 +3,7 @@ html {
 }
 *, *:before, *:after {
   box-sizing: inherit;
-  transition: all 0.2s ease-in-out;
+  transition: all 0.5s ease;
 }
 
 body{
@@ -29,6 +29,15 @@ h2 {
     line-height: 1.6em;
 }
 
+h3 {
+  font-family: 'Muli';
+  font-weight: 400;
+  font-size: 20px;
+  text-transform: uppercase;
+      line-height: 1.6em;
+
+}
+
 
 h4 {
     font-family: 'Muli';
@@ -38,12 +47,51 @@ h4 {
 
 }
 
+a {
+  color: #F02F23;
+  text-decoration: none;
+  padding-bottom: 5px;
+  border-bottom: 1px solid #F02F23;
+}
+
 p {
   font-family: 'Muli';
   font-size: 23px;
   color: #5E5D5A;
   line-height: 34px;
 }
+section {
+  padding: 100px 0;
+  margin: 0 auto;
+  width: 100%;
+  display: block;
+  overflow: auto;
+}
+
+section h1 {
+  font-family: 'PlayfairDisplay';
+  font-weight: 900;
+  font-size: 40px;
+  color: #F02F23;
+  letter-spacing: 0.1px;
+  line-height: 44px;
+}
+
+section h2 {
+  font-family: 'Muli';
+  font-weight: 400;
+  font-size: 17px;
+  color: #545454;
+  padding-bottom: 20px;
+  letter-spacing: 1.69px;
+  line-height: 34px;
+  text-transform: uppercase;
+}
+
+section p {
+  padding: 20px 0;
+}
+
 .fullscreen-bg {
   position: fixed;
   top: 0;
@@ -67,14 +115,24 @@ p {
 
 
 .video-content {
-    width: 50%;
-    padding: 80px 50px 40px 50px;
+    width: 52%;
+    padding: 100px 0px 40px 100px;
     color: white;
 }
 
 .video-content h1 {
-  padding-bottom: 30px;
+  padding-bottom: 80px;
   font-weight: 900;
+  letter-spacing: .8px;
+}
+
+.video-content h2 {
+  font-weight: 400;
+  color: #B9B9B9;
+}
+
+.video-content h4 {
+  color: #B9B9B9;
 }
 
 .tiny_text {
@@ -83,7 +141,9 @@ p {
   margin-top: 50px;
   line-height: 1.2em;
 }
-
+.scroll {
+  padding-bottom: 50px;
+}
 .scroll a{
     display: block;
     margin: 0 auto;
@@ -92,22 +152,59 @@ p {
     text-decoration: none;
     padding: 0 0 40px 0;
     opacity: .5;
-    font-size: 30px;
+    font-size: 50px;
+    border: none;
+
 }
 
 .scroll a:hover {
   color: red;
 }
 
-.requirements ul {
+#toggle-view {
+  list-style:none;  
+  width: 80%;  
+  font-size:11px;
+  margin:0 auto;
+  padding:0;
   text-align: left;
 }
 
-.learn_more {
-    font-size: 11px;
-    text-transform: uppercase;
-    letter-spacing: .5em;
-    padding-bottom: 20px;
+#toggle-view li {
+  margin:10px;
+  border-bottom:1px solid #ccc;
+  position:relative;
+  cursor:pointer;
+}
+
+#toggle-view li:last-child {
+  border: none;
+}
+
+#toggle-view h1 {
+  padding: 20px 0;
+}
+
+#toggle-view h1:hover {
+  color: #175FED;
+}
+
+#toggle-view span {
+  position:absolute;
+  right:10px; 
+  top: 10px;
+  color:#F02F23;
+  font-size:53px;
+}
+    
+#toggle-view .panel {
+  margin:5px 0;
+  display:none;
+}    
+
+.question {
+  padding: 20px 0;
+  font-weight: 800;
 }
 
 #container{
@@ -118,11 +215,18 @@ p {
     max-width: 1400px;
 }
 
+.secondary-content {
+  background: url(../images/secondary_bg.jpg) no-repeat center;
+  background-color: #F02F23;
+  padding: 150px 0;
+}
 
-section {
-  padding: 100px 0;
-  margin: 0 auto;
-  width: 100%;
+.secondary-content h2 {
+  color: white;
+}
+
+.secondary-content h1 {
+  color: white;
 }
 
 .inner_content {
@@ -133,26 +237,72 @@ section {
   background-color: #E2F5F9;
 }
 
-#question h1 {
-  font-family: 'PlayfairDisplay';
-  font-weight: 900;
-  font-size: 40px;
-  color: #F02F23;
-  letter-spacing: 0.1px;
-  line-height: 44px;
-  padding-bottom: 30px;
+.two {
+  float: left;
+  width: 50%;
 }
 
-#question h2 {
-  font-family: 'Muli';
-  font-weight: 400;
-  font-size: 17px;
-  color: #545454;
-  padding-bottom: 20px;
-  letter-spacing: 1.69px;
-  line-height: 34px;
-  text-transform: uppercase;
+.two img {
+  height: 100px;
+  margin-top: 90px;
 }
+
+.two p {
+  padding: 0;
+  margin: 10px;
+}
+
+.prohibit_locations {
+  float: left;
+  position: relative;
+  width: 25%;
+  padding: 100px 0 50px 0px;
+  display: block;
+  text-align: center;
+}
+
+.prohibit_locations img {
+  height: 100px;
+}
+
+  .prohibit_locations p {
+    padding: 0;
+    margin: 10px;
+    font-size: 15px;
+    line-height: 1.4em;
+  }
+
+.narrow {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.sign {
+  background-color: white;
+  border: 1px solid #ddd;
+  padding: 50px;
+  width: 80%;
+  margin: 50px auto;
+  border-radius: 6px;
+}
+
+.emoji {
+  font-size: 55px;
+}
+
+footer {
+  clear: both;
+  background-color: white;
+  width: 100%;
+  padding: 50px 0;
+  color: #545454;
+  overflow: hidden;
+}
+
+footer p {
+  padding: 20px 0;
+}
+
 
 
 @media (min-aspect-ratio: 16/9) {
@@ -188,8 +338,9 @@ section {
     margin: 0 auto;
   }
 
-  .inner_content {
-    width: 94%;
+  .prohibit_locations {
+    width: 100%;
+    padding: 30px 0;
   }
 
   section {
@@ -198,5 +349,7 @@ section {
 
   .scroll {
     display: none;
+  }
+
   }
 
