@@ -92,6 +92,11 @@ section p {
   padding: 20px 0;
 }
 
+header {
+  width: 100%;
+  overflow: hidden;
+}
+
 .fullscreen-bg {
   position: fixed;
   top: 0;
@@ -208,16 +213,16 @@ section p {
 }
 
 #container{
-    width:100%;
+    width: 100%;
     background: white;
     text-align: center;
-    margin: 0 auto;
-    max-width: 1400px;
+    margin: 0 auto;    
 }
 
 .secondary-content {
   background: url(../images/secondary_bg.jpg) no-repeat center;
   background-color: #F02F23;
+  background-size: cover;
   padding: 150px 0;
 }
 
@@ -249,6 +254,8 @@ section p {
 
 .two p {
   padding: 0;
+  font-size: 15px;
+  line-height: 1.4em;
   margin: 10px;
 }
 
@@ -281,13 +288,34 @@ section p {
   background-color: white;
   border: 1px solid #ddd;
   padding: 50px;
-  width: 80%;
+  width: 50%;
   margin: 50px auto;
   border-radius: 6px;
 }
 
+.sign img {
+  padding: 20px;
+  height: 120px;
+}
+
 .emoji {
   font-size: 55px;
+}
+
+.gun_choice img {
+  border: 1px solid white;
+  padding: 20px;
+  margin: 20px;
+  width: 400px;  
+}
+
+.gun_choice img:hover {
+  border: 1px solid red;
+  cursor: pointer;
+}
+
+.gun_choice img:first-child {
+  margin-top: 100px;
 }
 
 footer {
