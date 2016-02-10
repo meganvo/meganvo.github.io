@@ -94,6 +94,7 @@ section p {
 
 header {
   width: 100%;
+  padding: 40px;
 }
 
 .fullscreen-bg {
@@ -122,7 +123,7 @@ header {
     width: 52%;
     padding: 100px 0px 40px 0;
     color: white;
-    max-width: 800px;
+    max-width: 550px;
     overflow: auto;
 }
 
@@ -377,23 +378,6 @@ footer {
   margin: 20px 0px;
 
 }
-
-.wrong {
-  border: none;
-  text-align: center;
-  font-size: 23px;
-  color: white;
-  line-height: 34px;
-  padding: 30px 0;
-  transition: all 0.5s ease;
-}
-
-.wrong:hover {
-  border: none;
-  cursor: default;
-}
-
-
 
 footer p {
   padding: 20px 0;

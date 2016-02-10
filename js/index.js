@@ -18,7 +18,8 @@ $(document).ready(function () {
 
 
     $('.gun_choice').click(function(){
-         return $("p").text().replace("rifle", "wrong");
-    });
+        $('.caption').text('Wrong - you can open carry this gun');
+
+        });
 
 });
