@@ -1,3 +1,5 @@
+
+
 $(document).ready(function () {
     
     $('#toggle-view li').click(function () {
@@ -12,6 +14,11 @@ $(document).ready(function () {
             $(this).children('span').html('+');     
         }
         
+    });
+
+
+    $('.gun_choice').click(function(){
+         return $("p").text().replace("rifle", "wrong");
     });
 
 });
