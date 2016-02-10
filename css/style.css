@@ -123,6 +123,7 @@ header {
     width: 52%;
     padding: 100px 0px 40px 100px;
     color: white;
+    max-width: 700px;
 }
 
 .video-content h1 {
@@ -302,11 +303,20 @@ header {
   font-size: 55px;
 }
 
+
 .gun_choice img {
   border: 1px solid white;
   padding: 20px;
-  margin: 20px;
-  width: 400px;  
+  width: 100%;
+  max-width: 600px;
+  margin: 20px auto;
+}
+
+.caption {
+  color: white;
+}
+.clear_both {
+  clear: both;
 }
 
 .gun_choice img:hover {

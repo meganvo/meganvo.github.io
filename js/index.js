@@ -5,10 +5,10 @@ $(document).ready(function () {
         var text = $(this).children('div.panel');
 
         if (text.is(':hidden')) {
-            text.slideDown('200');
+            text.slideDown(50);
             $(this).children('span').html('-');     
         } else {
-            text.slideUp('200');
+            text.slideUp(50);
             $(this).children('span').html('+');     
         }
         
