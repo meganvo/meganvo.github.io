@@ -374,6 +374,7 @@ header {
 
 .graph {
   margin: 80px 0;
+  overflow: hidden;
 }
 
 .graph h1 {
@@ -445,7 +446,7 @@ footer a {
     width: 93%;
   }
 
- .about, .me, .two, .gun_choice1,  .gun_choice2,  .gun_choice3,  .gun_choice4, .gun_choice img, .prohibit_locations, .video-content, #toggle-view, .sign {
+ .about, .graph, .me, .two, .gun_choice1,  .gun_choice2,  .gun_choice3,  .gun_choice4, .gun_choice img, .prohibit_locations, .video-content, #toggle-view, .sign {
     width: 100%;
   }
 
