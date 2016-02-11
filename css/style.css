@@ -372,6 +372,14 @@ header {
   padding: 30px 0;
 }
 
+.graph {
+  margin: 80px 0;
+}
+
+.graph h1 {
+  margin-top: 30px;
+}
+
 footer {
   clear: both;
   background-color: #0033cc;
