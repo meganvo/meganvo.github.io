@@ -16,10 +16,21 @@ $(document).ready(function () {
         
     });
 
-
-    $('.gun_choice').click(function(){
-        $('.caption').text('Wrong - you can open carry this gun');
+//Pretty sure this is not efficient
+    $('.gun_choice1').click(function(){
+        $('.gun_choice1 .caption').text('WRONG! YOU CAN CARRY THIS OPENLY!');
 
         });
+     $('.gun_choice2').click(function(){
+        $('.gun_choice2 .caption').text('INCORRECT!');
 
+        });
+      $('.gun_choice3').click(function(){
+        $('.gun_choice3 .caption').text('WRONG!');
+
+        });
+       $('.gun_choice4').click(function(){
+        $('.gun_choice4 .caption').text('NO! YOU CAN CARRY THIS OPENLY!');
+
+        });
 });

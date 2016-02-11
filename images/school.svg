@@ -1,14 +1,20 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<svg width="93px" height="51px" viewBox="0 0 93 51" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
-    <!-- Generator: Sketch 3.4.4 (17249) - http://www.bohemiancoding.com/sketch -->
-    <title>Shape + Shape</title>
+<svg width="94px" height="95px" viewBox="0 0 94 95" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.5.2 (25235) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 2</title>
     <desc>Created with Sketch.</desc>
     <defs></defs>
     <g id="wires" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
-        <g id="Style-Tile-A-Copy-2" sketch:type="MSArtboardGroup" transform="translate(-351.000000, -775.000000)" fill="#175FED">
-            <g id="Shape-+-Shape" sketch:type="MSLayerGroup" transform="translate(351.000000, 775.000000)">
-                <path d="M14.702,0 L0,0 L0,2.976 L0,9.682 L0,50.909 L1.225,50.909 L1.225,9.682 L14.702,9.682 L14.702,0 Z" id="Shape" sketch:type="MSShapeGroup"></path>
-                <path d="M36.861,25.671 L36.861,15.319 L38.201,15.319 L38.201,12.778 L3.252,12.778 L3.252,15.319 L5.415,15.319 L5.415,50.909 L11.709,50.909 L13.515,50.909 L29.306,50.909 L30.548,50.909 L34.002,50.909 L36.86,50.909 L91.78,50.909 L91.78,28.213 L92.736,28.213 L92.736,25.671 L36.861,25.671 L36.861,25.671 Z M21.782,18.744 L26.939,18.744 L26.939,23.373 L21.782,23.373 L21.782,18.744 L21.782,18.744 Z M15.164,18.744 L20.322,18.744 L20.322,23.373 L15.164,23.373 L15.164,18.744 L15.164,18.744 Z M8.547,23.373 L8.547,18.744 L13.704,18.744 L13.704,23.373 L8.547,23.373 L8.547,23.373 Z M13.516,49.79 L13.516,34.196 L29.307,34.196 L29.307,49.79 L13.516,49.79 L13.516,49.79 Z M33.557,23.373 L28.399,23.373 L28.399,18.744 L33.557,18.744 L33.557,23.373 L33.557,23.373 Z M51.251,43.452 L38.201,43.452 L38.201,34.196 L51.251,34.196 L51.251,43.452 L51.251,43.452 Z M71.591,43.452 L54.736,43.452 L54.736,34.196 L71.59,34.196 L71.59,43.452 L71.591,43.452 Z M88.097,43.452 L75.046,43.452 L75.046,34.196 L88.097,34.196 L88.097,43.452 L88.097,43.452 Z" id="Shape" sketch:type="MSShapeGroup"></path>
+        <g id="Artboard-5" sketch:type="MSArtboardGroup" transform="translate(-178.000000, -528.000000)" fill="#175FED">
+            <g id="Group" sketch:type="MSLayerGroup" transform="translate(178.000000, 528.000000)">
+                <g id="Group-2" sketch:type="MSShapeGroup">
+                    <rect id="Rectangle-path" x="9" y="91" width="76" height="4"></rect>
+                    <path d="M53,24 C53,24 52,24 52,23 L52,20 C52,17.239 49.762,15 47,15 C44.239,15 42.001,17.239 42.001,20 L42,20 L42,23 C42,23 42,24 41,24 L40,24 L40,26 L54,26 L54,24 L53,24 L53,24 Z" id="Shape"></path>
+                    <circle id="Oval" cx="47" cy="14" r="1"></circle>
+                    <path d="M47,29 C48.105,29 49,28.105 49,27 L45,27 C45,28.105 45.895,29 47,29 L47,29 Z" id="Shape"></path>
+                    <path d="M60,29.064 L60,14 L65.999,14 L47,0 L28.001,14 L34,14 L34,29.064 L0,55 L13,55 L13,89 L39,89 L39,66 C39,61.581 42.582,58 47,58 C51.418,58 55,61.581 55,66 L55,89 L81,89 L81,55 L94,55 L60,29.064 L60,29.064 Z M32,82 L20,82 L20,78 L32,78 L32,82 L32,82 Z M32,76 L20,76 L20,66 L32,66 L32,76 L32,76 Z M47,52 C43.135,52 40,48.864 40,45 C40,41.134 43.135,38 47,38 C50.867,38 54,41.134 54,45 C54,48.864 50.867,52 47,52 L47,52 Z M56,30 L38,30 L38,19 L38.059,19 C38.557,14.5 42.369,11 47,11 C51.633,11 55.443,14.501 55.941,19 L56,19 L56,30 L56,30 Z M74,82 L62,82 L62,78 L74,78 L74,82 L74,82 Z M74,76 L62,76 L62,66 L74,66 L74,76 L74,76 Z" id="Shape"></path>
+                    <path d="M47,46 L44,46 C43.448,46 43,45.553 43,45 C43,44.447 43.448,44 44,44 L46,44 L46,40 C46,39.447 46.448,39 47,39 C47.552,39 48,39.447 48,40 L48,45 C48,45.553 47.552,46 47,46 L47,46 Z" id="Shape"></path>
+                </g>
             </g>
         </g>
     </g>
