@@ -18,18 +18,23 @@ $(document).ready(function () {
 
 //Pretty sure this is not efficient
     $('.gun_choice1').click(function(){
-        $('.gun_choice1 .caption').text('WRONG! YOU CAN CARRY THIS OPENLY!');
-
+        $('.gun_choice1 .caption').text('You can carry this gun openly.')
+        .addClass('gun_choice_select');
         });
+
      $('.gun_choice2').click(function(){
-        $('.gun_choice2 .caption').text('INCORRECT!');
+        $('.gun_choice2 .caption').text('Wrong.')
+             .addClass('gun_choice_select');
 
         });
       $('.gun_choice3').click(function(){
-        $('.gun_choice3 .caption').text('WRONG!');
+        $('.gun_choice3 .caption').text('Incorrect.')
+             .addClass('gun_choice_select');
 
         });
        $('.gun_choice4').click(function(){
-        $('.gun_choice4 .caption').text('NO! YOU CAN CARRY THIS OPENLY!');
+        $('.gun_choice4 .caption').text('You can carry this gun openly.')
+             .addClass('gun_choice_select');
         });
+
 });
