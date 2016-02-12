@@ -31,6 +31,5 @@ $(document).ready(function () {
         });
        $('.gun_choice4').click(function(){
         $('.gun_choice4 .caption').text('NO! YOU CAN CARRY THIS OPENLY!');
-
         });
 });
