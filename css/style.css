@@ -3,7 +3,7 @@ html {
 }
 *, *:before, *:after {
   box-sizing: inherit;
-  transition: all 0.5s ease;
+  transition: all 0.3s ease-out;
 }
 
 body{
@@ -32,9 +32,10 @@ h2 {
 h3 {
   font-family: 'Muli';
   font-weight: 400;
-  font-size: 20px;
+  font-size: 18px;
   text-transform: uppercase;
-      line-height: 1.6em;
+  line-height: 1.6em;
+  letter-spacing: 1.5px;
 
 }
 
@@ -109,18 +110,16 @@ header {
   border-bottom: none !important;
 }
 
-
-
 .learn_more {
-  font-size: 36px;
-  margin: 30px 0;
+  font-size: 30px;
   color: #0033cc;
-  border-bottom: 1px solid #0033cc;
+  border: 1px solid #0033cc;
+  padding: 10px 20px;
 }
 
 .learn_more:hover {
   color: red;
-  border-bottom: 1px solid red;
+  border: 1px solid red;
 }
 
 .fullscreen-bg {
@@ -147,7 +146,7 @@ header {
 
 .video-content {
     width: 55%;
-    padding: 120px 0px 120px 0;
+    padding: 60px 0px 60px 0;
     margin: 0 auto;
     color: white;
     overflow: auto;
@@ -160,19 +159,20 @@ header {
 }
 
 .video-content h1 {
-  font-size: 80px;
+  font-size: 70px;
   padding-bottom: 40px;
   font-weight: 900;
   text-align: center;
-  letter-spacing: .8px;
+  letter-spacing: 1.3px;
 }
 
 .video-content h2 {
   font-weight: 400;
   font-size: 32px;
   color: white;
-  margin-top: 20px;
-}
+  line-height: 1.2em;
+  margin: 40px 0;
+  }
 
 .video-content h4 {
   font-size: 21px;
@@ -312,6 +312,7 @@ header {
   border-top: 3px solid #4a4a4a;
   position: relative;
   float: left;
+  text-align: left;
   width: 47%;
   padding: 25px;
   margin: 80px 10px;
@@ -351,17 +352,20 @@ header {
   cursor: pointer;
 }
 
+
+.gun_choice1:hover, 
+.gun_choice2:hover,
+.gun_choice3:hover,
+.gun_choice4:hover{
+  border: 1px solid red;
+}
+
 .gun_choice1 {
   margin-top: 80px;
 }
 
 .gun_choice_select {
-  background-color: rgba(255,0,0,0.5);
-  border-radius: 6px;
-  text-transform: uppercase;
-  font-size: 14px;
-  letter-spacing: 2px;
-  line-height: 1.4em;
+  background: url(../images/wrong.svg) rgba(255,0,0,0.5) no-repeat 50% 15%;
 }
 
 .gun_choice1 img,
@@ -370,25 +374,23 @@ header {
 .gun_choice4 img  {
   width: 80%;
   margin: 0 auto;
-}
-
-.gun_choice1 img, .gun_choice2 img, .gun_choice3 img, .gun_choice4 img {
-  -webkit-transition: .3s ease-in-out;
-  transition: .1s ease-in-out;
+  transition: .05s ease-out;
 }
 
 .gun_choice1 img:hover,.gun_choice2 img:hover, .gun_choice3 img:hover, .gun_choice4 img:hover {
-  -webkit-transform: scale(2.0);
-  transform: scale(2.0);
+  -webkit-transform: scale(1.7);
+  transform: scale(1.7);
   cursor: pointer;
 }
 
 .caption {
+  text-transform: uppercase;
+  font-size: 14px;
+  letter-spacing: 2px;
+  line-height: 1.4em;
   color: white;
-  padding: 30px 0;
+  padding: 30px 20px;
 }
-
-
 
 .graph {
   margin: 80px 0;
@@ -427,13 +429,13 @@ footer {
   float: left;
   margin: 20px 0px;
   position: absolute;
--webkit-box-shadow: 6px 6px 2px 1px rgba(0,0,0,0.25);
--moz-box-shadow: 6px 6px 2px 1px rgba(0,0,0,0.25);
-box-shadow: 6px 6px 2px 1px rgba(0,0,0,0.25);
+  -webkit-box-shadow: 6px 6px 2px 1px rgba(0,0,0,0.25);
+  -moz-box-shadow: 6px 6px 2px 1px rgba(0,0,0,0.25);
+  box-shadow: 6px 6px 2px 1px rgba(0,0,0,0.25);
 }
 
 .me:hover {
-   -webkit-transform: rotate(360deg);
+   -webkit-transform: rotate(1080deg);
    transform: rotate(1080deg);
 }
 
@@ -485,7 +487,7 @@ footer a:hover {
 
 @media (max-width: 750px) {
   .fullscreen-bg {
-    background-color: black;
+    background-color: red;
   }
 
   .inner_content, .footer_content {
@@ -506,13 +508,10 @@ footer a:hover {
   margin: 0 auto;
   position: relative;
 }
-  .footer_content p {
-    text-align: center;
-  }
+
 
   .me, .about {
     float: none;
-    margin: 0 auto;
     text-align: center;
   }
 
