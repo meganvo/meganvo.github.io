@@ -1,6 +1,7 @@
 html {
   box-sizing: border-box;
 }
+
 *, *:before, *:after {
   box-sizing: inherit;
   transition: all 0.3s ease-out;
@@ -13,6 +14,7 @@ body{
 }
 
 h1, h2, h4, p{
+    font-family: 'Muli';
     margin: 0;
     padding: 0;
 }
@@ -20,32 +22,23 @@ h1, h2, h4, p{
 h1 {
     font-family: 'Playfair Display';
     font-size: 52px;
+    color: #F02F23;
+    letter-spacing: 0.1px;
+    line-height: 1.1em;
 }
 
 h2 {
-    font-family: 'Muli';
     font-weight: 300;
     font-size: 30px;
     line-height: 1.6em;
 }
 
 h3 {
-  font-family: 'Muli';
   font-weight: 400;
   font-size: 18px;
   text-transform: uppercase;
   line-height: 1.6em;
   letter-spacing: 1.5px;
-
-}
-
-
-h4 {
-    font-family: 'Muli';
-    font-size: 19px;
-    line-height: 1.6em;
-    font-weight: 300;
-
 }
 
 a {
@@ -56,11 +49,11 @@ a {
 }
 
 p {
-  font-family: 'Muli';
   font-size: 23px;
   color: #5E5D5A;
   line-height: 34px;
 }
+
 section {
   padding: 100px 0;
   margin: 0 auto;
@@ -70,16 +63,12 @@ section {
 }
 
 section h1 {
-  font-family: 'PlayfairDisplay';
-  font-weight: 900;
-  font-size: 40px;
-  color: #F02F23;
-  letter-spacing: 0.1px;
-  line-height: 44px;
+  font-weight: 700;
+  font-size: 38px;
+  line-height: 1.4em;
 }
 
 section h2 {
-  font-family: 'Muli';
   font-weight: 400;
   font-size: 17px;
   color: #545454;
@@ -98,29 +87,37 @@ header {
   padding: 40px;
 }
 
-
-.requirements {
-  font-size: 23px;
-  line-height: 34px;
-  list-style-type: decimal;
-  color: #5E5D5A;
+header h1 {
+  font-size: 70px;
+  padding-bottom: 40px;
+  font-weight: 900;
+  text-align: center;
+  letter-spacing: 1.3px;
+  color: white;
 }
 
-.requirements li {
-  border-bottom: none !important;
+header h2 {
+  font-weight: 600;
+  color: white;
+  line-height: 1.2em;
+  margin: 40px 0;
+  }
+
+header h4 {
+  font-size: 21px;
+  color: white;
+  line-height: 1.6em;
 }
 
-.learn_more {
-  font-size: 30px;
-  color: #0033cc;
-  border: 1px solid #0033cc;
-  padding: 10px 20px;
+
+#container{
+  width: 100%;    
+  background: white;
+  text-align: center;
+  margin: 0 auto;    
 }
 
-.learn_more:hover {
-  color: red;
-  border: 1px solid red;
-}
+/*Header Video */
 
 .fullscreen-bg {
   position: fixed;
@@ -143,7 +140,6 @@ header {
   -moz-transform:rotateY(180deg); /* Firefox */
 }
 
-
 .video-content {
     width: 55%;
     padding: 60px 0px 60px 0;
@@ -152,41 +148,30 @@ header {
     overflow: auto;
 }
 
-.header-body-copy {
+.inner_content {
+  width: 70%;
   margin: 0 auto;
-  max-width: 550px;
-  text-align: left; 
+  max-width: 1100px;
 }
 
-.video-content h1 {
-  font-size: 70px;
-  padding-bottom: 40px;
-  font-weight: 900;
-  text-align: center;
-  letter-spacing: 1.3px;
+/* Section */
+
+.question {
+  color: #545454;
+  padding: 20px 0;
+  font-weight: 800;
 }
 
-.video-content h2 {
-  font-weight: 400;
-  font-size: 32px;
-  color: white;
-  line-height: 1.2em;
-  margin: 40px 0;
-  }
-
-.video-content h4 {
-  font-size: 21px;
-  color: white;
-  line-height: 1.6em;
+/*Requirements List Toggle */
+.requirements {
+  font-size: 18px;
+  line-height: 32px;
+  list-style-type: decimal;
+  color: #545454;
 }
 
-.tiny_text {
-  font-size: 11px;
-  font-weight: 400;
-  margin-top: 50px;
-  line-height: 1.2em;
-  letter-spacing: 1px;
-  clear: both;
+.requirements li {
+  border-bottom: none !important;
 }
 
 #toggle-view {
@@ -213,10 +198,16 @@ header {
 #toggle-view h2 {
   padding: 20px 0;
   font-weight: 400;
+  color: #545454;
 }
 
 #toggle-view h2:hover {
   color: #175FED;
+}
+
+#toggle-view .panel p {
+  font-size: 18px;
+  line-height: 32px;
 }
 
 #toggle-view span {
@@ -230,44 +221,40 @@ header {
 #toggle-view .panel {
   margin:5px 0;
   display:none;
-}    
-
-.question {
-  padding: 20px 0;
-  font-weight: 800;
 }
 
-#container{
-  width: 100%;    
-  background: white;
-  text-align: center;
-  margin: 0 auto;    
+/* Learn More Link */
+.learn_more {
+  font-size: 30px;
+  color: #0033cc;
+  border: 1px solid #0033cc;
+  padding: 10px 20px;
 }
 
+.learn_more:hover {
+  color: red;
+  border: 1px solid red;
+}
+
+/* Secondary Content */
 .secondary-content {
   background: url(../images/secondary_bg.jpg) no-repeat center;
   background-color: #F02F23;
   background-size: cover;
   padding: 150px 0;
-}
-
-.secondary-content h2 {
   color: white;
 }
 
-.secondary-content h1 {
+.secondary-content h1, section h2 {
   color: white;
 }
 
-.inner_content {
-  width: 70%;
-  margin: 0 auto;
-  max-width: 1100px;
-}
+
 .blue {
   background-color: #E2F5F9;
 }
 
+/* Columns */
 .two {
   float: left;
   width: 50%;
@@ -285,6 +272,8 @@ header {
   margin: 0 auto;
   max-width: 300px;
 }
+
+/*Prohibited Locations */
 
 .prohibit_locations {
   float: left;
@@ -306,6 +295,7 @@ header {
     line-height: 1.4em;
 }
 
+/* Signs */
 .sign {
   background-color: white;
   border: 1px solid #ddd;
@@ -319,7 +309,6 @@ header {
   border-radius: 6px;
   box-shadow: 0 2px 5px rgba(0,0,0,0.06);
 }
-
 
 .sign p {
   font-size: 16px;
@@ -340,6 +329,7 @@ header {
   height: 120px;
 }
 
+/* Gun Quiz */
 .gun_choice1, 
 .gun_choice2,
 .gun_choice3,
@@ -351,7 +341,6 @@ header {
   border-radius: 6px;
   cursor: pointer;
 }
-
 
 .gun_choice1:hover, 
 .gun_choice2:hover,
@@ -377,7 +366,10 @@ header {
   transition: .05s ease-out;
 }
 
-.gun_choice1 img:hover,.gun_choice2 img:hover, .gun_choice3 img:hover, .gun_choice4 img:hover {
+.gun_choice1 img:hover,
+.gun_choice2 img:hover, 
+.gun_choice3 img:hover, 
+.gun_choice4 img:hover {
   -webkit-transform: scale(1.7);
   transform: scale(1.7);
   cursor: pointer;
@@ -392,6 +384,8 @@ header {
   padding: 30px 20px;
 }
 
+/* Statistics */
+
 .graph {
   margin: 80px 0;
   overflow: hidden;
@@ -400,6 +394,8 @@ header {
 .graph h1 {
   margin-top: 30px;
 }
+
+/* Footer */ 
 
 footer {
   clear: both;
@@ -451,8 +447,6 @@ footer {
   display: none;
 }
 
-
-
 footer p {
   padding: 20px 0;
   color: white;
@@ -469,7 +463,7 @@ footer a:hover {
 
 }
 
-
+/* Media Queries */
 
 @media (min-aspect-ratio: 16/9) {
   .fullscreen-bg__video {
@@ -486,29 +480,28 @@ footer a:hover {
 }
 
 @media (max-width: 750px) {
+  .two, .gun_choice1,  .gun_choice2,  .gun_choice3,  .gun_choice4, .gun_choice img, .prohibit_locations, .video-content, #toggle-view, .sign {
+    width: 100%;
+  }
+
   .fullscreen-bg {
     background-color: red;
   }
 
-  .inner_content, .footer_content {
+  .inner_content, .footer_content, .graph img {
     width: 93%;
   }
 
-.graph img, .two, .gun_choice1,  .gun_choice2,  .gun_choice3,  .gun_choice4, .gun_choice img, .prohibit_locations, .video-content, #toggle-view, .sign {
-    width: 100%;
-  }
-
-.about{
+  .about{
     float: none;
     width: 100%;
     margin: 0 auto;
   }
 
-.me {
-  margin: 0 auto;
-  position: relative;
-}
-
+  .me {
+    margin: 0 auto;
+    position: relative;
+  }
 
   .me, .about {
     float: none;
