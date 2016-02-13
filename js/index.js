@@ -37,4 +37,19 @@ $(document).ready(function () {
              .addClass('gun_choice_select');
         });
 
+
+        $('#resources-toggle li').click(function () {
+
+        var text = $(this).children('div.rPanel');
+
+        if (text.is(':hidden')) {
+            text.slideDown(50);
+            $(this).children('span').html('-');     
+        } else {
+            text.slideUp(50);
+            $(this).children('span').html('+');     
+        }
+        
+    });
+
 });

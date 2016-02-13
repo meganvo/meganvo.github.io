@@ -84,12 +84,12 @@ section p {
 
 header {
   width: 100%;
-  padding: 40px;
+  padding: 80px;
 }
 
 header h1 {
   font-size: 70px;
-  padding-bottom: 40px;
+  padding-bottom: 10px;
   font-weight: 900;
   text-align: center;
   letter-spacing: 1.3px;
@@ -142,7 +142,7 @@ header h4 {
 
 .video-content {
     width: 55%;
-    padding: 60px 0px 60px 0;
+    padding: 40px 0px 60px 0;
     margin: 0 auto;
     color: white;
     overflow: auto;
@@ -395,6 +395,87 @@ header h4 {
   margin-top: 30px;
 }
 
+/* Resources */
+
+.dark_blue {
+background-color: #000080;
+padding: 20px 0;
+}
+
+.dark_blue h1 {
+  color: white;
+  margin-top: 80px;
+}
+
+#resources-toggle {
+  list-style:none;  
+  width: 80%;  
+  font-size:11px;
+  margin: 50px auto;
+  padding:0;
+  text-align: left;
+}
+
+#resources-toggle li {
+  margin:10px;
+  border-bottom:1px solid #ccc;
+  position:relative;
+  cursor:pointer;
+}
+
+#resources-toggle li:last-child {
+  border: none;
+  margin-bottom: 80px;
+}
+
+#resources-toggle h2 {
+  padding: 20px 0;
+  font-weight: 400;
+  border-bottom: 1px solid #3D3DCA;
+}
+
+#resources-toggle h2:hover {
+  color: #175FED;
+}
+
+#resources-toggle .rPanel p {
+  font-size: 18px;
+  line-height: 32px;
+  color: #3D3DCA;
+}
+
+#resources-toggle span {
+  position:absolute;
+  right:10px; 
+  top: 25px;
+  color: white;
+  font-size:24px;
+}
+    
+#resources-toggle .rPanel {
+  margin:5px 0;
+  display:none;
+}
+
+#resources-toggle li {
+  border-bottom: none;
+}
+
+.rPanel ul, .rPanel li a, .rpanel li{
+  border-bottom: none;
+  text-decoration: none;
+  color: #3D3DCA;
+  font-size: 18px;
+  line-height: 1.5em;
+}
+
+.rPanel li a:hover {
+  padding-bottom: 5px;
+  border-bottom: 1px solid #3D3DCA;
+}
+
+
+
 /* Footer */ 
 
 footer {
@@ -480,7 +561,7 @@ footer a:hover {
 }
 
 @media (max-width: 750px) {
-  .two, .gun_choice1,  .gun_choice2,  .gun_choice3,  .gun_choice4, .gun_choice img, .prohibit_locations, .video-content, #toggle-view, .sign {
+  header, .two, .gun_choice1,  .gun_choice2,  .gun_choice3,  .gun_choice4, .gun_choice img, .prohibit_locations, .video-content, #toggle-view, .sign {
     width: 100%;
   }
 
