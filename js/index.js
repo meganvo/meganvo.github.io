@@ -1,10 +1,22 @@
-
-
 $(document).ready(function () {
     
     $('#toggle-view li').click(function () {
 
         var text = $(this).children('div.panel');
+
+        if (text.is(':hidden')) {
+            text.slideDown(50);
+            $(this).children('span').html('-');     
+        } else {
+            text.slideUp(50);
+            $(this).children('span').html('+');     
+        }
+        
+    });
+
+    $('#resources-toggle li').click(function () {
+
+        var text = $(this).children('div.rPanel');
 
         if (text.is(':hidden')) {
             text.slideDown(50);
@@ -36,20 +48,5 @@ $(document).ready(function () {
         $('.gun_choice4 .caption').text('Shotguns are pretty sick in public.')
              .addClass('gun_choice_select');
         });
-
-
-        $('#resources-toggle li').click(function () {
-
-        var text = $(this).children('div.rPanel');
-
-        if (text.is(':hidden')) {
-            text.slideDown(50);
-            $(this).children('span').html('-');     
-        } else {
-            text.slideUp(50);
-            $(this).children('span').html('+');     
-        }
-        
-    });
 
 });

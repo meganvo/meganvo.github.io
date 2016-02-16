@@ -160,6 +160,7 @@ header h4 {
   color: #545454;
   padding: 20px 0;
   font-weight: 800;
+  font-size: 15px;
 }
 
 /*Requirements List Toggle */
@@ -197,7 +198,7 @@ header h4 {
 
 #toggle-view h2 {
   padding: 20px 0;
-  font-weight: 400;
+  font-weight: 800;
   color: #545454;
 }
 
@@ -329,6 +330,14 @@ header h4 {
   height: 120px;
 }
 
+/* Google Map */
+#map {
+  width: 100%;
+  height: 500px;
+  background-color: #CCC;
+  margin: 50px 0;
+  border-radius: 6px;
+}
 /* Gun Quiz */
 .gun_choice1, 
 .gun_choice2,
@@ -354,6 +363,7 @@ header h4 {
 }
 
 .gun_choice_select {
+  transition: .1s ease-out;
   background: url(../images/wrong.svg) rgba(255,0,0,0.5) no-repeat 50% 15%;
 }
 
@@ -363,7 +373,7 @@ header h4 {
 .gun_choice4 img  {
   width: 80%;
   margin: 0 auto;
-  transition: .05s ease-out;
+  transition: .2s ease-out;
 }
 
 .gun_choice1 img:hover,
@@ -459,6 +469,10 @@ padding: 20px 0;
 
 #resources-toggle li {
   border-bottom: none;
+}
+
+.rPanel ul {
+  padding: 0;
 }
 
 .rPanel ul, .rPanel li a, .rpanel li{
@@ -561,7 +575,7 @@ footer a:hover {
 }
 
 @media (max-width: 750px) {
-  header, .two, .gun_choice1,  .gun_choice2,  .gun_choice3,  .gun_choice4, .gun_choice img, .prohibit_locations, .video-content, #toggle-view, .sign {
+  #resources-toggle, .two, .gun_choice1,  .gun_choice2,  .gun_choice3,  .gun_choice4, .gun_choice img, .prohibit_locations, .video-content, #toggle-view, .sign {
     width: 100%;
   }
 
@@ -569,7 +583,7 @@ footer a:hover {
     background-color: red;
   }
 
-  .inner_content, .footer_content, .graph img {
+  header, .inner_content, .footer_content, .graph img {
     width: 93%;
   }
 
@@ -598,8 +612,9 @@ footer a:hover {
     letter-spacing: .5px;
   }
 
-  section, .video-content {
+  header, section, .video-content {
     padding: 50px 0;
+    margin: 0 auto;
   }
 
   .video-content h1 {

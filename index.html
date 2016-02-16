@@ -1,43 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	 <meta charset="UTF-8">
-
+	<meta charset="UTF-8">
 	<title>Open Carry in Austin</title>
-
 	<link rel="stylesheet" href="css/reset.css">
 	<link rel="stylesheet" href="css/normalize.css">
 	<link rel="stylesheet" href="css/style.css">
-
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-
-
 	<link href='https://fonts.googleapis.com/css?family=Playfair+Display:400,700,400italic,700italic,900,900italic|Muli:400,300,300italic,400italic' rel='stylesheet' type='text/css'>
-
 	<meta name="keywords" content="open carry, open carry austin, texas, concealed carry, concealed carry austin, gun laws">
-
-	 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 </head>
 
 <body>
 	<header>
-			<div class="fullscreen-bg">
-			    <video loop muted autoplay poster="images/gun_frame.png" class="fullscreen-bg__video">
-			    <source src="videos/gun_red.mp4" type="video/mp4">
-			    </video>
-			</div>
-
-		    	<h1>Open Carry in Austin</h1>
-		    	<div class="video-content">
-
-		    	<div class="header-body-copy">
-					<h4>Three blocks away from my house, someone pointed a gun to my head. 
-					I realized two things that night –</h4>
-					<h2>Being alive is nice and I knew nothing about guns laws in Texas.</h2>
-					<h4>Below is a guide to open carry in Texas and  locations in Austin that ban it. Stay safe, freaks!</h4>
-				</div>
-			</div>
+		<div class="fullscreen-bg">
+			<video loop muted autoplay poster="images/gun_frame.png" class="fullscreen-bg__video"><source src="videos/gun_red.mp4" type="video/mp4">
+			</video>
+		</div>
+		<h1>Open Carry in Austin</h1>
+		<div class="video-content">
+			<h4>Three blocks away from my house, someone pointed a gun to my head. I realized two things that night –</h4>
+			<h2>Being alive is nice and I knew nothing about guns laws in Texas.</h2>
+			<h4>Below is a guide to open carry in Texas and  locations in Austin that ban it. Stay safe, freaks!</h4>
+		</div>
 	</header>
 	<!--Begin content-->
 	<div id="container">
@@ -62,7 +48,7 @@
 			<div class="inner_content">
 				<img src="images/bullet.svg" alt="Bullet icon"/>
 				<h2 class="question">What's required to get a concealed handgun license?</h2>
-				<h1>To qualify for a Texas CHL you must:</h1>
+				<h1>To qualify for a Texas CHL:</h1>
 				<ul id="toggle-view">
 					<li>
 						<h2>21 years old & Texas residency</h2>
@@ -155,7 +141,7 @@
 			<div class="inner_content">
 				<img src="images/bullet.svg" alt="Bullet Icon"/>
 				<h2 class="question">Can private properties prohibit open carry?</h2>
-				<h1>A PC 30.07 sign can be posted that bans open carry.</h1>
+				<h1>A posted PC 30.07 sign prohibits open carry.</h1>
 				
 				<div class="sign">
 					<h3>In English</h3>
@@ -169,9 +155,21 @@
 			</div>	
 		</section>
 
+		<!--Begin Map-->
+		<section class="map-section">
+			<div class="inner_content">
+				<img src="images/bullet.svg" alt="Bullet icon"/>
+				<h2 class="question">What businesses in Austin prohibit open carry?</h2>
+				<h1>Gun-free Austin businesses</h1>
+				<div id="map">
+				</div>
+				<a href="http://www.statutes.legis.state.tx.us/Docs/GV/htm/GV.411.htm#411.172" class="learn_more" target="_blank"/>View List - Your Dumb Blue Map Is Hard to Read</a>
+			</div>
+		</section>
+
 		<section class="secondary-content">
 			<div class="inner_content">
-				<h2>R U Aware</h2>
+				<h2>Are you even aware</h2>
 				<h1>Select the guns below that are not allowed to be carried openly.</h1>
 				<div class="gun_choice1">
 					<img src="images/guns/ar15_sniper_rifle.png" alt="Rifle"/>
@@ -266,10 +264,25 @@
 					</div>
 				</li>
 			</ul>
-			</div>
 		<div>
 	</section>
 </div>
+
 <script src="js/index.js"></script>
+<script>
+      function initMap() {
+        var mapDiv = document.getElementById('map');
+        var map = new google.maps.Map(mapDiv, {
+          center: {lat: 30.270986, lng: -97.742362},
+          zoom: 15,
+          disableDefaultUI:true,
+          zoomControl:true,
+          scrollwheel: false,
+          styles: [{"featureType":"water","elementType":"geometry","stylers":[{"color":"#000045"},{"lightness":17}]},{"featureType":"landscape","elementType":"geometry","stylers":[{"color":"#000045"},{"lightness":20}]},{"featureType":"road.highway","elementType":"geometry.fill","stylers":[{"color":"#000045"},{"lightness":17}]},{"featureType":"road","elementType":"geometry.stroke","stylers":[{"visibility":"off"}]},{"featureType":"road.highway.controlled_access","elementType":"geometry.stroke","stylers":[{"color":"#000045"},{"lightness":20}]},{"featureType":"road.arterial","elementType":"geometry","stylers":[{"color":"#000045"},{"lightness":25}]},{"featureType":"road.local","elementType":"geometry","stylers":[{"color":"#000045"},{"lightness":25}]},{"featureType":"poi","elementType":"geometry","stylers":[{"color":"#000045"},{"lightness":21}]},{"elementType":"labels.text.stroke","stylers":[{"visibility":"off"}]},{"elementType":"labels.text.fill","stylers":[{"saturation":0},{"color":"#4d88ea"},{"lightness":0}]},{"elementType":"labels.icon","stylers":[{"visibility":"off"}]},{"featureType":"transit","elementType":"geometry","stylers":[{"color":"#000045"},{"lightness":19}]},{"featureType":"administrative","elementType":"geometry.fill","stylers":[{"color":"#000045"},{"lightness":20}]},{"featureType":"administrative","elementType":"geometry.stroke","stylers":[{"color":"#000045"},{"lightness":17},{"weight":1.2}]}]
+        });
+      }
+    </script>
+<script src="https://maps.googleapis.com/maps/api/js?callback=initMap"
+        async defer></script>
 </body>
 </html>
