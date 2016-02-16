@@ -587,6 +587,11 @@ footer a:hover {
     width: 93%;
   }
 
+  .emoji p {
+    font-size: 100px;
+
+  }
+
   .about{
     float: none;
     width: 100%;
