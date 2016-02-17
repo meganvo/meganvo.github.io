@@ -66,6 +66,7 @@ section h1 {
   font-weight: 700;
   font-size: 38px;
   line-height: 1.4em;
+  margin-bottom: 30px;
 }
 
 section h2 {
@@ -149,6 +150,7 @@ header h4 {
 
 .video-content {
     width: 55%;
+    max-width: 600px;
     padding: 40px 0px 60px 0;
     margin: 0 auto;
     color: white;
@@ -171,10 +173,19 @@ header h4 {
 }
 
 /*Requirements List Toggle */
+
 .license {
   width: 40%;
-  margin: 50px 0;
+  margin: 40px 0 0px 0;
   max-width: 500px;
+  float: left;
+}
+
+.img_caption {
+  font-size: 12px;
+  line-height: 1.4em;
+  padding-top: 10px;
+  margin-bottom: 50px;
 }
 
 .requirements {
@@ -189,10 +200,11 @@ header h4 {
 }
 
 #toggle-view {
+    float: right;
+
   list-style:none;  
-  width: 80%;  
+  width: 50%;  
   font-size:11px;
-  margin: 50px auto;
   padding:0;
   text-align: left;
 }
@@ -203,6 +215,9 @@ header h4 {
   position:relative;
   cursor:pointer;
 }
+#toggle-view li:first-child {
+  padding-top: 0px;
+}
 
 #toggle-view li:last-child {
   border: none;
@@ -210,7 +225,7 @@ header h4 {
 }
 
 #toggle-view h2 {
-  padding: 20px 0;
+  padding: 15px 0;
   font-weight: 800;
   color: #545454;
 }
@@ -239,6 +254,8 @@ header h4 {
 
 /* Learn More Link */
 .learn_more {
+    clear:both;
+
   font-size: 30px;
   color: #0033cc;
   border: 1px solid #0033cc;
@@ -310,6 +327,7 @@ header h4 {
 }
 
 /* Signs */
+
 .sign {
   background-color: white;
   border: 1px solid #ddd;
@@ -384,7 +402,8 @@ header h4 {
 .gun_choice2 img,
 .gun_choice3 img,
 .gun_choice4 img  {
-  width: 80%;
+  height: 200px;
+  width: auto;
   margin: 0 auto;
   transition: .2s ease-out;
 }
