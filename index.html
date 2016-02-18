@@ -1,3 +1,5 @@
+<!-- Feedback, Feb 17th -->
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -6,24 +8,36 @@
 	<link rel="stylesheet" href="css/reset.css">
 	<link rel="stylesheet" href="css/normalize.css">
 	<link rel="stylesheet" href="css/style.css">
+
+	<!-- This should go at the bottom, before you cite your js files -->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 	<link href='https://fonts.googleapis.com/css?family=Playfair+Display:400,700,400italic,700italic,900,900italic|Muli:400,300,300italic,400italic' rel='stylesheet' type='text/css'>
+
+	<!-- Better to add meta tags first, then your stylesheets. More of a best practice.
+	Also good to keep all your meta tags together -->
 	<meta name="keywords" content="open carry, open carry austin, texas, concealed carry, concealed carry austin, gun laws">
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 </head>
 
 <body>
+	<!-- I would probably make this a section, then reserve the header to just the <h1/2/4> tags-->
 	<header>
 		<div class="fullscreen-bg">
-			<video loop muted autoplay poster="images/gun_frame.png" class="fullscreen-bg__video"><source src="videos/gun_red.mp4" type="video/mp4">
+			<!-- BEM YES -->
+			<video loop muted autoplay poster="images/gun_frame.png" class="fullscreen-bg__video">
+				<source src="videos/gun_red.mp4" type="video/mp4">
 			</video>
 		</div>
 		<h1>Open Carry</h1>
 		<h2 class="austin">IN AUSTIN, TEXAS</h2>
 		<div class="video-content">
+			<!-- You can always adjust <h?> styles within containers, so you could update these
+			to <h2><h3> etc. based on content heirarchy. This way, you don't have to make your header sizes
+			work across the entire website. An <h2> in this section can be styled differently
+			than an <h2> in another section. Just depends on what makes sense to you. -->
 			<h4>Three blocks away from my house, someone pointed a gun to my head. I realized two things that night –</h4>
 			<h2>Being alive is nice and I knew nothing about guns laws in Texas.</h2>
-			<h4>Below is a guide to open carry in Texas and  locations in Austin that ban it. Stay safe, freaks!</h4>
+			<h4>Below is a guide to open carry in Texas and locations in Austin that ban it. Stay safe, freaks!</h4>
 		</div>
 	</header>
 	<!--Begin content-->
@@ -32,7 +46,12 @@
 			<div class="inner_content">
 				<img src="images/bullet.svg" alt="Bullet icon"/>
 				<h2 class="question">What does open carry mean?</h2>
+				<!-- This isn't a hard rule, and has been debated, but I try to limit the use of
+				<h1> to the most important content on the page. I would make this an <h2>/<h3> situation. Or, create a
+				span class that you can re-use for the supporting text. -->
 				<h1>Texans can carry their guns in plain view.</h1>
+				<!-- It might be better you add a `column` to this class so others can understand
+				the context of the `two` class moving forward. -->
 				<div class="two">
 					<img src="images/license.svg" alt="Concealed handgun license"/>
 					<h3>Concealed Handgun License</h3>
@@ -44,7 +63,8 @@
 			</div>
 		</section>
 
-
+		<!-- Blue is pretty generic. I would add `background` to this. Ex:
+	 	<section class="background--blue"> -->
 		<section class="blue">
 			<div class="inner_content">
 				<img src="images/bullet.svg" alt="Bullet icon"/>
@@ -60,7 +80,7 @@
 							<p>Must be a legal resident of this state for the six-month period preceding the date of application under this subchapter or is otherwise eligible for a nonresident license.</p>
 						</div>
 				    </li>
-				  
+
 				    <li>
 				        <h2>Clean criminal history</h2>
 				    	<span>+</span>
@@ -79,13 +99,14 @@
 								<li>Ten shots (10) fired from 15 yards – fired in two 5-shot strings.</li>
 							</ul>
 					    </div>
-				    </li>	
+				    </li>
 
 				    <li>
 					    <h2>Classroom training</h2>
 					    <span>+</span>
 					    <div class="panel">
 						    <p>The classroom instruction may be a four to six hour course and must cover the four (4) statutory required topics:</p>
+							<!-- Weird indenting -->
 							<ol class="requirements">
 								<li>Laws that relate to weapons and the use of deadly force</li>
 								<li>Handgun use and safety, including use of restraint holsters and methods to ensure the secure carrying of openly carried handguns</li>
@@ -101,6 +122,17 @@
 			</div>
 		</section>
 
+		<!-- class names are hard - I think there's a better way to organize these though.
+	 	Maybe something like:
+
+		<section class="callout">
+		  <div class="callout__content">
+			  <span class="supporting-header">Did you know?</span>
+				<h2 class="decorative">...</h2>
+			</div>
+		</section>
+
+		-->
 		<section class="secondary-content">
 			<div class="inner_content">
 				<h2>Did you know?</h2>
@@ -108,7 +140,7 @@
 			</div>
 		</section>
 
-		<section>			
+		<section>
 			<div class="inner_content">
 				<img src="images/bullet.svg" alt="Bullet icon"/>
 				<h2 class="question">Where is open carry prohibited?</h2>
@@ -158,7 +190,7 @@
 				<img src="images/bullet.svg" alt="Bullet Icon"/>
 				<h2 class="question">Can private properties prohibit open carry?</h2>
 				<h1>A posted PC 30.07 sign prohibits open carry.</h1>
-				
+
 				<div class="sign">
 					<h3>In English</h3>
 					<p>Pursuant to Section 30.07, Penal Code (Trespass by license holder with an openly carried handgun), a person licensed under Subchapter H, Chapter 411, Government Code (handgun licensing law), may not enter this property with a handgun that is carried openly.</p>
@@ -168,7 +200,7 @@
 					<h3>En español</h3>
 					<p>Conforme a la Sección 30.07 del Código Penal (traspasar portando armas de fuego al aire libre con licencia) personas con licencia bajo del Sub-Capitulo H, Capitulo 411, Codigo de Gobierno (ley de portar armas), no deben entrar a esta propiedad portando un arma de fuego al aire libre.</p>
 				</div>
-			</div>	
+			</div>
 		</section>
 
 		<!--Begin Map-->
@@ -223,9 +255,10 @@
 			</div>
 		</section>
 
-	<footer>			
+	<footer>
 		<div class="footer_content">
 			<div class="me">
+				<!-- Use this! http://apps.timwhitlock.info/emoji/tables/unicode -->
 				<p class="emoji">😭</p>
 			</div>
 			<div class="about">
@@ -253,7 +286,7 @@
 						</ul>
 					</div>
 				</li>
-				
+
 				<li>
 					<h2>Photos</h2>
 					<span>+</span>
@@ -292,3 +325,5 @@
         async defer></script>
 </body>
 </html>
+
+<!-- End feedback -->
