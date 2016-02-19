@@ -127,8 +127,6 @@ blockquote {
   font-family: 'Muli';
   font-weight: 300;
   text-align: left;
-  font-size: 20px;
-  line-height: 31px;
   letter-spacing: .5px;
   margin: 0 auto;
   color: gray;
@@ -136,21 +134,30 @@ blockquote {
 
 blockquote p {
   color: white;
+    font-size: 18px;
+      line-height: 28px;
+
+
 }
 
 cite {
   line-height: 1.5em;
   position: absolute;
   padding-top: 20px;
+  color: white;
   margin: 0 auto;
+}
+
+cite a {
+  color: white;
 }
 
 
 .quote-container img {
     border-radius: 50%;
     margin-right: 40px;
-    width: 120px;
-    height: 120px;
+    width: 90px;
+    height: 90px;
 }
 
 
@@ -432,6 +439,7 @@ cite {
 .gun_choice4 img  {
   height: 200px;
   width: auto;
+  max-width: 400px;
   margin: 0 auto;
   transition: .2s ease-out;
 }
@@ -636,7 +644,7 @@ footer a:hover {
 }
 
 @media (max-width: 750px) {
-  .quote-container, blockquote, .quote-container #resources-toggle, .license, .two, .gun_choice1,  .gun_choice2,  .gun_choice3,  .gun_choice4, .gun_choice img, .prohibit_locations, .video-content, #toggle-view, .sign {
+  .quote-container, blockquote, .quote-container #resources-toggle, .license, .two, .gun_choice1,  .gun_choice2,  .gun_choice3,  .gun_choice4, .prohibit_locations, .video-content, #toggle-view, .sign {
     width: 100%;
   }
 
@@ -649,8 +657,8 @@ footer a:hover {
     width: 100%;
   }
 
-  .gun_choice1 img, .gun_choice1 img, .gun_choice1 img, .gun_choice1 img {
-    width: 80%;
+  .gun_choice1 img, .gun_choice2 img, .gun_choice3 img, .gun_choice4 img {
+    width: 90%;
     height: auto;
   }
 
