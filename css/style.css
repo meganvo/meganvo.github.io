@@ -105,7 +105,18 @@ header h2 {
   margin: 40px 0;
   }
 
+.texture:before {
+    content: '';
+    background: url(../images/x.gif) repeat;
+    opacity: 0.2;
+    position: absolute;
+    z-index: 20;
+    height: 100%;
+    width: 100%;
+}
+
 .austin {
+  font-family: 'Muli';
   font-size: 17px;
   text-align: center;
   letter-spacing: 3.5px;
@@ -114,7 +125,7 @@ header h2 {
 }
 
 .video {
-    padding: 30px 0;
+    padding: 60px 0;
 }
 
 header h4 {
@@ -199,9 +210,6 @@ cite a:hover {
   left: 0;
   width: 100%;
   height: 100%;
-  transform: rotateY(180deg);
-  -webkit-transform:rotateY(180deg); /* Safari and Chrome */
-  -moz-transform:rotateY(180deg); /* Firefox */
 }
 
 .video-content {
@@ -222,7 +230,7 @@ cite a:hover {
 /*Requirements List Toggle */
 
 .license {
-  width: 40%;
+  width: 30%;
   margin: 40px 0 0px 0;
   max-width: 500px;
   float: left;
@@ -242,7 +250,7 @@ cite a:hover {
 #toggle-view {
   float: right;
   list-style:none;  
-  width: 50%;  
+  width: 60%;  
   font-size:11px;
   padding:0;
   text-align: left;
@@ -254,9 +262,11 @@ cite a:hover {
   position:relative;
   cursor:pointer;
 }
+
 .list--label {
   text-transform: uppercase;
-  font-size: 16px;
+  letter-spacing: 1.67px;
+  font-size: 15px;
 }
 #toggle-view li:first-child {
   padding-top: 0px;
@@ -478,7 +488,7 @@ cite a:hover {
 .gun_choice4 img  {
   height: 200px;
   width: auto;
-  max-width: 400px;
+  max-width: 350px;
   margin: 0 auto;
   transition: .2s ease-out;
 }
