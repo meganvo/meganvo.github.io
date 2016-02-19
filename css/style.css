@@ -53,7 +53,7 @@ p {
   color: #5E5D5A;
   line-height: 34px;
 }
-
+ 
 section {
   padding: 100px 0;
   margin: 0 auto;
@@ -62,18 +62,19 @@ section {
   overflow: auto;
 }
 
-section h1 {
+section h2 {
+  font-family: 'Playfair Display';
+  color: #F02F23;
   font-weight: 700;
   font-size: 38px;
   line-height: 1.4em;
   margin-bottom: 30px;
 }
 
-section h2 {
+section h3 {
   font-weight: 400;
   font-size: 17px;
   color: #545454;
-  padding-bottom: 20px;
   letter-spacing: 1.69px;
   line-height: 34px;
   text-transform: uppercase;
@@ -85,7 +86,7 @@ section p {
 
 header {
   width: 100%;
-  padding: 80px;
+  padding: 0 80px;
 }
 
 header h1 {
@@ -108,7 +109,12 @@ header h2 {
   font-size: 17px;
   text-align: center;
   letter-spacing: 3.5px;
+  padding-top: .5em;
   margin: 0;
+}
+
+.video {
+    padding: 30px 0;
 }
 
 header h4 {
@@ -134,10 +140,20 @@ blockquote {
 
 blockquote p {
   color: white;
-    font-size: 18px;
-      line-height: 28px;
+  font-size: 18px;
+  line-height: 28px;
+  text-align: left;
+}
 
+.credit {
+  margin: 0 auto;
+}
 
+.credit img {
+  border-radius: 50%;
+  margin-right: 40px;
+  width: 90px;
+  height: 90px;
 }
 
 cite {
@@ -145,19 +161,16 @@ cite {
   position: absolute;
   padding-top: 20px;
   color: white;
-  margin: 0 auto;
+  margin: 20 auto;
 }
 
 cite a {
   color: white;
 }
 
-
-.quote-container img {
-    border-radius: 50%;
-    margin-right: 40px;
-    width: 90px;
-    height: 90px;
+cite a:hover {
+  color: #0033cc;
+  border-bottom: 1px solid #0033cc;
 }
 
 
@@ -206,15 +219,6 @@ cite a {
   max-width: 1100px;
 }
 
-/* Section */
-
-.question {
-  color: #545454;
-  padding: 20px 0;
-  font-weight: 800;
-  font-size: 15px;
-}
-
 /*Requirements List Toggle */
 
 .license {
@@ -236,8 +240,7 @@ cite a {
 }
 
 #toggle-view {
-    float: right;
-
+  float: right;
   list-style:none;  
   width: 50%;  
   font-size:11px;
@@ -250,6 +253,10 @@ cite a {
   border-bottom:1px solid #ccc;
   position:relative;
   cursor:pointer;
+}
+.list--label {
+  text-transform: uppercase;
+  font-size: 16px;
 }
 #toggle-view li:first-child {
   padding-top: 0px;
@@ -302,8 +309,8 @@ cite a {
   border-bottom: 1px solid red;
 }
 
-/* Secondary Content */
-.secondary-content {
+/* Callout */
+.callout{
   background: url(../images/secondary_bg.jpg) no-repeat center;
   background-color: #F02F23;
   background-size: cover;
@@ -311,12 +318,38 @@ cite a {
   color: white;
 }
 
-.secondary-content h1, section h2 {
+.callout__content {
+  width: 60%;
+  margin: 0 auto;
+}
+
+.callout__content h2 {
   color: white;
 }
 
+.supporting-header {
+  color: #545454;
+  padding: 20px 0;
+  font-weight: 800;
+  font-size: 15px;
+  text-transform: uppercase;
+  letter-spacing: 1.69px;
+}
 
-.blue {
+.decorative {
+  color: white !important;
+  font-family: 'Playfair Display';
+  font-weight: 700;
+  font-size: 42px;
+  margin-top: 20px;
+  color: #F02F23;
+  letter-spacing: 0.1px;
+  line-height: 1.3em;
+  text-transform: none;
+  text-align: center;
+}
+
+.background--blue {
   background-color: #E2F5F9;
 }
 
@@ -375,6 +408,7 @@ cite a {
   margin: 80px 10px;
   border-radius: 6px;
   box-shadow: 0 2px 5px rgba(0,0,0,0.06);
+  min-height: 300px;
 }
 
 .sign p {
@@ -405,6 +439,11 @@ cite a {
   border-radius: 6px;
 }
 /* Gun Quiz */
+
+.supporting-header {
+  color: white;
+}
+
 .gun_choice1, 
 .gun_choice2,
 .gun_choice3,
@@ -473,14 +512,25 @@ cite a {
   margin-top: 30px;
 }
 
-/* Resources */
-
-.dark_blue {
-background-color: #000080;
-padding: 20px 0;
+.graph h2 {
+  margin: 30px 0 0 0;
+  padding: 0;
 }
 
-.dark_blue h1 {
+.graph p {
+  margin: 0;
+  padding: 0;
+}
+
+/* Resources */
+
+.sources {
+  margin: 0;
+  padding: 0;
+  background-color: #000080;
+}
+
+.sources h1 {
   color: white;
   margin-top: 80px;
 }
@@ -492,6 +542,7 @@ padding: 20px 0;
   margin: 50px auto;
   padding:0;
   text-align: left;
+  color: white;
 }
 
 #resources-toggle li {
@@ -499,6 +550,10 @@ padding: 20px 0;
   border-bottom:1px solid #ccc;
   position:relative;
   cursor:pointer;
+}
+
+#resources-toggle li p {
+  color: white;
 }
 
 #resources-toggle li:last-child {
@@ -509,6 +564,7 @@ padding: 20px 0;
 #resources-toggle h2 {
   padding: 20px 0;
   font-weight: 400;
+  color: white;
   border-bottom: 1px solid #3D3DCA;
 }
 
@@ -663,7 +719,7 @@ footer a:hover {
   }
 
 
-  header, .inner_content, .footer_content, .graph img {
+  header, .inner_content, .footer_content, .graph img, .callout__content {
     width: 93%;
   }
 
@@ -697,10 +753,6 @@ footer a:hover {
     display: none;
   }
 
-  #toggle-view h1 {
-    font-size: 25px;
-    letter-spacing: .5px;
-  }
 
   header, section, .video-content {
     padding: 50px 0;
