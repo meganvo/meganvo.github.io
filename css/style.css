@@ -662,19 +662,21 @@ footer {
   -webkit-box-shadow: 6px 6px 2px 1px rgba(0,0,0,0.25);
   -moz-box-shadow: 6px 6px 2px 1px rgba(0,0,0,0.25);
   box-shadow: 6px 6px 2px 1px rgba(0,0,0,0.25);
+  transition: .2s ease-in-out;
+
 }
 
 .me:hover {
-   -webkit-transform: rotate(1080deg);
-   transform: rotate(1080deg);
+   -webkit-transform: rotate(180deg);
+   transform: rotate(180deg);
 }
 
 .emoji {
-  padding-top: 50px;
-  padding-right: 10px;
+  margin-top: 60px;
+  margin-right: 20px;
   text-align: center;
   position: relative;
-  width: 120px;
+  width: 80px;
 }
 
 .me:hover .emoji {
@@ -767,11 +769,6 @@ footer a:hover {
     text-align: center;
   }
 
-  .fullscreen-bg__video {
-    display: none;
-  }
-
-
   header, section, .video-content {
     padding: 20px 0;
     margin: 0 auto;
@@ -791,10 +788,6 @@ footer a:hover {
 
   .sign {
     margin: 20px 0;
-  }
-
-  .scroll {
-    display: none;
   }
 
 }
