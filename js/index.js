@@ -30,7 +30,7 @@ $(document).ready(function () {
 
 //Pretty sure this is not efficient
     $('.gun_choice1').click(function(){
-        $('.gun_choice1 .caption').text('Semi-automatic rifles are chill.')
+        $('.gun_choice1 .caption').text('Semi-automatic rifles are ok.')
         .addClass('gun_choice_select');
         });
 
@@ -45,7 +45,7 @@ $(document).ready(function () {
 
         });
        $('.gun_choice4').click(function(){
-        $('.gun_choice4 .caption').text('Shotguns are pretty sick in public.')
+        $('.gun_choice4 .caption').text('Shotguns are chill in public.')
              .addClass('gun_choice_select');
         });
 

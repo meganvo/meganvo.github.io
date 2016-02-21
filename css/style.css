@@ -66,7 +66,7 @@ section h2 {
   font-family: 'Playfair Display';
   color: #F02F23;
   font-weight: 700;
-  font-size: 38px;
+  font-size: 41px;
   line-height: 1.4em;
   margin-bottom: 30px;
 }
@@ -87,6 +87,7 @@ section p {
 header {
   width: 100%;
   padding: 0 80px;
+  text-align: center;
 }
 
 header h1 {
@@ -99,16 +100,17 @@ header h1 {
 }
 
 header h2 {
+  font-size: 35px;
   font-weight: 600;
   color: white;
   line-height: 1.2em;
-  margin: 40px 0;
+  margin: 20px 0;
   }
 
 .texture:before {
     content: '';
     background: url(../images/x.gif) repeat;
-    opacity: 0.2;
+    opacity: 0.5;
     position: absolute;
     z-index: 20;
     height: 100%;
@@ -117,16 +119,18 @@ header h2 {
 
 .austin {
   font-family: 'Muli';
-  font-size: 17px;
+  font-weight: 400;
+  font-size: 14px;
   text-align: center;
   letter-spacing: 3.5px;
-  padding-top: .5em;
   margin: 0;
+  padding: 0;
   color: white;
 }
 
 .video {
     padding: 60px 0;
+    height: 100%;
 }
 
 header h4 {
@@ -216,7 +220,7 @@ cite a:hover {
 .video-content {
     width: 55%;
     max-width: 600px;
-    padding: 40px 0px 60px 0;
+    padding-top: 20px;
     margin: 0 auto;
     color: white;
     overflow: auto;
@@ -235,6 +239,16 @@ cite a:hover {
   margin: 40px 0 0px 0;
   max-width: 500px;
   float: left;
+  -webkit-box-shadow: 6px 6px 2px 1px rgba(208,229,234,.8);
+  -moz-box-shadow: 6px 6px 2px 1px rgba(208,229,234,.8);
+  box-shadow: 6px 6px 2px 1px rgba(208,229,234,0.8);
+    transition: .2s ease-in-out;
+
+}
+
+.license:hover {
+  -webkit-transform: scale(1.5);
+  transform: scale(1.5);
 }
 
 .requirements {
@@ -268,6 +282,10 @@ cite a:hover {
   text-transform: uppercase;
   letter-spacing: 1.67px;
   font-size: 16px;
+}
+
+.list--label:hover {
+  color: #F02F23;
 }
 #toggle-view li:first-child {
   padding-top: 0px;
@@ -364,45 +382,80 @@ cite a:hover {
   background-color: #E2F5F9;
 }
 
-/* Columns */
-.two {
-  float: left;
-  width: 50%;
-}
-
-.two img {
-  height: 80px;
-  margin-top: 90px;
-}
-
-.two p {
-  padding: 0;
-  font-size: 15px;
-  line-height: 1.4em;
-  margin: 0 auto;
-  max-width: 300px;
-}
-
 /*Prohibited Locations */
+
+/* entire container, keeps perspective */
+
+
+/* flip the pane when hovered */
+
+.prohibit_locations:hover .flipper, .prohibit_locations.hover .flipper {
+    transform: rotateY(180deg);
+  }
+
+.flipper {
+  transition: 0.4s;
+  transform-style: preserve-3d;
+  position: relative;
+  margin: 0 auto;
+
+}
+
+.front, .back {
+  margin: 0 auto;
+  width: 100%;
+  padding: 20px;
+  height: 200px;
+  backface-visibility: hidden;
+  position: absolute;
+  top: 0;
+  left: 0;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.06);
+}
+
+.front {
+  z-index: 2;
+  /* for firefox 31 */
+  transform: rotateY(0deg);
+}
+
+.back {
+  transform: rotateY(180deg);
+  background-color: #0033cc;
+}
+
 
 .prohibit_locations {
   float: left;
   position: relative;
-  width: 25%;
-  padding: 100px 0 50px 0px;
+  perspective: 1000;
+  width: 23%;
+  height: 200px;
+  padding: 0px 0 20px 0px;
+  margin: 30px 10px 0 0;
   display: block;
   text-align: center;
+
+}
+
+.prohibit_locations h3 {
+  margin: 0;
+  padding: 0;
+  line-height: 1.3em;
 }
 
 .prohibit_locations img {
   height: 100px;
+  margin-bottom: 15px;
 }
 
 .prohibit_locations p {
-    padding: 0;
-    margin: 10px;
-    font-size: 15px;
-    line-height: 1.4em;
+  padding: 0;
+  font-size: 15px;
+  line-height: 1.4em;
+  color: white;
 }
 
 /* Signs */
@@ -416,7 +469,7 @@ cite a:hover {
   text-align: left;
   width: 47%;
   padding: 25px;
-  margin: 80px 10px;
+  margin: 30px 10px;
   border-radius: 6px;
   box-shadow: 0 2px 5px rgba(0,0,0,0.06);
   min-height: 300px;
@@ -449,7 +502,7 @@ cite a:hover {
   width: 100%;
   height: 700px;
   background-color: #CCC;
-  margin: 50px 0;
+  margin: 60px 0;
   border-radius: 6px;
 }
 /* Gun Quiz */
@@ -458,14 +511,29 @@ cite a:hover {
   color: white;
 }
 
+.clear {
+  clear: both;
+}
+
+.gun_choice1, .gun_choice3 {
+  float: left;
+}
+
+
+.gun_choice2, .gun_choice4 {
+  float: right;
+}
+
 .gun_choice1, 
 .gun_choice2,
 .gun_choice3,
 .gun_choice4 {
-  padding: 20px;
-  border: 1px solid white;
-  width: 60%;
-  margin: 30px auto;
+  position: relative;
+  border: 1px solid red;
+  width: 48%;
+  height: 300px;
+  margin: 0px auto;
+  margin-right: 10px;
   border-radius: 6px;
   cursor: pointer;
 }
@@ -474,12 +542,9 @@ cite a:hover {
 .gun_choice2:hover,
 .gun_choice3:hover,
 .gun_choice4:hover{
-  border: 1px solid red;
+  border: 1px solid white;
 }
 
-.gun_choice1 {
-  margin-top: 80px;
-}
 
 .gun_choice_select {
   transition: .1s ease-out;
@@ -490,11 +555,12 @@ cite a:hover {
 .gun_choice2 img,
 .gun_choice3 img,
 .gun_choice4 img  {
-  height: 200px;
+  height: auto;
   width: auto;
-  max-width: 350px;
-  margin: 0 auto;
+  max-width: 300px;
+  margin: 20px auto;
   transition: .2s ease-out;
+  z-index: 99;
 }
 
 .gun_choice1 img:hover,
@@ -508,17 +574,22 @@ cite a:hover {
 
 .caption {
   text-transform: uppercase;
+  width: 100%;
+  text-align: center;
   font-size: 14px;
   letter-spacing: 2px;
   line-height: 1.4em;
+  margin: 0 auto;
   color: white;
-  padding: 30px 20px;
+  bottom: 0;
+  padding-top: 30px;
+  position: absolute;
 }
 
 /* Statistics */
 
 .graph {
-  margin: 80px 0;
+  margin: 60px 0;
   overflow: hidden;
 }
 
@@ -544,23 +615,17 @@ cite a:hover {
   background-color: #000080;
 }
 
-.sources h1 {
-  color: white;
-  margin-top: 80px;
-}
-
 #resources-toggle {
   list-style:none;  
   width: 80%;  
   font-size:11px;
-  margin: 50px auto;
+  margin: 0 auto;
   padding:0;
   text-align: left;
   color: white;
 }
 
 #resources-toggle li {
-  margin:10px;
   border-bottom:1px solid #ccc;
   position:relative;
   cursor:pointer;
@@ -568,22 +633,6 @@ cite a:hover {
 
 #resources-toggle li p {
   color: white;
-}
-
-#resources-toggle li:last-child {
-  border: none;
-  margin-bottom: 80px;
-}
-
-#resources-toggle h2 {
-  padding: 20px 0;
-  font-weight: 400;
-  color: white;
-  border-bottom: 1px solid #3D3DCA;
-}
-
-#resources-toggle h2:hover {
-  color: #175FED;
 }
 
 #resources-toggle .rPanel p {
@@ -610,7 +659,7 @@ cite a:hover {
 }
 
 .rPanel ul {
-  padding: 0;
+  padding: 20px 0;
 }
 
 .rPanel ul, .rPanel li a, .rpanel li{
@@ -618,7 +667,7 @@ cite a:hover {
   text-decoration: none;
   color: #3D3DCA;
   font-size: 18px;
-  line-height: 1.5em;
+  line-height: 1.9em;
 }
 
 .rPanel li a:hover {
@@ -637,11 +686,6 @@ footer {
   padding: 50px 0;
   color: white;
   overflow: hidden;
-}
-
-.footer_content {
-  width: 900px;
-  margin: 0 auto;
 }
 
 .about {
@@ -667,8 +711,8 @@ footer {
 }
 
 .me:hover {
-   -webkit-transform: rotate(180deg);
-   transform: rotate(180deg);
+   -webkit-transform: rotate(360deg);
+   transform: rotate(360deg);
 }
 
 .emoji {
@@ -684,7 +728,7 @@ footer {
 }
 
 footer p {
-  padding: 20px 0;
+  padding: 0;
   color: white;
 }
 
@@ -714,6 +758,31 @@ footer a:hover {
     left: -100%;
   }
 }
+
+@media (max-width: 950px) {
+  .sign {
+    width: 100%;
+    margin: 20px 0;
+    }
+
+  .video-content {
+    width: 100%;
+  }
+
+  .prohibit_locations {
+    width: 45%;
+    margin: 10px 10px;
+  }
+
+
+  .gun_choice1 img, .gun_choice2 img, .gun_choice3 img, .gun_choice4 img {
+    width: 100%;
+    height: auto;
+  }
+
+}
+
+
 
 @media (max-width: 750px) {
   .quote-container, blockquote, .quote-container #resources-toggle, .license, .two, .gun_choice1,  .gun_choice2,  .gun_choice3,  .gun_choice4, .prohibit_locations, .video-content, #toggle-view, .sign {
