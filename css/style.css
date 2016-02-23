@@ -793,6 +793,11 @@ a.back-to-top {
     height: auto;
   }
 
+  .license, #toggle-view {
+    width: 100%;
+    float: none;
+  }
+
 }
 
 
@@ -800,6 +805,19 @@ a.back-to-top {
 @media (max-width: 750px) {
   .quote-container, blockquote, .quote-container #resources-toggle, .license, .two, .gun_choice1,  .gun_choice2,  .gun_choice3,  .gun_choice4, .prohibit_locations, .video-content, #toggle-view, .sign {
     width: 100%;
+  }
+
+  .back {
+    display: none;
+  }
+
+  a.back-to-top {
+    display: none;
+  }
+
+  .video {
+    padding: 60px 0;
+    height:700px;
   }
 
   .video video {
