@@ -4,7 +4,7 @@ html {
 
 *, *:before, *:after {
   box-sizing: inherit;
-  /*transition: all 0.3s ease-out;*/
+  transition: all 0.3s ease-out;
 }
 
 body{
@@ -109,6 +109,7 @@ header h2 {
   color: white;
   line-height: 1.2em;
   margin: 20px 0;
+  letter-spacing: .8px;
   }
 
 .texture:before {
@@ -141,6 +142,7 @@ header h4 {
   font-size: 21px;
   color: white;
   line-height: 1.6em;
+  letter-spacing: .7px;
 }
 
 .quote-container {
@@ -201,6 +203,37 @@ cite a:hover {
   margin: 0 auto;    
 }
 
+.sandwich a {
+  font-size: 14px;
+  color: white;
+  line-height: 2.8em;
+  border-bottom: 1px solid white;
+}
+
+.sandwich a:hover {
+  opacity: .5;
+}
+
+.btn {
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 18px;
+  margin: 30px 0.5em 1em 0.5em;
+  padding: 20px;
+  background-color: rgba(0,51,204,.7);
+  border-radius: 6px;
+  text-align: center;
+  line-height: 1.6em;
+  text-decoration: none;
+  width: 60%;
+}
+
+.btn:hover {
+  opacity: .5;
+}
+
+
 /*Header Video */
 
 .fullscreen-bg {
@@ -226,7 +259,7 @@ cite a:hover {
     padding-top: 20px;
     margin: 0 auto;
     color: white;
-    overflow: auto;
+    overflow: hidden;
 }
 
 .inner_content {
@@ -325,20 +358,6 @@ cite a:hover {
 #toggle-view .panel {
   margin:5px 0;
   display:none;
-}
-
-/* Learn More Link */
-.learn_more {
-  font-size: 30px;
-  color: #0033cc;
-  border-bottom: 1px solid #0033cc;
-  padding: 10px 20px;
-  line-height: 1.9em;
-}
-
-.learn_more:hover {
-  color: red;
-  border-bottom: 1px solid red;
 }
 
 /* Callout */
@@ -470,7 +489,7 @@ cite a:hover {
   margin: 30px 10px;
   border-radius: 6px;
   box-shadow: 0 2px 5px rgba(0,0,0,0.06);
-  min-height: 300px;
+  min-height: 250px;
 }
 
 .sign p {
@@ -495,7 +514,23 @@ cite a:hover {
 /* Google Map */
 .map-section {
   margin: 30px 0;
-}
+-o-transition-property: none !important;
+ -moz-transition-property: none !important;
+ -ms-transition-property: none !important;
+ -webkit-transition-property: none !important;
+ transition-property: none !important;
+ -o-transform: none !important;
+ -moz-transform: none !important;
+ -ms-transform: none !important;
+ -webkit-transform: none !important;
+ transform: none !important;
+ -webkit-animation: none !important;
+ -moz-animation: none !important;
+ -o-animation: none !important;
+ -ms-animation: none !important;
+ animation: none !important;
+  }
+
 #googft-mapCanvas {
   width: 100%;
   height: 500px;
@@ -503,7 +538,23 @@ cite a:hover {
   margin: 60px 0;
   border-radius: 6px;
   transition: none;
-}
+  -o-transition-property: none !important;
+ -moz-transition-property: none !important;
+ -ms-transition-property: none !important;
+ -webkit-transition-property: none !important;
+ transition-property: none !important;
+ -o-transform: none !important;
+ -moz-transform: none !important;
+ -ms-transform: none !important;
+ -webkit-transform: none !important;
+ transform: none !important;
+ -webkit-animation: none !important;
+ -moz-animation: none !important;
+ -o-animation: none !important;
+ -ms-animation: none !important;
+ animation: none !important;
+  }
+
 /* Gun Quiz */
 
 .supporting-header {
@@ -691,23 +742,22 @@ footer {
 }
 
 .about {
-  float: right;
   width: 70%;
-  text-align: left;
-  margin: 0;
+  text-align: center;
+  margin: 0 auto;
 }
 
 .me {
   background: url(../images/me.jpg) no-repeat center;
+  font-size: 100px;
   width: 200px;
+  display: block;
   height: 200px;
-  float: left;
-  position: absolute;
+  margin: 50px auto;
   -webkit-box-shadow: 6px 6px 2px 1px rgba(0,0,0,0.25);
   -moz-box-shadow: 6px 6px 2px 1px rgba(0,0,0,0.25);
   box-shadow: 6px 6px 2px 1px rgba(0,0,0,0.25);
   transition: .2s ease-in-out;
-
 }
 
 .me:hover {
@@ -716,11 +766,11 @@ footer {
 }
 
 .emoji {
-  top: 60px;
-  left: 50px;
+  margin-top: 50px;
+  margin-left: 50px;
   text-align: center;
   position: relative;
-  width: 80px;
+  width: 100px;
 }
 
 .me:hover .emoji {
@@ -798,11 +848,28 @@ a.back-to-top {
     float: none;
   }
 
+  .sign {
+  min-height: 200px;
+  }
+
+}
+
+@media (max-width: 768px) {
+
+  .sign {
+  min-height: 200px;
+  }
+
+  .credit {
+    margin: 0 auto;
+  }
 }
 
 
 
-@media (max-width: 750px) {
+
+@media (max-width: 770px) {
+
   .quote-container, blockquote, .quote-container #resources-toggle, .license, .two, .gun_choice1,  .gun_choice2,  .gun_choice3,  .gun_choice4, .prohibit_locations, .video-content, #toggle-view, .sign {
     width: 100%;
   }
@@ -811,13 +878,31 @@ a.back-to-top {
     display: none;
   }
 
+ .flipper {
+ -o-transition-property: none !important;
+ -moz-transition-property: none !important;
+ -ms-transition-property: none !important;
+ -webkit-transition-property: none !important;
+ transition-property: none !important;
+ -o-transform: none !important;
+ -moz-transform: none !important;
+ -ms-transform: none !important;
+ -webkit-transform: none !important;
+ transform: none !important;
+ -webkit-animation: none !important;
+ -moz-animation: none !important;
+ -o-animation: none !important;
+ -ms-animation: none !important;
+ animation: none !important;
+  }
+
   a.back-to-top {
     display: none;
   }
 
   .video {
     padding: 60px 0;
-    height:700px;
+    height: auto;
   }
 
   .video video {
@@ -862,10 +947,7 @@ a.back-to-top {
     width: 100%;
     margin: 0 auto;
   }
-  .emoji {
-    display: none;
-  }
-
+ 
   cite {
     margin: 0 auto;
     float: none;
@@ -886,9 +968,31 @@ a.back-to-top {
     text-align: center;
   }
 
+  .emoji {
+      margin: 28% auto;
+  }
+
   header, section, .video-content {
     padding: 20px 0;
-    margin: 0 auto;
+    margin: 0 auto; -o-transition-property: none !important;
+ -moz-transition-property: none !important;
+ -ms-transition-property: none !important;
+ -webkit-transition-property: none !important;
+ transition-property: none !important;
+ -o-transform: none !important;
+ -moz-transform: none !important;
+ -ms-transform: none !important;
+ -webkit-transform: none !important;
+ transform: none !important;
+ -webkit-animation: none !important;
+ -moz-animation: none !important;
+ -o-animation: none !important;
+ -ms-animation: none !important;
+ animation: none !important;
+  }
+
+  .btn {
+    width: 100%;
   }
 
   .video-content h1 {
@@ -896,7 +1000,7 @@ a.back-to-top {
   }
 
   .prohibit_locations {
-    margin: 10px 0;
+    margin: 5px 0;
   }
 
   .sign {
