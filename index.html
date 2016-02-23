@@ -27,7 +27,7 @@
 				<h4>Three blocks away from my house, someone pointed a gun to my head. I realized two things that night –</h4>
 				<h2>Being alive is cool & I knew nothing about guns laws in Texas.</h2>
 	
-					<a href="#learn" class="btn">Learn the laws ↓</a><br>
+					<a href="#learn" class="btn">Learn the laws</a><br>
 				
 						<div class="sandwich"><a href="#map">But where in Austin can I eat a sandwich in a gun-free environment?</a><div>
 			</div>
@@ -110,13 +110,13 @@
 			<div class="inner_content">
 				<img src="images/bullet.svg" alt="Bullet icon"/>
 				<h3>Where is open carry prohibited?</h3>
-				<h2>Open carry isn't allowed all the time.</h2>
+				<h2>There are some exceptions to the open carry law.</h2>
 
 				<div class="prohibit_locations" ontouchstart="this.classList.toggle('hover');">
 					<div class="flipper">
 						<div class="front">
 							<img src="images/beer.svg" alt="Bars"/>
-							<h3>Bars</h3>
+							<h3>At Bars</h3>
 						</div>
 						<div class="back">
 							<p>All guns are banned at businesses that make 51% of their money from the sale of alcohol. Alcohol and guns don't mix very well.
@@ -129,7 +129,7 @@
 					<div class="flipper">
 						<div class="front">
 							<img src="images/hospital.svg" alt="Hospital"/>
-							<h3>Hospitals</h3>
+							<h3>At Hospitals</h3>
 						</div>
 						<div class="back">
 							<p>Existing law ban guns in state-licensed hospitals, but it doesn’t include psychiatric hospitals because they aren’t licensed by the state.</p>
@@ -141,7 +141,7 @@
 					<div class="flipper">
 						<div class="front">
 							<img src="images/school.svg" alt="School"/>
-							<h3>Schools</h3>
+							<h3>At Schools</h3>
 						</div>
 						<div class="back">
 							<p>However, on August 1, 2016 the new campus carry law will go into effect and allow CHL holders to carry guns on public college campuses.</p>
@@ -292,6 +292,10 @@
   function initialize() {
     google.maps.visualRefresh = true;
     var mapDiv = document.getElementById('googft-mapCanvas');
+    var isDraggable = $(document).width() > 480 ? true : false; 
+ 	var mapOptions = {
+        draggable: isDraggable,
+        scrollwheel: false,};
     var map = new google.maps.Map(mapDiv, {
       center: new google.maps.LatLng(30.2686023, -97.745189),
       zoom: 16,
