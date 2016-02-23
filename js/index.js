@@ -28,7 +28,6 @@ $(document).ready(function () {
         
     });
 
-//Pretty sure this is not efficient
     $('.gun_choice1').click(function(){
         $('.gun_choice1 .caption').text('Semi-automatic rifles are ok.')
         .addClass('gun_choice_select');
@@ -48,5 +47,24 @@ $(document).ready(function () {
         $('.gun_choice4 .caption').text('Shotguns are chill in public.')
              .addClass('gun_choice_select');
         });
+
+        //Back to Top
+
+var amountScrolled = 150;
+
+$(window).scroll(function() {
+    if ( $(window).scrollTop() > amountScrolled ) {
+        $('a.back-to-top').fadeIn('slow');
+    } else {
+        $('a.back-to-top').fadeOut('slow');
+    }
+});
+
+$('a.back-to-top').click(function() {
+    $('html, body').animate({
+        scrollTop: 0
+    }, 700);
+    return false;
+});
 
 });

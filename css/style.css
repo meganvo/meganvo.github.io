@@ -387,11 +387,6 @@ cite a:hover {
 
 /*Prohibited Locations */
 
-/* entire container, keeps perspective */
-
-
-/* flip the pane when hovered */
-
 .prohibit_locations:hover .flipper, .prohibit_locations.hover .flipper {
     transform: rotateY(180deg);
   }
@@ -747,7 +742,20 @@ footer a:hover {
 
 }
 
-/* Media Queries */
+/* Back to Top */
+a.back-to-top {
+  display: none;
+  width: 40px;
+  height: 40px;
+  text-indent: -9999px;
+  position: fixed;
+  z-index: 999;
+  right: 20px;
+  bottom: 20px;
+  border: 0;
+  border-radius: 3px;
+  background: #0033cc url("../images/arrow_top.svg") no-repeat center 43%;
+}
 
 @media (min-aspect-ratio: 16/9) {
   .fullscreen-bg__video {
