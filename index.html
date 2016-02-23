@@ -222,7 +222,7 @@
 
 				<div class="gun_choice1">
 					<img src="images/guns/ar15_sniper_rifle.png" alt="Rifle"/>
-					<p class="caption">AR-15 Semi-automatic rifle</p>
+					<p class="caption">Semi-automatic rifle</p>
 				</div>
 				<div class="gun_choice2">			
 					<img src="images/guns/mossberg_590.png" alt="Shotgun"/>
@@ -292,10 +292,13 @@
   function initialize() {
     google.maps.visualRefresh = true;
     var mapDiv = document.getElementById('googft-mapCanvas');
-    var isDraggable = $(document).width() > 480 ? true : false; 
- 	var mapOptions = {
-        draggable: isDraggable,
-        scrollwheel: false,};
+    var w = Math.max(document.documentElement.clientWidth, window.innerWidth || 0);
+
+var isDraggable = w > 480 ? true : false;
+var mapOptions = {
+  draggable: isDraggable,
+  scrollwheel: false
+};
     var map = new google.maps.Map(mapDiv, {
       center: new google.maps.LatLng(30.2686023, -97.745189),
       zoom: 16,
