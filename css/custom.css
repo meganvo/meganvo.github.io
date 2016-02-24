@@ -31,3 +31,33 @@ canvas {-ms-touch-action: double-tap-zoom;}
 .iframe #map_canvas { height: 800px; }
 .iframe .well { margin-bottom: 5px; }
 .iframe .alert { margin-top: 5px; }
+
+.well {
+  background-color: #fff;
+  border: none;
+  box-shadow: none;
+  -webkit-box-shadow: none;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0;
+}
+
+#search_address {
+  width:100%;
+  height: 80px;
+  padding: 0 20px;
+  font-size: 22px;
+}
+
+.btn {
+  height: 80px;
+  width: 80px;
+  font-size: 30px;
+  padding: 20px;
+  color: #ccc;
+}
+
+.btn-primary {
+  background-color: #0033cc;
+  color: white;
+}
