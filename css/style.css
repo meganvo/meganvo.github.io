@@ -926,6 +926,8 @@ a.back-to-top {
 
   .list--label {
     line-height: 1.3em;
+    font-size: 14px;
+    width: 90%;
   }
 
   .about {
