@@ -48,6 +48,11 @@ a {
   border-bottom: 1px solid #F02F23;
 }
 
+a:hover {
+  color: #0033cc;
+  border-bottom: 1px solid #0033cc;
+}
+
 p {
   font-size: 23px;
   color: #5E5D5A;
@@ -278,13 +283,15 @@ cite a:hover {
   -webkit-box-shadow: 6px 6px 2px 1px rgba(208,229,234,.8);
   -moz-box-shadow: 6px 6px 2px 1px rgba(208,229,234,.8);
   box-shadow: 6px 6px 2px 1px rgba(208,229,234,0.8);
-    transition: .2s ease-in-out;
+  transition: .2s ease-in-out;
 
 }
 
 .license:hover {
-  -webkit-transform: scale(1.5);
   transform: scale(1.5);
+  -webkit-transform: scale(1.5);
+  -moz-transform: scale(1.5);
+
 }
 
 .requirements {
@@ -409,11 +416,15 @@ cite a:hover {
 
 .prohibit_locations:hover .flipper, .prohibit_locations.hover .flipper {
     transform: rotateY(180deg);
+    -webkit-transform: rotateY(180deg);
+    -moz-transform: rotateY(180deg);
   }
 
 .flipper {
   transition: 0.4s;
   transform-style: preserve-3d;
+  -webkit-transform-style: preserve-3d;
+  -moz-transform-style: preserve-3d;
   position: relative;
   margin: 0 auto;
 
@@ -425,22 +436,30 @@ cite a:hover {
   padding: 20px;
   min-height: 180px;
   backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
   position: absolute;
   top: 0;
   left: 0;
   border: 1px solid #ccc;
   border-radius: 3px;
   box-shadow: 0 2px 5px rgba(0,0,0,0.06);
+  -webkit-box-shadow: 0 2px 5px rgba(0,0,0,0.06);
+  -moz-box-shadow: 0 2px 5px rgba(0,0,0,0.06);
 }
 
 .front {
   z-index: 2;
   /* for firefox 31 */
   transform: rotateY(0deg);
+  -webkit-transform: rotateY(0deg);
+  -moz-transform: rotateY(0deg);
 }
 
 .back {
   transform: rotateY(180deg);
+  -webkit-transform: rotateY(180deg);
+  -moz-transform: rotateY(180deg);
   background-color: #0033cc;
 }
 
@@ -489,12 +508,15 @@ cite a:hover {
   margin: 30px 10px;
   border-radius: 6px;
   box-shadow: 0 2px 5px rgba(0,0,0,0.06);
+  -webkit-box-shadow: 0 2px 5px rgba(0,0,0,0.06);
+  -moz-box-shadow: 0 2px 5px rgba(0,0,0,0.06);
   height: 290px;
 }
 
 .sign p {
   font-size: 16px;
   line-height: 1.5em;
+  padding: 0;
 }
 
 .sign h3 {
@@ -519,50 +541,6 @@ cite a:hover {
 #map p {
   margin-bottom: 50px;
 }
-
-/*.map-section {
-  margin: 30px 0;
--o-transition-property: none !important;
- -moz-transition-property: none !important;
- -ms-transition-property: none !important;
- -webkit-transition-property: none !important;
- transition-property: none !important;
- -o-transform: none !important;
- -moz-transform: none !important;
- -ms-transform: none !important;
- -webkit-transform: none !important;
- transform: none !important;
- -webkit-animation: none !important;
- -moz-animation: none !important;
- -o-animation: none !important;
- -ms-animation: none !important;
- animation: none !important;
-  }
-
-#googft-mapCanvas {
-  width: 100%;
-  height: 500px;
-  background-color: #CCC;
-  margin: 60px 0;
-  border-radius: 6px;
-  transition: none;
-  -o-transition-property: none !important;
- -moz-transition-property: none !important;
- -ms-transition-property: none !important;
- -webkit-transition-property: none !important;
- transition-property: none !important;
- -o-transform: none !important;
- -moz-transform: none !important;
- -ms-transform: none !important;
- -webkit-transform: none !important;
- transform: none !important;
- -webkit-animation: none !important;
- -moz-animation: none !important;
- -o-animation: none !important;
- -ms-animation: none !important;
- animation: none !important;
-  }*/
-
 /* Gun Quiz */
 
 .supporting-header {
@@ -628,8 +606,9 @@ cite a:hover {
 .gun_choice2 img:hover, 
 .gun_choice3 img:hover, 
 .gun_choice4 img:hover {
-  -webkit-transform: scale(1.7);
   transform: scale(1.7);
+  -webkit-transform: scale(1.7);
+  -moz-transform: scale(1.7);
   cursor: pointer;
 }
 
@@ -736,8 +715,6 @@ cite a:hover {
   border-bottom: 1px solid #3D3DCA;
 }
 
-
-
 /* Footer */ 
 
 footer {
@@ -762,15 +739,16 @@ footer {
   display: block;
   height: 200px;
   margin: 50px auto;
+  box-shadow: 6px 6px 2px 1px rgba(0,0,0,0.25);
   -webkit-box-shadow: 6px 6px 2px 1px rgba(0,0,0,0.25);
   -moz-box-shadow: 6px 6px 2px 1px rgba(0,0,0,0.25);
-  box-shadow: 6px 6px 2px 1px rgba(0,0,0,0.25);
   transition: .2s ease-in-out;
 }
 
 .me:hover {
-   -webkit-transform: rotate(360deg);
-   transform: rotate(360deg);
+  transform: rotate(360deg);
+  -webkit-transform: rotate(360deg);
+  -moz-transform: rotate(360deg);
 }
 
 .emoji {
@@ -797,7 +775,7 @@ footer a {
 
 footer a:hover {
   color: red;
-    border-bottom: 1px solid red;
+  border-bottom: 1px solid red;
 
 }
 
@@ -983,20 +961,20 @@ a.back-to-top {
   header, section, .video-content {
     padding: 20px 0;
     margin: 0 auto; -o-transition-property: none !important;
- -moz-transition-property: none !important;
- -ms-transition-property: none !important;
- -webkit-transition-property: none !important;
- transition-property: none !important;
- -o-transform: none !important;
- -moz-transform: none !important;
- -ms-transform: none !important;
- -webkit-transform: none !important;
- transform: none !important;
- -webkit-animation: none !important;
- -moz-animation: none !important;
- -o-animation: none !important;
- -ms-animation: none !important;
- animation: none !important;
+   -moz-transition-property: none !important;
+   -ms-transition-property: none !important;
+   -webkit-transition-property: none !important;
+   transition-property: none !important;
+   -o-transform: none !important;
+   -moz-transform: none !important;
+   -ms-transform: none !important;
+   -webkit-transform: none !important;
+   transform: none !important;
+   -webkit-animation: none !important;
+   -moz-animation: none !important;
+   -o-animation: none !important;
+   -ms-animation: none !important;
+   animation: none !important;
   }
 
   .btn {
