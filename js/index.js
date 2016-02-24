@@ -27,7 +27,7 @@ $(document).ready(function () {
         .addClass('gun_choice_select');
         });
      $('.gun_choice2').click(function(){
-        $('.gun_choice2 .caption').text('Pistols are allowed.')
+        $('.gun_choice2 .caption').text('Shotguns are chill in public.')
              .addClass('gun_choice_select');
         });
       $('.gun_choice3').click(function(){
@@ -35,7 +35,7 @@ $(document).ready(function () {
              .addClass('gun_choice_select');
         });
        $('.gun_choice4').click(function(){
-        $('.gun_choice4 .caption').text('Shotguns are chill in public.')
+        $('.gun_choice4 .caption').text('Pistols are allowed.')
              .addClass('gun_choice_select');
         });
     //Back to Top
