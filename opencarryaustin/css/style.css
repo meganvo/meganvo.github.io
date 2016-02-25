@@ -152,19 +152,22 @@ header h4 {
 }
 
 blockquote {
-  margin: 80px 0 0 0;
-  padding: 60px;
-  background: rgba(0, 0, 0, 0.3);
+  margin: 30px 20px 0 20px;
+  padding: 20px;
+  background: url(../images/x.gif) rgba(0, 0, 0, 0.3); repeat;
   border-radius: 3px;
+  width: 100%;
+  float: left;
 }
 
 blockquote a {
   color: white;
+  border: none;
 }
 
 blockquote p {
   font-family: 'Muli';
-  font-size: 18px;
+  font-size: 15px;
   font-weight: 300;
   text-align: center;
   letter-spacing: .5px;
@@ -173,21 +176,39 @@ blockquote p {
 }
 
 blockquote img {
-  width: 100px;
+  width: 90px;
   border-radius: 50px;
-  margin: 10px auto;
+  margin: 0 0 12px 0;
+  border: 2px solid #ccc;
 }
 
 .credit {
-  margin: 0 auto;
+  float: left;
+  width: 30%;
   text-align: center;
+  margin: 10px 0;
+}
+.name {
+  margin-bottom: 5px;
+  line-height: 1.7em;
+  font-size: 14px;
+}
+.credit a {
+  font-size: 12px;
 }
 
-.jj {
-  line-height: 1.6em;
-  margin: 0 auto;
-  text-align: center;
+
+.quote {
+  float: right;
+  width: 70%;
 }
+
+.quote p {
+  text-align: left;
+  line-height: 1.6em;
+}
+
+
 
 #container{
   width: 100%;    
@@ -502,7 +523,7 @@ blockquote img {
 
 .half h1 {
   font-family: 'Playfair Display';
-  color: #2E2E2E;
+  color: #F02F23;
   font-weight: 700;
   font-size: 41px;
   line-height: 1.4em;
@@ -510,9 +531,18 @@ blockquote img {
   text-align: center;
 }
 
+.half p {
+  padding: 0;
+}
+
 .right {
   float: right;
   border: none;
+}
+
+.right h1 {
+  color: #0033cc;
+
 }
 
 /* Signs */
@@ -531,7 +561,7 @@ blockquote img {
   box-shadow: 0 2px 5px rgba(0,0,0,0.09);
   -webkit-box-shadow: 0 2px 5px rgba(0,0,0,0.09);
   -moz-box-shadow: 0 2px 5px rgba(0,0,0,0.06);
-  min-height: 240px;
+  min-height: 260px;
 }
 
 .sign p {
@@ -589,13 +619,15 @@ blockquote img {
 .gun_choice3,
 .gun_choice4 {
   position: relative;
-  border: 1px solid red;
+  border: 1px solid #760000;
   width: 48%;
   height: 300px;
   margin: 0px auto;
   margin-right: 10px;
   border-radius: 6px;
   cursor: pointer;
+    background: url(../images/x.gif) repeat;
+
 }
 
 .gun_choice1:hover, 
@@ -1020,8 +1052,38 @@ a.back-to-top {
   }
 
   blockquote {
-    padding: 40px 20px;
+    padding: 40px 0px;
+    margin: 10px auto;
   }
+
+blockquote p {
+  font-family: 'Muli';
+  font-size: 15px;
+  font-weight: 300;
+  text-align: center;
+  letter-spacing: .5px;
+  color: white;
+  padding: 0;
+  width: 94%;
+}
+
+blockquote img {
+  width: 90px;
+  border-radius: 50px;
+  margin: 0 0 12px 0;
+  border: 2px solid #ccc;
+}
+
+.credit {
+  width: 100%;
+  text-align: center;
+  margin: 10px 0;
+}
+
+.quote {
+  width: 93%;
+}
+
 
 }
 
