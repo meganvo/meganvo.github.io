@@ -23,7 +23,7 @@ $(document).ready(function () {
     });
     //On click gun, display incorrect caption
     $('.gun_choice1').click(function(){
-        $('.gun_choice1 .caption').text('Semi-automatic rifles are ok.')
+        $('.gun_choice1 .caption').text('Semi-automatics are ok.')
         .addClass('gun_choice_select');
         });
      $('.gun_choice2').click(function(){
