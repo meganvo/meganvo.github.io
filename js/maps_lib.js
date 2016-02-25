@@ -6,7 +6,7 @@
 
         this.recordName = options.recordName || "Location"; //for showing a count of results
         this.recordNamePlural = options.recordNamePlural || "Locations";
-        this.searchRadius = options.searchRadius || 805; //in meters ~ 1/2 mile
+        this.searchRadius = options.searchRadius || 3218; //in meters ~ 1/2 mile
 
         // the encrypted Table ID of your Fusion Table (found under File => About)
         this.fusionTableId = options.fusionTableId || "",
@@ -135,7 +135,7 @@
                     else if (self.searchRadius >= 1610) map.setZoom(14); // 1 mile
                     else if (self.searchRadius >= 805) map.setZoom(15); // 1/2 mile
                     else if (self.searchRadius >= 400) map.setZoom(16); // 1/4 mile
-                    else self.map.setZoom(17);
+                    else self.map.setZoom(14);
 
                     if (self.addrMarkerImage != '') {
                         self.addrMarker = new google.maps.Marker({
