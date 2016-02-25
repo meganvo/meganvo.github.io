@@ -8,29 +8,29 @@ html {
 }
 
 body{
-    margin:0;
-    padding:0;
-    font-family: 'Muli', sans-serif, 'Helvetica Neue', 'Lucida Grande';
+  margin:0;
+  padding:0;
+  font-family: 'Muli', sans-serif, 'Helvetica Neue', 'Lucida Grande';
 }
 
 h1, h2, h4, p{
-    font-family: 'Muli';
-    margin: 0;
-    padding: 0;
+  font-family: 'Muli';
+  margin: 0;
+  padding: 0;
 }
 
 h1 {
-    font-family: 'Playfair Display';
-    font-size: 52px;
-    color: #F02F23;
-    letter-spacing: 0.1px;
-    line-height: 1.1em;
+  font-family: 'Playfair Display';
+  font-size: 52px;
+  color: #F02F23;
+  letter-spacing: 0.1px;
+  line-height: 1.1em;
 }
 
 h2 {
-    font-weight: 300;
-    font-size: 30px;
-    line-height: 1.6em;
+  font-weight: 300;
+  font-size: 30px;
+  line-height: 1.6em;
 }
 
 h3 {
@@ -115,16 +115,16 @@ header h2 {
   line-height: 1.2em;
   margin: 20px 0;
   letter-spacing: .8px;
-  }
+}
 
 .texture:before {
-    content: '';
-    background: url(../images/x.gif) repeat;
-    opacity: 0.5;
-    position: absolute;
-    z-index: 20;
-    height: 100%;
-    width: 100%;
+  content: '';
+  background: url(../images/x.gif) repeat;
+  opacity: 0.5;
+  position: absolute;
+  z-index: 20;
+  height: 100%;
+  width: 100%;
 }
 
 .austin {
@@ -141,6 +141,7 @@ header h2 {
 .video {
     padding: 60px 0;
     height:100vh;
+    overflow: hidden;
 }
 
 header h4 {
@@ -150,54 +151,42 @@ header h4 {
   letter-spacing: .7px;
 }
 
-.quote-container {
-  width: 70%;
-  margin: 0 auto;
-  text-align: left;
+blockquote {
+  margin: 80px 0 0 0;
+  padding: 60px;
+  background: rgba(0, 0, 0, 0.3);
+  border-radius: 3px;
 }
 
-blockquote {
-  font-family: 'Muli';
-  font-weight: 300;
-  text-align: left;
-  letter-spacing: .5px;
-  margin: 0 auto;
-  color: gray;
+blockquote a {
+  color: white;
 }
 
 blockquote p {
-  color: white;
+  font-family: 'Muli';
   font-size: 18px;
-  line-height: 28px;
-  text-align: left;
+  font-weight: 300;
+  text-align: center;
+  letter-spacing: .5px;
+  color: white;
+  padding-top: 0;
+}
+
+blockquote img {
+  width: 100px;
+  border-radius: 50px;
+  margin: 10px auto;
 }
 
 .credit {
   margin: 0 auto;
+  text-align: center;
 }
 
-.credit img {
-  border-radius: 50%;
-  margin-right: 40px;
-  width: 90px;
-  height: 90px;
-}
-
-cite {
-  line-height: 1.5em;
-  position: absolute;
-  padding-top: 20px;
-  color: white;
+.jj {
+  line-height: 1.6em;
   margin: 0 auto;
-}
-
-cite a {
-  color: white;
-}
-
-cite a:hover {
-  color: #0033cc;
-  border-bottom: 1px solid #0033cc;
+  text-align: center;
 }
 
 #container{
@@ -239,8 +228,8 @@ cite a:hover {
 
 .primary:hover {
   color: white;
+  border:0;
 }
-
 
 /*Header Video */
 
@@ -262,12 +251,12 @@ cite a:hover {
 }
 
 .video-content {
-    width: 55%;
-    max-width: 650px;
-    padding-top: 20px;
-    margin: 0 auto;
-    color: white;
-    overflow: hidden;
+  width: 55%;
+  max-width: 650px;
+  padding-top: 20px;
+  margin: 0 auto;
+  color: white;
+  overflow: hidden;
 }
 
 .inner_content {
@@ -284,8 +273,9 @@ cite a:hover {
   max-width: 500px;
   float: left;
   -webkit-box-shadow: 6px 6px 2px 1px rgba(208,229,234,.8);
-  -moz-box-shadow: 6px 6px 2px 1px rgba(208,229,234,.8);
-  box-shadow: 6px 6px 2px 1px rgba(208,229,234,0.8);
+  -webkit-box-shadow: -4px 34px 74px -34px rgba(0,0,0,0.28);
+  -moz-box-shadow: -4px 34px 74px -34px rgba(0,0,0,0.28);
+  box-shadow: -4px 34px 74px -34px rgba(0,0,0,0.28);
   transition: .2s ease-in-out;
 
 }
@@ -333,6 +323,7 @@ cite a:hover {
 .list--label:hover {
   color: #F02F23;
 }
+
 #toggle-view li:first-child {
   padding-top: 0px;
 }
@@ -418,10 +409,10 @@ cite a:hover {
 /*Prohibited Locations */
 
 .prohibit_locations:hover .flipper, .prohibit_locations.hover .flipper {
-    transform: rotateY(180deg);
-    -webkit-transform: rotateY(180deg);
-    -moz-transform: rotateY(180deg);
-  }
+  transform: rotateY(180deg);
+  -webkit-transform: rotateY(180deg);
+  -moz-transform: rotateY(180deg);
+}
 
 .flipper {
   transition: 0.4s;
@@ -447,9 +438,9 @@ cite a:hover {
   left: 0;
   border: 1px solid #ccc;
   border-radius: 3px;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.06);
-  -webkit-box-shadow: 0 2px 5px rgba(0,0,0,0.06);
-  -moz-box-shadow: 0 2px 5px rgba(0,0,0,0.06);
+  -webkit-box-shadow: -4px 34px 74px -34px rgba(0,0,0,0.28);
+  -moz-box-shadow: -4px 34px 74px -34px rgba(0,0,0,0.28);
+  box-shadow: -4px 34px 74px -34px rgba(0,0,0,0.28);
 }
 
 .front {
@@ -466,7 +457,6 @@ cite a:hover {
   -moz-transform: rotateY(180deg);
   background-color: #0033cc;
 }
-
 
 .prohibit_locations {
   float: left;
@@ -498,6 +488,33 @@ cite a:hover {
   color: white;
 }
 
+/*Viewpoints*/
+
+.half {
+  width: 50%;
+  padding: 4%;
+  float: left;
+  border-right: 2px dashed #ccc;
+  text-align: center;
+  margin: 40px 0;
+
+}
+
+.half h1 {
+  font-family: 'Playfair Display';
+  color: #2E2E2E;
+  font-weight: 700;
+  font-size: 41px;
+  line-height: 1.4em;
+  margin: 20px auto;
+  text-align: center;
+}
+
+.right {
+  float: right;
+  border: none;
+}
+
 /* Signs */
 
 .sign {
@@ -511,8 +528,8 @@ cite a:hover {
   padding: 25px;
   margin: 30px 10px;
   border-radius: 6px;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.06);
-  -webkit-box-shadow: 0 2px 5px rgba(0,0,0,0.06);
+  box-shadow: 0 2px 5px rgba(0,0,0,0.09);
+  -webkit-box-shadow: 0 2px 5px rgba(0,0,0,0.09);
   -moz-box-shadow: 0 2px 5px rgba(0,0,0,0.06);
   min-height: 240px;
 }
@@ -686,16 +703,16 @@ cite a:hover {
 }
 
 #resources-toggle span {
-  position:absolute;
-  right:10px; 
+  position: absolute;
+  right: 10px; 
   top: 25px;
   color: white;
-  font-size:24px;
+  font-size: 24px;
 }
     
 #resources-toggle .rPanel {
-  margin:5px 0;
-  display:none;
+  margin: 5px 0;
+  display: none;
 }
 
 #resources-toggle li {
@@ -743,10 +760,10 @@ footer {
   display: block;
   height: 200px;
   margin: 50px auto;
-  box-shadow: 6px 6px 2px 1px rgba(0,0,0,0.25);
-  -webkit-box-shadow: 6px 6px 2px 1px rgba(0,0,0,0.25);
-  -moz-box-shadow: 6px 6px 2px 1px rgba(0,0,0,0.25);
-  transition: .2s ease-in-out;
+  -webkit-box-shadow: 11px 20px 169px -34px rgba(0,0,0,0.35);
+-webkit-box-shadow: 11px 20px 169px -34px rgba(0,0,0,0.92);
+-moz-box-shadow: 11px 20px 169px -34px rgba(0,0,0,0.92);
+box-shadow: 11px 20px 169px -34px rgba(0,0,0,0.92);
 }
 
 .me:hover {
@@ -856,21 +873,21 @@ a.back-to-top {
   }
 
  .flipper {
- -o-transition-property: none !important;
- -moz-transition-property: none !important;
- -ms-transition-property: none !important;
- -webkit-transition-property: none !important;
- transition-property: none !important;
- -o-transform: none !important;
- -moz-transform: none !important;
- -ms-transform: none !important;
- -webkit-transform: none !important;
- transform: none !important;
- -webkit-animation: none !important;
- -moz-animation: none !important;
- -o-animation: none !important;
- -ms-animation: none !important;
- animation: none !important;
+   -o-transition-property: none !important;
+   -moz-transition-property: none !important;
+   -ms-transition-property: none !important;
+   -webkit-transition-property: none !important;
+   transition-property: none !important;
+   -o-transform: none !important;
+   -moz-transform: none !important;
+   -ms-transform: none !important;
+   -webkit-transform: none !important;
+   transform: none !important;
+   -webkit-animation: none !important;
+   -moz-animation: none !important;
+   -o-animation: none !important;
+   -ms-animation: none !important;
+   animation: none !important;
   }
 
   a.back-to-top {
@@ -905,7 +922,6 @@ a.back-to-top {
     width: 90%;
     height: auto;
   }
-
 
   header, .list--label, .inner_content, .footer_content, .graph img, .callout__content {
     width: 93%;
@@ -984,6 +1000,27 @@ a.back-to-top {
 
   .sign {
     margin: 20px 0;
+  }
+
+  .half {
+    width: 100%;
+    border-right: none;
+    border-bottom: 2px dashed #ccc;
+  }
+
+  .right {
+    border: none;
+  }
+  .half h1 {
+    text-align: center;
+  }
+
+  .btn {
+    margin: 20px 0 0 0;
+  }
+
+  blockquote {
+    padding: 40px 20px;
   }
 
 }
