@@ -122,7 +122,32 @@ p {
   #container {
   padding: 5%;
   }
-}
+  
+  .about {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    float: none;
+    margin: 0 auto;
+    text-align: center;
+    }
+
+    .phone {
+      width: 100%;
+      margin: 0;
+      float: none;
+      margin-top: 25px;
+      padding: 0;
+      position: static;
+
+    }
+
+    .note {
+      margin: 0 auto;
+      position: relative;
+      left: 0;
+    }
+
 
 @media (max-width: 700px) {
 
