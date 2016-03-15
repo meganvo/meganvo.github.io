@@ -1,0 +1,89 @@
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+  transition: all 0.3s ease-out;
+}
+
+body{
+  margin:0;
+  padding:0;
+  background-color: #ffbdff;
+  text-align: left;
+}
+
+
+h1 {
+  font-size: 52px;
+  font-weight: 800;
+  color: white;
+  letter-spacing: 0.1px;
+  line-height: 1.1em;
+  text-align: left;
+}
+
+h2 {
+  font-weight: 300;
+  font-size: 30px;
+  line-height: 1.6em;
+}
+
+a {
+  text-decoration: none;
+  padding-bottom: 5px;
+  border-bottom: 1px dotted red;
+  color: black;
+}
+
+p {
+  line-height: 1.8em;
+  text-align: left;
+  width: 80%;
+}
+
+#container{
+  width: 100%;    
+  text-align: center;
+  margin: 0 auto;
+  padding: 100px;
+}
+
+.tilt_your_head {
+  transform: rotate(-90deg) translateX(-50%);
+  -webkit-transform: rotate(-90deg) translateX(-50%);
+  -ms-transform: rotate(-90deg) translateX(-50%);
+  transform-origin: 0 50%;
+  -webkit-transform-origin: 0 50%;
+  -ms-transform-origin: 0 50%;
+  display: block;
+  left: 30px;
+  position: fixed;
+  top: 50%;
+  width: 500px;
+  text-align: center;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: .1em;
+}
+
+.about {
+  float: left;
+  width: 60%;
+}
+
+.phone {
+  background: url(../img/phone.png) no-repeat top;
+  height: 549px;
+  width: 260px;
+  cursor: pointer;
+  float: right;
+  width: 40%;
+}
+
+.note {
+  position: relative;
+  top: 75px;
+  cursor: pointer;
+}
