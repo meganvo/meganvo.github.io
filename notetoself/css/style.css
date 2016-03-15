@@ -101,7 +101,7 @@ p {
 }
 
 .phone {
-  background: url(img/phone.png) no-repeat top;
+  background: url(/img/phone.png) no-repeat top;
   height: 549px;
   width: 260px;
   cursor: pointer;
