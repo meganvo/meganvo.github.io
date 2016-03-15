@@ -1,10 +1,9 @@
     function pickimg(){
-    var imagenumber = 1 ;
+    var imagenumber = 123 ;
     var randomnumber = Math.random() ;
     var rand1 = Math.round( (imagenumber-1) * randomnumber) + 1;
     images = new Array
     images[1] = "../img/note/1.png"
-    /*
     images[2] = "../img/note/2.png"
     images[3] = "../img/note/3.png"
     images[4] = "../img/note/4.png"
