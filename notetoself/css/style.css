@@ -124,7 +124,7 @@ p {
     width: 80%;
   }
 
-@media (max-width: 500px) {
+@media (max-width: 800px) {
 
   #container {
     width: 100%;
