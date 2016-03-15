@@ -101,7 +101,7 @@ p {
 }
 
 .phone {
-  background: url(../img/phone.png) no-repeat top;
+  background: url(../img/phone.PNG) no-repeat top;
   height: 549px;
   width: 260px;
   cursor: pointer;
@@ -121,3 +121,34 @@ p {
   color: purple;
   font-weight: 200;
 }
+
+@media (max-width: 1000px) {
+
+  #container {
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  h1, h2, p {
+    text-align: center;
+    width: 100%;
+  }
+
+  .about {
+    width: 100%;
+    padding: 0;
+    float: none;
+    margin: 0 auto;
+    text-align: center;
+    }
+
+    .phone {
+      width: 100%;
+      margin: 0;
+      float: none;
+      margin-top: 50px;
+    }
+
+    .tilt_your_head {
+      display: none;
+    }
