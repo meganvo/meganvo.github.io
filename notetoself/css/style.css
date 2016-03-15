@@ -118,41 +118,17 @@ p {
   color: purple;
   font-weight: 200;
 }
-@media (max-width: 3000px) {
+
+@media (max-width: 5000px) {
   #container {
-  padding: 5%;
-  width: 50%;
+    width: 70%;
   }
   
-  .about {
-    width: 100%;
-    padding: 0;
-    margin: 0;
-    float: none;
-    margin: 0 auto;
-    text-align: center;
-    }
 
-    .phone {
-      width: 100%;
-      margin: 0;
-      float: none;
-      margin-top: 25px;
-      padding: 0;
-      position: static;
-
-    }
-
-    .note {
-      margin: 0 auto;
-      position: relative;
-      left: 0;
-    }
-
-@media (max-width: 700px) {
+@media (max-width: 500px) {
 
   #container {
-    margin: https://www.google.com/search?q=positionc+ss&espv=2&biw=444&bih=753&source=lnms&tbm=vid&sa=X&ved=0ahUKEwjt0Pys78HLAhUHMSYKHa40CxkQ_AUICSgE0 auto;
+    width: 100%;
     text-align: center;
   }
 
@@ -161,15 +137,15 @@ p {
     width: 100%;
   }
 
-p {
-  font-size: 18px;
-}
+  p {
+   font-size: 18px;
+  }
+
   .about {
     width: 100%;
     padding: 0;
-    margin: 0;
-    float: none;
     margin: 0 auto;
+    float: none;
     text-align: center;
     }
 
