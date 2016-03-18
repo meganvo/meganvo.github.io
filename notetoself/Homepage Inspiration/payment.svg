@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="45px" height="57px" viewBox="0 0 45 57" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.5.2 (25235) - http://www.bohemiancoding.com/sketch -->
+    <title>submit_icon + Shape</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="-" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Service-Company" sketch:type="MSArtboardGroup" transform="translate(-186.000000, -1832.000000)">
+            <g id="Group" sketch:type="MSLayerGroup" transform="translate(186.000000, 1440.000000)">
+                <g id="submit_icon-+-Shape" transform="translate(0.000000, 393.000000)" sketch:type="MSShapeGroup">
+                    <g id="submit_icon">
+                        <rect id="Rectangle-226" fill="#D7D7D7" x="0" y="3" width="42" height="53" rx="1"></rect>
+                        <rect id="Rectangle-226" stroke="#22203D" stroke-width="1.5" fill="#FFFFFF" x="2" y="0" width="42" height="53" rx="1"></rect>
+                        <path d="M11,40.75 L34.8899994,40.75" id="Line" stroke="#2B294D" stroke-width="1.5" stroke-linecap="square"></path>
+                        <path d="M11,44.75 L34.8899994,44.75" id="Line" stroke="#2B294D" stroke-width="1.5" stroke-linecap="square"></path>
+                        <path d="M24.8794118,12.9485453 L24.8794118,10 L21.8794118,10 L21.8794118,13.2677876 C19.3061559,13.9847235 17.8294118,15.8185886 17.8294118,18.0913462 C17.8294118,20.5923077 19.7044118,22.1370192 22.6294118,23.1668269 C24.7294118,23.8288462 25.5544118,24.4908654 25.5544118,25.5206731 C25.5544118,26.6975962 24.5794118,27.4331731 22.7794118,27.4331731 C21.1294118,27.4331731 19.4794118,26.9182692 18.4294118,26.4033654 L17.5294118,29.5663462 C18.4076182,30.0301327 20.0768469,30.4939193 21.8794118,30.5814336 L21.8794118,33.5384615 L24.8794118,33.5384615 L24.8794118,30.3603697 C28.0336162,29.6846731 29.5294118,27.6390396 29.5294118,25.3 C29.5294118,22.8725962 28.1044118,21.2543269 25.0294118,20.1509615 C22.7794118,19.2682692 21.8044118,18.8269231 21.8044118,17.7235577 C21.8044118,16.9144231 22.6294118,16.1052885 24.3544118,16.1052885 C26.0044118,16.1052885 27.2794118,16.5466346 27.9544118,16.9144231 L28.8544118,13.825 C27.9532818,13.3491074 26.6677565,12.9988825 24.8794118,12.9485453 Z" id="Top" stroke="#262445" stroke-width="1.5" fill="#26AE6D"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

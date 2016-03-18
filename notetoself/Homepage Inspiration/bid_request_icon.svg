@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="46px" height="58px" viewBox="0 0 46 58" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.5.2 (25235) - http://www.bohemiancoding.com/sketch -->
+    <title>bid_request_icon</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="-" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Service-Company" sketch:type="MSArtboardGroup" transform="translate(-186.000000, -1539.000000)">
+            <g id="Group" sketch:type="MSLayerGroup" transform="translate(186.000000, 1440.000000)">
+                <g id="bid_request_icon" transform="translate(0.000000, 100.000000)" sketch:type="MSShapeGroup">
+                    <rect id="Rectangle-226" fill="#D7D7D7" x="0" y="4" width="42" height="53" rx="1"></rect>
+                    <rect id="Rectangle-226" stroke="#22203D" stroke-width="1.5" fill="#FFFFFF" x="3" y="0" width="42" height="53" rx="1"></rect>
+                    <path d="M12,34.75 L35.8899994,34.75" id="Line" stroke="#2B294D" stroke-width="1.5" stroke-linecap="square"></path>
+                    <path d="M12,38.75 L35.8899994,38.75" id="Line" stroke="#2B294D" stroke-width="1.5" stroke-linecap="square"></path>
+                    <path d="M12,42.75 L35.8899994,42.75" id="Line" stroke="#2B294D" stroke-width="1.5" stroke-linecap="square"></path>
+                    <path d="M16.4454526,16.708 C16.2554526,16.731 16.0874526,16.858 16.0244526,17.051 C15.9614526,17.244 16.0244526,17.445 16.1644526,17.572 C17.7304526,19.001 20.0834526,21.141 20.0834526,21.141 C20.0834526,21.141 19.4374526,24.254 19.0094526,26.331 C18.9734526,26.519 19.0414526,26.718 19.2054526,26.837 C19.3684526,26.956 19.5784526,26.958 19.7434526,26.865 C21.5874526,25.817 24.3494526,24.241 24.3494526,24.241 C24.3494526,24.241 27.1124526,25.817 28.9534526,26.866 C29.1214526,26.958 29.3314526,26.956 29.4944526,26.837 C29.6584526,26.718 29.7264526,26.519 29.6894526,26.332 C29.2614526,24.254 28.6184526,21.141 28.6184526,21.141 C28.6184526,21.141 30.9714526,19.001 32.5374526,17.575 C32.6774526,17.444 32.7394526,17.243 32.6774526,17.051 C32.6154526,16.859 32.4474526,16.732 32.2574526,16.71 C30.1494526,16.474 26.9884526,16.124 26.9884526,16.124 C26.9884526,16.124 25.6784526,13.226 24.8054526,11.294 C24.7234526,11.121 24.5514526,11 24.3494526,11 C24.1474526,11 23.9744526,11.122 23.8964526,11.294 C23.0224526,13.226 21.7134526,16.124 21.7134526,16.124 C21.7134526,16.124 18.5534526,16.474 16.4454526,16.708 Z" id="Shape" stroke="#262445" stroke-width="1.5" fill="#FFC25F"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
