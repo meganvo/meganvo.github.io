@@ -9,7 +9,7 @@ html {
 
 body{
   margin:0;
-  padding:0;
+  padding:50px 0;
   background-color: #FFEFFF;
   text-align: left;
   cursor: pointer;
@@ -20,16 +20,17 @@ body{
 h1 {
   font-size: 68px;
   font-weight: 200;
-  color: #4a4a4a;
+  color: blue;
   letter-spacing: 0.1px;
   text-align: left;
+  margin: 20px 0;
 }
 
 h2 {
   font-weight: 500;
-  font-size: 21px;
+  font-size: 12px;
   text-align: left;
-  color: #BD90BD;
+  color: blue;
 }
 
 a {
@@ -51,8 +52,7 @@ a:hover {
 p {
   line-height: 1.8em;
   text-align: left;
-  width: 80%;
-  color: #BD90BD;
+  color: blue;
 }
 
 #container{
@@ -78,14 +78,13 @@ p {
   display: block;
   left: 5%;
   position: fixed;
-  top: 60%;
-  width: 500px;
-  color: #995A99;
+  top: 50%;
+  color: blue;
   text-align: center;
-  font-weight: 800;
+  font-weight: 200;
   text-transform: uppercase;
-  font-size: 12px;
-  letter-spacing: .3em;
+  font-size: 14px;
+  letter-spacing: .1em;
 }
 
 .right {
@@ -95,34 +94,36 @@ p {
   -webkit-transform-origin: 100% 50%;
   -ms-transform-origin: 100% 50%;
   transform-origin: 100% 50%;
-  left: 55%;
+  right: 5%;
 }
 
 .about {
   float: right;
-  width: 55%;
+  width: 65%;
+  padding: 60px;
+}
+
+.about h1 {
+  border-bottom: 1px solid blue;
+  padding: 15px 0;
 }
 
 .phone {
   background: url(../img/phone.png) no-repeat top;
   height: 549px;
-  cursor: pointer;
   float: left;
   width: 260px;
-  position: relative;
+  position: fixed;
+
 }
 
 .note {
-  cursor: pointer;
   position: absolute;
   top: 75px;
   left: 19px;
-}
-
-.sidenote {
-  font-size: 12px;
-  color: purple;
-  font-weight: 200;
+-webkit-box-shadow: 1px 1px 20px 4px rgba(255, 56, 146, 0.24);
+-moz-box-shadow:    1px 1px 20px 4px rgba(255, 56, 146, 0.24);
+box-shadow:         1px 1px 20px 4px rgba(255, 56, 146, 0.24);
 }
 
 @media (max-width: 5000px) {
@@ -131,6 +132,10 @@ p {
   }
 
 @media (max-width: 800px) {
+  body {
+    padding: 20px 0;
+  }
+
   #container {
     width: 100%;
     text-align: center;
@@ -151,8 +156,8 @@ p {
   }
 
   p {
-   font-size: 15px;
-   line-height: 1.6em;
+    font-size: 15px;
+    line-height: 1.6em;
   }
 
   .about {
@@ -161,24 +166,20 @@ p {
     margin: 0 auto;
     float: none;
     text-align: center;
-    }
+  }
 
-    .phone {
-      width: 100%;
-      margin: 0;
-      float: none;
-      margin-top: 25px;
-      padding: 0;
-      position: static;
+  .phone {
+    width: 100%;
+    margin: 0;
+    float: none;
+    margin-top: 25px;
+    padding: 0;
+    position: static;
+  }
 
-    }
-
-    .note {
-      margin: 0 auto;
-      position: relative;
-      left: 0;
-    }
-
-    .tilt_your_head {
+  .note {
+    margin: 0 auto;
+    position: relative;
+    left: 0;
     }
   }
