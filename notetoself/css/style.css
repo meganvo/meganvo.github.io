@@ -10,7 +10,7 @@ html {
 body{
   margin:0;
   padding:0;
-  background-color: #ffbdff;
+  background-color: #FFEFFF;
   text-align: left;
   cursor: pointer;
   width: 100%;
@@ -18,17 +18,18 @@ body{
 }
 
 h1 {
-  font-size: 48px;
-  font-weight: 800;
-  color: white;
+  font-size: 68px;
+  font-weight: 200;
+  color: #4a4a4a;
   letter-spacing: 0.1px;
   text-align: left;
 }
 
 h2 {
-  font-weight: 300;
-  font-size: 24px;
+  font-weight: 500;
+  font-size: 21px;
   text-align: left;
+  color: #BD90BD;
 }
 
 a {
@@ -51,6 +52,7 @@ p {
   line-height: 1.8em;
   text-align: left;
   width: 80%;
+  color: #BD90BD;
 }
 
 #container{
@@ -78,8 +80,9 @@ p {
   position: fixed;
   top: 60%;
   width: 500px;
+  color: #995A99;
   text-align: center;
-  font-weight: 200;
+  font-weight: 800;
   text-transform: uppercase;
   font-size: 12px;
   letter-spacing: .3em;
@@ -127,8 +130,7 @@ p {
     width: 80%;
   }
 
-@media (max-width: 1000px) {
-
+@media (max-width: 800px) {
   #container {
     width: 100%;
     text-align: center;
@@ -150,10 +152,11 @@ p {
 
   p {
    font-size: 15px;
+   line-height: 1.6em;
   }
 
   .about {
-    width: 100%;
+    width: 85%;
     padding: 0;
     margin: 0 auto;
     float: none;
@@ -177,6 +180,5 @@ p {
     }
 
     .tilt_your_head {
-      display: none;
     }
   }
