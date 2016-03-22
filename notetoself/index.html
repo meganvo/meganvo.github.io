@@ -34,8 +34,8 @@
 	<script src="js/index.js"></script>
 	<script src="js/cursor.js"></script>
 	<script>
-f( /Android|webOS|iPhone|iPad|iPod|BlackBerry/i.test(navigator.userAgent) ) {
-  document.write('<script type="text/javascript" src="cursor.js"><\/script>');
+		if( /Android|webOS|iPhone|iPad|iPod|BlackBerry/i.test(navigator.userAgent) ) {
+  		document.write('<script type="text/javascript" src="cursor.js"><\/script>');
 }
 </script>
 </body>
