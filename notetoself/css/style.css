@@ -65,7 +65,7 @@ p:first-child {
 }
 
 #container{
-  max-width: 850px;
+  max-width: 950px;
   height: 100%;    
   text-align: center;
   margin: 0 auto;
@@ -87,6 +87,7 @@ p:first-child {
   top: 50%;
   color: blue;
   text-align: center;
+  position: absolute;
   font-weight: 800;
   text-transform: uppercase;
   font-size: 13px;
@@ -130,7 +131,7 @@ p:first-child {
 }
 
 .phone {
-  background: url(../img/phone.png) no-repeat top;
+  background: url(../img/phone_wire.png) no-repeat top;
   height: 549px;
   width: 260px;
   position: relative;
