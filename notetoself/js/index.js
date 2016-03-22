@@ -84,7 +84,6 @@
     images[79] = "img/note/79.PNG"
     images[80] = "img/note/80.PNG"
     images[81] = "img/note/81.PNG"
-    images[82] = "img/note/82.PNG"
     images[83] = "img/note/83.PNG"
     images[84] = "img/note/84.PNG"
     images[85] = "img/note/85.PNG"
