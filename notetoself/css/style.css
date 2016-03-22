@@ -180,7 +180,14 @@ a:hover {
   }
 
   .about {
-    display: none;
+    float: none;
+    width: 100%;
+    padding: 0;
+  }
+
+  p {
+    font-size: 21px;
+    text-align: center;
   }
 
   .phone_container {
