@@ -1,0 +1,113 @@
+html {
+  box-sizing: border-box;
+  height: 100%;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+  transition: all 0.3s ease-out;
+}
+
+body{
+  font-family: 'Avenir', sans-serif;
+  font-weight: 400;
+  margin: 0;
+  padding: 80px 0;
+  background-color: #FFF;
+  text-align: left;
+  border: 15px solid blue;
+}
+
+a {
+  color: blue;
+}
+
+a:hover {
+  color: blue;
+}
+
+#container{
+  max-width: 1400px;
+  text-align: left;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.inner {
+  width: 75%;
+  margin: 0 auto;
+}
+
+nav ul {
+  float: right;
+  display: block;
+  width: 60%;
+  text-align: right;
+  margin-top: 3px;
+}
+
+nav ul li {
+  display: inline-block;
+  vertical-align: middle;
+  padding: 0 15px;
+}
+
+h1 {
+  color: blue;
+  text-align: left;
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 1.4em;
+  letter-spacing: .4px;
+}
+
+section {
+  margin: 50px 0;
+}
+
+section h2 {
+  width: 30%;
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+section p {
+  width: 70%;
+  line-height: 1.8em;
+  margin-top: 0;
+  letter-spacing: .3px;
+}
+
+.clear {
+  clear: both;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+h3 {
+  color: blue;
+}
+
+.project {
+  width: 40%;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.project img {
+  margin: 0 auto;
+  width: 100%;
+}
+
+.project p {
+  width: 100%;
+}
+
+
