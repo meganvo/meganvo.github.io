@@ -18,25 +18,16 @@ body{
 
 a {
   color: blue;
+  text-decoration: none;
+  font-weight: 600;
 }
 
 a:hover {
-  color: red;
+  color: blue;
+  background-color: yellow;
+  text-decoration: none;
+  padding: 5px 10px;
 }
-
-#container{
-  max-width: 1100px;
-  text-align: left;
-  margin: 0 auto;
-  overflow: hidden;
-  padding: 50px 0;
-}
-
-.inner {
-  width: 60%;
-  margin: 40px auto;
-}
-
 
 h1 {
   color: blue;
@@ -73,12 +64,6 @@ ul {
   margin: 0;
 }
 
-.work li {
-  padding: 20px 0;
-}
-.strike {
-  text-decoration: line-through;
-}
 li:first-child {
   padding-top: 0;
 }
@@ -87,8 +72,21 @@ li p {
   width: 100%;
 }
 
-.clear {
-  clear: both;
+p {
+  line-height: 1.5em;
+}
+
+#container{
+  max-width: 1100px;
+  text-align: left;
+  margin: 0 auto;
+  overflow: hidden;
+  padding: 50px 0;
+}
+
+.inner {
+  width: 60%;
+  margin: 40px auto;
 }
 
 .left {
@@ -111,10 +109,28 @@ li p {
   font-weight: 600;
 }
 
-.header img {
+.logo {
   display: block;
   margin: 0 auto;
   width: 55px;
+}
+
+.info {
+  width: 20px;
+  position: absolute;
+  padding: 5px 0 0 5px;
+}
+
+.work li {
+  padding: 10px 0;
+}
+
+.strike {
+  text-decoration: line-through;
+}
+
+.clear {
+  clear: both;
 }
 
 @media (max-width : 450px) {
