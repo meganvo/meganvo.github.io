@@ -73,29 +73,6 @@ p {
   line-height: 1.5em;
 }
 
-#container{
-  max-width: 1100px;
-  text-align: left;
-  margin: 0 auto;
-  overflow: hidden;
-  padding: 50px 0;
-}
-
-.inner {
-  width: 60%;
-  margin: 40px auto;
-}
-
-.left {
-  float: left;
-  line-height: 1.8em;
-}
-
-.right {
-  float: right;
-  line-height: 1.8em;
-}
-
 header {
   padding: 50px 0;
 }
@@ -114,23 +91,20 @@ header h2  {
   padding: 0;
 }
 
-.logo {
-  display: block;
+
+#container{
+  max-width: 1100px;
+  text-align: left;
   margin: 0 auto;
-  width: 55px;
+  overflow: hidden;
+  padding: 50px 0;
 }
 
-.work li {
-  padding: 10px 0;
+.inner {
+  width: 60%;
+  margin: 40px auto;
 }
 
-.strike {
-  text-decoration: line-through;
-}
-
-.clear {
-  clear: both;
-}
 .who {
   margin: 0;
 }
@@ -150,6 +124,28 @@ header h2  {
   background-color: white;
   color: blue;
   padding: 0;
+}
+
+.left {
+  float: left;
+  line-height: 1.8em;
+}
+
+.right {
+  float: right;
+  line-height: 1.8em;
+}
+
+.work li {
+  padding: 10px 0;
+}
+
+.strike {
+  text-decoration: line-through;
+}
+
+.clear {
+  clear: both;
 }
 
 @media (max-width : 450px) {
