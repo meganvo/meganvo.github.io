@@ -12,7 +12,6 @@ body{
   font-family: 'Muli', sans-serif;
   font-weight: 400;
   margin: 0;
-  padding: 80px 0;
   background-color: #FFF;
   text-align: left;
 }
@@ -30,12 +29,14 @@ a:hover {
   text-align: left;
   margin: 0 auto;
   overflow: hidden;
+  padding: 50px 0;
 }
 
 .inner {
-  width: 70%;
-  margin: 0 auto;
+  width: 60%;
+  margin: 40px auto;
 }
+
 
 h1 {
   color: blue;
@@ -43,27 +44,47 @@ h1 {
   font-weight: 400;
   font-size: 19px;
   line-height: 1.4em;
-  letter-spacing: .4px;
 }
 
 section {
-  margin: 50px 0;
+  margin: 30px 0;
 }
 
 section h2 {
   width: 30%;
-  font-size: 14px;
+  font-size: 13px;
   text-transform: uppercase;
   letter-spacing: 1px;
   padding: 0;
   margin: 0;
+  font-weight: 600;
 }
 
 section p {
   width: 70%;
-  letter-spacing: .1px;
   margin: 0;
   padding: 0;
+}
+
+ul {
+  line-height: 1.8em;
+  width: 70%;
+  padding: 0;
+  margin: 0;
+}
+
+.work li {
+  padding: 20px 0;
+}
+.strike {
+  text-decoration: line-through;
+}
+li:first-child {
+  padding-top: 0;
+}
+
+li p {
+  width: 100%;
 }
 
 .clear {
@@ -80,11 +101,20 @@ section p {
   line-height: 1.8em;
 }
 
-ul {
-  line-height: 1.6em;
-  width: 70%;
-  padding: 0;
-  margin: 0;
+.header {
+  padding-bottom: 5px;
+}
+
+.header h1 {
+  text-align: center;
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.header img {
+  display: block;
+  margin: 0 auto;
+  width: 55px;
 }
 
 @media (max-width : 450px) {
@@ -98,6 +128,10 @@ ul {
 
     ul {
       width: 100%;
+    }
+
+    .inner {
+      width: 80%;
     }
   }
 
