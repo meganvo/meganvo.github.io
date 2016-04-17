@@ -17,10 +17,9 @@ body{
 }
 
 a {
-  font-family: 'Muli', sans-serif;
   color: blue;
   text-decoration: none;
-  font-weight: 600;
+  font-weight: 400;
 }
 
 a:hover {
@@ -31,7 +30,6 @@ a:hover {
 }
 
 h1 {
-  font-family: 'Muli', sans-serif;
   color: blue;
   text-align: left;
   font-weight: 400;
@@ -44,25 +42,22 @@ section {
 }
 
 section h2 {
-  font-family: 'Muli', sans-serif;
   width: 30%;
   font-size: 13px;
   text-transform: uppercase;
   letter-spacing: 1px;
   padding: 0;
   margin: 0;
-  font-weight: 600;
+  font-weight: 400;
 }
 
 section p {
-  font-family: 'Muli', sans-serif;
   width: 70%;
   margin: 0;
   padding: 0;
 }
 
 ul {
-  font-family: 'Muli', sans-serif;
   line-height: 1.8em;
   width: 70%;
   padding: 0;
@@ -78,7 +73,6 @@ li p {
 }
 
 p {
-  font-family: 'Muli', sans-serif;
   line-height: 1.5em;
 }
 
@@ -110,16 +104,14 @@ header {
 }
 
 header h1 {
-  font-family: 'Muli', sans-serif;
   text-align: center;
   font-size: 30px;
-  font-weight: 600;
+  font-weight: 400;
   margin: 0;
   padding-bottom: 10px;
 }
 
 header h2  {
-  font-family: 'Muli', sans-serif;
   text-align: center;
   font-size: 14px;
   margin: 0;
