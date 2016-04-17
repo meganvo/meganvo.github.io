@@ -157,6 +157,8 @@ header h2  {
     }
 
     header {
+      width: 90%;
+      margin: 0 auto;
       padding: 20px 0;
     }
 
@@ -173,8 +175,9 @@ header h2  {
     }
 
     .inner {
-      width: 80%;
+      width: 90%;
       margin-top: 0;
+      padding: 0 20px;
     }
   }
 
