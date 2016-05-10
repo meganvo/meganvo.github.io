@@ -78,7 +78,7 @@ p {
 .sub-headline {
   font-weight: 400;
   font-size: 22px;
-  line-height: 44px;
+  line-height: 38px;
 }
 
 .sub-headline a {
@@ -106,7 +106,7 @@ ul {
 
 
 section {
-  margin: 55px auto;
+  margin: 40px auto;
 }
 
 section:first-of-type {
@@ -140,10 +140,6 @@ section:first-of-type {
   width: 65%;
   max-width: 750px;
   overflow: auto;
-}
-
-.footer {
-  margin-bottom: 135px;
 }
 
 
