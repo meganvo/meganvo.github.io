@@ -26,6 +26,7 @@ h1 {
   font-size: 41px;
   font-weight: 700;
   margin-bottom: 20px;
+  line-height: 44px;
 }
 
 h3 {
@@ -112,7 +113,7 @@ section:first-of-type {
   margin-top: 100px;
 }
 
-.read_more {
+.read-more {
   background-color: #AD946D;
   color: white;
   text-align: center;
@@ -167,28 +168,44 @@ img {
 
 @media (max-width : 450px) {
     #container {
-      padding-top: 30px;
-    }
-    header h1 {
-      font-size: 24px;
+      margin-top: 30px;
+      width: 85%;
     }
 
-    header {
-      width: 90%;
-      margin: 0 auto;
-      padding: 20px 0;
+    section {
+      margin: 10px 0;
     }
 
-    section h2 {
-      width: 100%;
-    }
-
-    section p {
-      width: 100%;
+    section:first-of-type {
+      margin-top: 30px;
     }
 
     ul {
       width: 100%;
+    }
+
+    img {
+      width: 90%;
+    }
+
+    .col-1 {
+      width: 90%;
+      float:none;
+      margin: 0 auto;
+    }
+
+    .col-2 {
+      width: 100%;
+      float: none;
+      margin: 20px 0 0 0;
+    }
+
+    .sub-headline {
+      line-height: 34px;
+    }
+
+    .read-more {
+      padding: 20px 0;      
     }
   }
 
