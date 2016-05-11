@@ -88,12 +88,16 @@ p {
 .caption {
   background-color: ;
   text-transform: uppercase;
-  font-size: 14px;
+  font-size: 13px;
   font-weight: 600;
   color: #A1A1A1;
   text-align: center;
   letter-spacing: 1px;
-  margin: 40px 0;
+  margin: 40px auto;
+  width: 80%;
+  padding: 10px 0;
+  border-top: 2px dotted #ccc;
+
 }
 
 
@@ -103,7 +107,6 @@ ul {
   padding: 0;
   margin: 0;
 }
-
 
 section {
   margin: 40px auto;
@@ -124,15 +127,14 @@ section:first-of-type {
   clear: both;
 }
 
-.col-1 {
-  width: 50%;
-  float: left;
+.centered {
+  width: 70%;
+  margin: 20px auto;
+  text-align: center;
 }
 
-.col-2 {
-  width: 50%;
-  float: left;
-  padding: 0 0 0 20px;
+.centered img {
+  margin-top: 20px;
 }
 
 #container{
