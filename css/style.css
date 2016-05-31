@@ -40,6 +40,7 @@ a {
   text-decoration: none;
   padding: 0 0 3px 0;
   border-bottom: 1px solid blue;
+  display: inline-block;
 }
 
 a:hover {
@@ -89,9 +90,12 @@ p {
 }
 
 .read-more-show, .read-more-hide {
-  border: none;
-  margin-top: 20px;
+  border: 1px solid blue;
+  margin: 20px 0;
   color: blue;
+  border-radius: 3px;
+  padding: 5px;
+
 }
 
 .caption {
@@ -244,7 +248,7 @@ section:first-of-type {
   margin: 0 auto;
   width: 65%;
   max-width: 750px;
-  overflow: auto;
+  overflow: hidden;
 }
 
 header {
@@ -254,7 +258,9 @@ header {
 .quote {
   background-color: #f4f4f4;
   padding: 25px;
-  margin: 10px 0;
+  width: 80%;
+  margin: 0 auto;
+  margin-bottom: 15px;
   border: 1px solid #ccc;
   font-size: 18px;
   line-height: 1.3em;
