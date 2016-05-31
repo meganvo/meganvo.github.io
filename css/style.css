@@ -15,7 +15,7 @@ body{
   background-color: #FFF;
   color: #4a4a4a;
   text-align: left;
-  border-top: 5px solid #AD946D;
+  border-top: 5px solid blue;
   line-height: 1.8em;
 }
 
@@ -36,11 +36,10 @@ h3 {
 }
 
 a {
-  color: #AD946D;
+  color: blue;
   text-decoration: none;
   padding: 0 0 3px 0;
-  border-bottom: 1px solid #AD946D;
-  font-size: 18px;
+  border-bottom: 1px solid blue;
 }
 
 a:hover {
@@ -50,8 +49,14 @@ a:hover {
 p {
   line-height: 1.5em;
   font-size: 18px;
-  margin: 0 0 30px 0;
+  margin: 30px 0;
   padding: 0;
+}
+
+.elsewhere {
+  display: flex;
+  justify-content: space-between;
+
 }
 
 .strong {
@@ -71,7 +76,7 @@ p {
 }
 
 .category {
-    color: #AD946D;
+    color: blue;
     font-size: 13px;
     font-weight: 600;
     letter-spacing: 2px;
@@ -79,28 +84,14 @@ p {
     text-transform: uppercase;
 }
 
-.category a {
-  font-size: 14px;
+.hide {
+  display: none;
 }
 
-.sub-headline {
-  font-family: 'Source Serif Pro', serif;
-  font-weight: 400;
-  font-size: 21px;
-  text-align: center;
-  line-height: 35px;
-  width: 80%;
-  margin: 0 auto;
-  margin-bottom: 15px;
-}
-
-.sub-headline a {
-  font-size: 22px;
-  border-bottom: 1px dotted #AD946D;
-}
-
-.highlight .sub-headline .button {
-  margin: 0 auto;
+.read-more-show, .read-more-hide {
+  border: none;
+  margin-top: 20px;
+  color: blue;
 }
 
 .caption {
@@ -127,13 +118,15 @@ header {
 }
 
 .highlight {
-  background: #FFF6E9;
-  border: 1px solid #AD946D;
+  background: #F7F7FF;
+  border: 1px solid #D4D4FF;
   border-radius: 3px;
   padding: 25px;
   box-shadow: 0 2px 5px rgba(0,0,0,0.15);
-
+  font-size: 21px;
+  text-align: center;
 }
+
 
 /*Cards*/
 
@@ -146,7 +139,7 @@ header {
 .card {
   display: flex;
   flex-direction: column;
-  border: 1px solid #AD946D;
+  border: 1px solid blue;
   border-radius: 3px;
   overflow: hidden;
   padding: 20px;
@@ -176,6 +169,7 @@ header {
 
 .card_descriptionText {
   text-align: center;
+  line-height: 24px;
  }
 
 .card a {
@@ -186,7 +180,8 @@ header {
 /*Buttons*/
 
 .button {
-  background-color: #AD946D;
+  background-color: blue;
+  color: white;
   border-radius: 3px;
   padding: 8px 15px;
   display: inline-block;
@@ -213,6 +208,7 @@ header {
 ul {
   padding: 0;
   margin: 0;
+  margin-bottom: 20px;
   list-style-type: none;
 }
 
@@ -224,15 +220,14 @@ section:first-of-type {
   margin-top: 70px;
 }
 
-.read-more {
-  background-color: #AD946D;
-  color: white;
-  text-align: center;
-  padding: 80px 0;
-}
-
 .clear {
   clear: both;
+}
+
+.about_img {
+  max-width: 300px;
+  float: left;
+  margin-right: 20px;
 }
 
 .centered {
@@ -256,6 +251,16 @@ header {
   margin: 0 auto;
 }
 
+.quote {
+  background-color: #f4f4f4;
+  padding: 25px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  font-size: 18px;
+  line-height: 1.3em;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.15);
+}
+
 h1 {
   text-align: center;
   margin-bottom: 5px;
@@ -264,17 +269,6 @@ h1 {
 header p {
   text-align: center;
 }
-
-.me_img {
-  width: 350px;
-  height: 350px;
-  background: url(../img/me.jpg) no-repeat center;
-  background-color: white;
-}
-
-/*Image*/
-
-
 
 img {
     display: block;
@@ -286,15 +280,21 @@ img {
   .full-width {
     width: 100%;
     max-width: none;
-
   }
 
+
+  
 @media (max-width : 450px) {
     #container {
       margin-top: 30px;
       width: 90%;
     }
 
+  .about_img {
+    width: 100%;
+    float: none;
+    margin: 0 auto;
+  }
     section {
       margin: 10px 0;
     }
@@ -324,18 +324,8 @@ img {
       margin: 0;
     }
 
-    .sub-headline, .sub-headline a {
-      line-height: 30px;
-      width: 100%;
-      font-size: 18px;
-    }
-
     .highlight {
       padding: 10px;
-    }
-
-    .read-more {
-      padding: 20px 0;      
     }
 
     .cardGroup, .card, .card_description {
