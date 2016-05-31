@@ -96,8 +96,14 @@ p {
   color: blue;
   border-radius: 3px;
   padding: 5px;
-
 }
+
+.read-more-show:hover, .read-more-hide:hover {
+  background-color: blue;
+  color: white;
+  opacity: 1.0;
+}
+
 
 .caption {
   text-transform: uppercase;
@@ -130,6 +136,7 @@ header {
   box-shadow: 0 2px 5px rgba(0,0,0,0.15);
   font-size: 21px;
   text-align: center;
+  margin: 60px 0;
 }
 
 
