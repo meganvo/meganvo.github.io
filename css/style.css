@@ -102,7 +102,7 @@ p {
   text-align: center;
   border: 1px dashed blue;
   width: 200px;
-  margin: 20px auto;
+  margin: 0 auto;
   padding: 10px 0;
   display: block;
 }
@@ -276,17 +276,20 @@ img {
     text-align: center;
     font-size: 40px;
     font-weight: 600;
-    margin: 0px;
+    margin: 20px 0;
     line-height: 51px;
+  }
+
+  .about-more {
+    width: auto;
   }
 
 .me {
   background: url(../img/me_small.png) no-repeat center;
   width: 300px;
-  display: block;
   height: 300px;
   float: right;
-  margin: 20px 0 0 50px;
+  margin-left: 50px;
 }
 
 .me:hover {
@@ -330,6 +333,10 @@ img {
 
     h1 {
       font-size: 34px;
+    }
+
+    .read-more-content {
+      margin: 30px 0;
     }
 
     .read-more-hide, .read-more-show {
