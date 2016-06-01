@@ -273,10 +273,10 @@ img {
 
   .opening-headline {
     text-align: center;
-    font-size: 40px;
+    font-size: 31px;
     font-weight: 600;
     margin: 20px 0;
-    line-height: 51px;
+    line-height: 1.4em;
   }
 
   .about-more {
