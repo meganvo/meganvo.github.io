@@ -11,6 +11,7 @@ html {
 
 body{
   font-weight: 400;
+  font-size: 18px;
   margin: 0;
   background-color: #FFF;
   color: #4a4a4a;
@@ -40,7 +41,6 @@ a {
   text-decoration: none;
   padding: 0 0 3px 0;
   border-bottom: 1px solid blue;
-  display: inline-block;
 }
 
 a:hover {
@@ -58,9 +58,11 @@ p {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-
 }
 
+.elsewhere a {
+  border: none;
+}
 .strong {
   font-weight: 700;
 }
@@ -86,24 +88,22 @@ p {
     text-transform: uppercase;
 }
 
+.name {
+  margin: 0 0 20px 0;
+  text-align: center;
+}
+
 .hide {
-  display: none;
+  display: none !important;
 }
 
-.read-more-show, .read-more-hide {
-  border: 1px solid blue;
-  margin: 20px 0;
-  color: blue;
-  border-radius: 3px;
-  padding: 5px;
+.read-more-hide, .read-more-show {
+  font-size: 20px;
+  text-align: center;
+  border: none;
+  margin: 30px 0;
+  display: block;
 }
-
-.read-more-show:hover, .read-more-hide:hover {
-  background-color: blue;
-  color: white;
-  opacity: 1.0;
-}
-
 
 .caption {
   text-transform: uppercase;
@@ -116,10 +116,6 @@ p {
   width: 80%;
   padding: 10px 0;
   border-top: 2px dotted #ccc;
-}
-
-header {
-  margin: 70px 0 0 0;
 }
 
 .logo {
@@ -236,20 +232,10 @@ section:first-of-type {
   clear: both;
 }
 
-.about_img {
-  max-width: 300px;
-  float: left;
-  margin-right: 20px;
-}
-
 .centered {
   width: 70%;
   margin: 20px auto;
   text-align: center;
-}
-
-.centered img {
-  margin-top: 20px;
 }
 
 #container{
@@ -257,10 +243,6 @@ section:first-of-type {
   width: 65%;
   max-width: 750px;
   overflow: hidden;
-}
-
-header {
-  margin: 0 auto;
 }
 
 .quote {
@@ -275,15 +257,6 @@ header {
   box-shadow: 0 2px 5px rgba(0,0,0,0.15);
 }
 
-h1 {
-  text-align: center;
-  margin-bottom: 5px;
-}
-
-header p {
-  text-align: center;
-}
-
 img {
     display: block;
     height: auto;
@@ -296,19 +269,46 @@ img {
     max-width: none;
   }
 
+  .opening-headline {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 600;
+    margin: 0px;
+    line-height: 51px;
+  }
 
-  
+.me {
+  background: url(../img/me_small.png) no-repeat center;
+  width: 300px;
+  display: block;
+  height: 300px;
+  float: right;
+  margin: 20px 0 0 50px;
+}
+
+.me:hover {
+  transform: rotate(360deg);
+  -webkit-transform: rotate(360deg);
+  -moz-transform: rotate(360deg);
+}
+
+.emoji {
+    margin-top: 40px;
+    margin-left: 104px;
+    position: relative;
+    width: 90px;
+}
+
+.me:hover .emoji {
+  display: none;
+}
+
 @media (max-width : 450px) {
     #container {
       margin-top: 30px;
       width: 90%;
     }
 
-  .about_img {
-    width: 100%;
-    float: none;
-    margin: 0 auto;
-  }
     section {
       margin: 10px 0;
     }
@@ -328,6 +328,15 @@ img {
     h1 {
       font-size: 34px;
     }
+
+    .read-more-hide, .read-more-show {
+      margin: 10px 0;
+    }
+
+    .emoji {
+      display: none;
+    }
+
 
     .caption {
       width: 90%;
@@ -350,8 +359,14 @@ img {
       width: 100%;
     }
 
-    iframe {
-      width: 100%;
+    .opening-headline {
+      font-size: 24px;
+      line-height: 1.4em;
+    }
+
+    .me {
+      float: none;
+      margin: 0 auto;
     }
 }
 

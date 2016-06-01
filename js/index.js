@@ -1,11 +1,11 @@
-// Hide the extra content initially, using JS so that if JS is disabled, no problemo:
+// Hide show more content initially
 $('.read-more-content').addClass('hide')
 $('.read-more-show, .read-more-hide').removeClass('hide')
 
 // Set up the toggle effect:
 $('.read-more-show').on('click', function(e) {
   $(this).next('.read-more-content').removeClass('hide');
-  $(this).addClass('hide');
+  $('.read-more-show').addClass('hide');
   e.preventDefault();
 });
 
