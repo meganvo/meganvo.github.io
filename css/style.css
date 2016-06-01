@@ -132,7 +132,6 @@ p {
   box-shadow: 0 2px 5px rgba(0,0,0,0.15);
   font-size: 21px;
   text-align: center;
-  margin: 60px 0;
 }
 
 
@@ -141,11 +140,13 @@ p {
 .cardGroup {
   display: flex;
   border-radius: 4px;
-  overflow: hidden;
+  flex-wrap: wrap;
 }
 
 .card {
   display: flex;
+  min-width: 48%;
+  margin-right: 10px;
   flex-direction: column;
   border: 1px solid blue;
   border-radius: 3px;
@@ -156,9 +157,9 @@ p {
   flex: 1 1 0%; /* flex-basis 0% make equal width*/
 }
 
-.card:first-of-type {
+/*.card:first-of-type {
   margin-right: 10px;
-}
+}*/
 
 .card_description {
   text-align: center;
