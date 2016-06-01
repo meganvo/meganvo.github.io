@@ -100,8 +100,10 @@ p {
 .read-more-hide, .read-more-show {
   font-size: 20px;
   text-align: center;
-  border: none;
-  margin: 30px 0;
+  border: 1px dashed blue;
+  width: 50%;
+  margin: 10px auto;
+  padding: 10px 0;
   display: block;
 }
 
