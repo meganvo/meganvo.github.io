@@ -268,7 +268,7 @@ img {
 
   .full-width {
     width: 100%;
-    max-width: none;
+    max-width: 1800px;
   }
 
   .opening-headline {
@@ -287,10 +287,17 @@ img {
   background: url(../img/me_small.png) no-repeat center;
   width: 300px;
   height: 300px;
+}
+
+.left {
+  float: left;
+  margin-right: 50px;
+}
+
+.right {
   float: right;
   margin-left: 50px;
 }
-
 .me:hover {
   transform: rotate(360deg);
   -webkit-transform: rotate(360deg);
