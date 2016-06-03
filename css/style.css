@@ -89,7 +89,8 @@ p {
 }
 
 .name {
-  margin: 0;
+  margin-bottom: 10px;
+  color: white;
   text-align: center;
 }
 
@@ -99,11 +100,13 @@ p {
 
 .read-more-hide, .read-more-show {
   text-align: center;
-  border: 1px dashed blue;
+  border: 1px dashed white;
   width: 200px;
   margin: 0 auto;
   padding: 5px 0;
   display: block;
+  color: white;
+  border-radius: 3px;
 }
 
 .caption {
@@ -158,9 +161,6 @@ p {
   flex: 1 1 0%; /* flex-basis 0% make equal width*/
 }
 
-/*.card:first-of-type {
-  margin-right: 10px;
-}*/
 
 .card_description {
   text-align: center;
@@ -225,11 +225,11 @@ ul {
 section {
   margin: 40px auto;
 }
-
+/*
 section:first-of-type {
   margin-top: 70px;
 }
-
+*/
 .clear {
   clear: both;
 }
@@ -284,6 +284,20 @@ img {
     margin: 80px 0;
   }
 
+  .about-more a{
+    border-bottom: 1px solid white;
+  }
+
+.about {
+  background-color: blue;
+  margin: 0;
+  color: white;
+  padding: 50px 0;
+}
+
+.about a {
+  color: white;
+}
 .me {
   background: url(../img/me_small.png) no-repeat center;
   width: 300px;
@@ -326,10 +340,6 @@ img {
       margin: 10px 0;
     }
 
-    section:first-of-type {
-      margin-top: 30px;
-    }
-
     ul {
       width: 100%;
     }
@@ -355,18 +365,20 @@ img {
       display: none;
     }
 
-
     .caption {
       width: 90%;
       margin: 10px auto;
     }
-
-    .category {
-      margin: 0;
-    }
-
     .highlight {
       padding: 10px;
+    }
+
+    .about-more {
+      margin: 20px 0;
+    }
+
+    .about {
+      padding: 20px 0;
     }
 
     .cardGroup, .card, .card_description {
