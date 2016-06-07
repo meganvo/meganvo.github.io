@@ -405,6 +405,11 @@ img {
       display: none;
     }
 
+    .name { 
+      width: 100%;
+      padding-top: 0;
+      }
+
     .caption {
       width: 90%;
       margin: 10px auto;
