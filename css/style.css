@@ -152,17 +152,6 @@ a:hover {
   border-top: 2px dotted #ccc;
 }
 
-.highlight {
-  background: #F7F7FF;
-  border: 1px solid #D4D4FF;
-  border-radius: 3px;
-  padding: 25px;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.15);
-  font-size: 21px;
-  text-align: center;
-}
-
-
 /*Cards*/
 
 .cardGroup {
@@ -440,7 +429,7 @@ img {
       margin: 30px 0;
     }
 
-    .button, .read-more-hide, .read-more-show {
+    .button {
       margin: 10px 0;
       width: 100%;
     }
@@ -449,11 +438,6 @@ img {
       display: none;
     }
 
-    .read-more-hide, .read-more-show {
-      padding: 20px 0;
-      font-size: 60px;
-      margin-top: 0;
-    }
 
     .caption {
       width: 90%;
@@ -479,11 +463,6 @@ img {
 
     .cardGroup, .card, .card_description {
     display: block;
-    }
-
-    .opening-headline {
-      font-size: 24px;
-      line-height: 1.4em;
     }
 
     .me {
