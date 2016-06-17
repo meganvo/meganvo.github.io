@@ -126,10 +126,11 @@ a:hover {
 
 .read-more-hide, .read-more-show {
     display: inline-block;
-    font-size: 70px;
-    margin-left: -10px;
+    font-size: 20px;
+    margin-left: 0px;
     border: 0;
     font-weight: 700;
+    border-bottom: 1px solid;
 }
 
 .read-more-hide:hover, .read-more-show:hover {
@@ -137,11 +138,6 @@ a:hover {
   opacity: 1;
 }
 
-.read-more-hide {
-  transform: rotate(180deg);
-  -webkit-transform: rotate(180deg);
-  -moz-transform: rotate(180deg);
-}
 
 /*Project Pages*/
 
