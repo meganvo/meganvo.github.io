@@ -532,7 +532,7 @@ blockquote img {
 }
 
 .half p {
-  padding: 0;
+  padding: 0 0 30px 0;
 }
 
 .right {
@@ -1072,6 +1072,10 @@ blockquote img {
   border-radius: 50px;
   margin: 0 0 12px 0;
   border: 2px solid #ccc;
+}
+
+section h2, .decorative {
+  font-size: 24px;
 }
 
 .credit {
