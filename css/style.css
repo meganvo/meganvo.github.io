@@ -9,7 +9,7 @@ html {
   transition: all 0.2s ease-out;
 }
 
-body{
+body {
   font-weight: 400;
   font-size: 18px;
   margin: 0;
@@ -140,18 +140,18 @@ a:hover {
 }
 
 .card {
-    display: flex;
-    min-width: 48%;
-    max-width: 48%;
-    margin-right: 10px;
-    flex-direction: column;
-    border-radius: 3px;
-    overflow: hidden;
-    margin-top: 10px;
-    flex: 1 1 0%;
-    background: #fff;
-    box-shadow: 0 1px 4px rgba(0,0,0,.08);
-    border: 1px solid rgba(0,0,0,.09);
+  display: flex;
+  min-width: 48%;
+  max-width: 48%;
+  margin-right: 10px;
+  flex-direction: column;
+  border-radius: 3px;
+  overflow: hidden;
+  margin-top: 10px;
+  flex: 1 1 0%;
+  background: #fff;
+  box-shadow: 0 1px 4px rgba(0,0,0,.08);
+  border: 1px solid rgba(0,0,0,.09);
 }
 
 .card:hover {
@@ -224,58 +224,31 @@ section {
   overflow: hidden;
 }
 
-
-/*Footer*/
-
-.footer_content {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+.left_float {
+  float: left;
+  margin-right: 50px;
 }
 
-footer p {
-  color: white;
-  font-size: 15px;
-  margin: 0;
-}
-
-footer a {
-  color: white;
-}
-
-.footer_section {
-  display: flex;
-  justify-content: space-between;
-}
-
-.footer_item {
-  font-size: 15px;
-  padding: 5px 15px;
+.right_float {
+  float: right;
+  margin-left: 50px;
 }
 
 /* Image Styles */
 
 img {
-    display: block;
-    height: auto;
-    margin: 0 auto;
-    max-width: 900px;
-  }
+  display: block;
+  height: auto;
+  margin: 0 auto;
+  max-width: 900px;
+}
 
 .full-width {
   width: 100%;
   max-width: 1800px;
-  }
-
-.about-more {
-  width: auto;
-  margin: 80px 0;
 }
 
-.about-more a{
-    border-bottom: 1px solid #2000B0;
-    color: #2000B0 !important;
-}
+/* Top Section */
 
 .about-section {
   margin: 0 0 60px 0;
@@ -286,9 +259,8 @@ img {
 }
 
 .about-section h1 {
-  margin: 20px 0;
+  margin: 10px 0;
 }
-
 
 .about-section:after {
   background: linear-gradient(-20deg, #ffffff 5px, transparent 0), linear-gradient(20deg, #ffffff 5px, transparent 0);
@@ -309,10 +281,9 @@ img {
   margin-right: 10px;
 }
 
-
-.background-pink {
-    background-color: #FFF6F5;
-    color: #2000B0;
+.about-more {
+  width: auto;
+  margin: 80px 0;
 }
 
 .me {
@@ -322,14 +293,9 @@ img {
   height: 300px;
 }
 
-.left_float {
-  float: left;
-  margin-right: 50px;
-}
-
-.right_float {
-  float: right;
-  margin-left: 50px;
+.background-pink {
+  background-color: #FFF6F5;
+  color: #2000B0;
 }
 
 .me:hover {
@@ -339,10 +305,10 @@ img {
 }
 
 .emoji {
-    margin-top: 40px;
-    margin-left: 104px;
-    position: relative;
-    width: 90px;
+  margin-top: 40px;
+  margin-left: 104px;
+  position: relative;
+  width: 90px;
 }
 
 .me:hover .emoji {
