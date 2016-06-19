@@ -19,6 +19,20 @@ body {
   line-height: 1.8em;
 }
 
+/* Animations */
+.w3-animate-opacity-slow{-webkit-animation:opac 3.5s;animation:opac 3.5s}
+@-webkit-keyframes opac{from{opacity:0} to{opacity:1}}
+@keyframes opac{from{opacity:0} to{opacity:1}}
+
+.w3-animate-opacity-medium{-webkit-animation:opac 2.5s;animation:opac 2.5s}
+@-webkit-keyframes opac{from{opacity:0} to{opacity:1}}
+@keyframes opac{from{opacity:0} to{opacity:1}}
+
+.w3-animate-opacity-fast{-webkit-animation:opac 1.5s;animation:opac 1.5s}
+@-webkit-keyframes opac{from{opacity:0} to{opacity:1}}
+@keyframes opac{from{opacity:0} to{opacity:1}}
+
+
 /*Typography*/ 
 
 h1 {
