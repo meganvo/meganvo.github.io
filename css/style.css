@@ -37,22 +37,23 @@ body {
 
 h1 {
   font-family: 'Karla', sans-serif;
-  font-size: 41px;
+  font-size: 38px;
   margin-bottom: 20px;
-  line-height: 44px;
-  letter-spacing: -1.5px;
+  line-height: 1.4em;
+  letter-spacing: -1px;
 }
 
 h3 {
   margin: 0 0 5px 0;
   padding: 0;
-  font-size: 20px;
+  font-size: 18px;
 }
 
 p {
-  line-height: 1.5em;
-  margin: 30px 0;
+  line-height: 1.6em;
+  margin: 10px 0;
   padding: 0;
+  font-size: 18px;
 }
 
 .strong {
@@ -113,6 +114,7 @@ a:hover {
   display: inline-block;
   text-align: center;
   width: 200px;
+  margin: 20px 0;
   padding: 5px 0;
   display: block;
   color: white;
@@ -273,8 +275,9 @@ img {
 }
 
 .about-section h1 {
-  margin: 10px 0;
+  margin: 5px 0;
 }
+
 
 .about-section:after {
   background: linear-gradient(-20deg, #ffffff 5px, transparent 0), linear-gradient(20deg, #ffffff 5px, transparent 0);
@@ -303,8 +306,8 @@ img {
 .me {
   background: url(../img/me.png) no-repeat center;
   background-size: cover;
-  width: 300px;
-  height: 300px;
+  width: 350px;
+  height: 350px;
 }
 
 .background-pink {
@@ -319,8 +322,8 @@ img {
 }
 
 .emoji {
-  margin-top: 40px;
-  margin-left: 104px;
+  margin-top: 50px;
+  margin-left: 126px;
   position: relative;
   width: 90px;
 }
@@ -370,11 +373,17 @@ img {
     }
 
     h1 {
-      font-size: 34px;
+      font-size: 24px;
+      letter-spacing: 0px;
     }
 
-    .about-section h2 {
-      margin-bottom: 20px;
+    h2, h3, p {
+      font-size: 18px;
+      line-height: 1.4em;
+    }
+
+    .about-section h1 {
+      margin: 10px 0;
     }
 
     .read-more-content {
@@ -390,14 +399,9 @@ img {
       display: none;
     }
 
-
     .caption {
       width: 90%;
       margin: 10px auto;
-    }
-
-    .highlight {
-      padding: 10px;
     }
 
     .about-section {
