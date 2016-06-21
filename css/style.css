@@ -315,6 +315,14 @@ img {
   color: #2000B0;
 }
 
+.background-lightblue {
+  background-color: #23adca;
+}
+
+.background-orange {
+  background-color: #CA4300;
+}
+
 .me:hover {
   transform: rotate(360deg);
   -webkit-transform: rotate(360deg);
