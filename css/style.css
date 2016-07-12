@@ -77,11 +77,11 @@ p {
 }
 
 .quote {
-  font-size: 48px;
+  font-size: 23px;
   padding: 25px;
-  width: 80%;
+  width: 90%;
   margin: 0 auto;
-  line-height: 1.3em;
+  line-height: 1.7em;
 }
 
 /* Links */
