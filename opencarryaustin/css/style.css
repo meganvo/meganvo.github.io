@@ -33,10 +33,10 @@ h2 {
   line-height: 1.6em;
 }
 
-h3 {
+h3 {  text-transform: uppercase;
+
   font-weight: 400;
   font-size: 18px;
-  text-transform: uppercase;
   line-height: 1.6em;
   letter-spacing: 1.5px;
 }
@@ -54,9 +54,9 @@ a:hover {
 }
 
 p {
-  font-size: 23px;
+  font-size: 19px;
   color: #5E5D5A;
-  line-height: 34px;
+  line-height: 31px;
 }
  
 section {

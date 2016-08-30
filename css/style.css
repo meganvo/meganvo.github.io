@@ -56,6 +56,14 @@ p {
   font-size: 18px;
 }
 
+.da {
+  color: red;
+}
+
+header p {
+  margin: 30px;
+}
+
 .strong {
   font-weight: 700;
 }
@@ -84,6 +92,10 @@ p {
   line-height: 1.7em;
 }
 
+#profile_links sup {
+  color: red;
+}
+
 /* Links */
 
 a {
@@ -97,8 +109,13 @@ a:hover {
   opacity: .6;
 }
 
+#profile_links a {
+  border-bottom: 0;
+}
+
 .dark_bg_button {
   border: 1px solid #fff!important;
+  margin: 0 auto!important;
 }
 
 .button:hover {
@@ -119,17 +136,6 @@ a:hover {
   display: block;
   color: white;
   border-radius: 3px;
-}
-
-.read-more-hide, .read-more-show {
-    display: inline-block;
-    font-size: 20px;
-    margin-left: 0px;
-    color: white;
-    padding: 5px 55px;
-    border-radius: 3px;
-    font-weight: 700;
-    background-color: #2000B0;
 }
 
 /*Project Pages*/
@@ -213,6 +219,7 @@ a:hover {
 
 header {
   margin: 50px 0;
+  text-align: center;
 }
 ul {
   padding: 0;
@@ -381,7 +388,7 @@ img {
     }
 
     h1 {
-      font-size: 24px;
+      font-size: 28px;
       letter-spacing: 0px;
     }
 
