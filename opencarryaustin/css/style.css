@@ -140,16 +140,6 @@ ul li:last-of-type {
   width: 100%;
 }
 
-.austin {
-  font-family: 'Muli';
-  font-weight: 400;
-  font-size: 14px;
-  text-align: center;
-  letter-spacing: 3.5px;
-  margin: 0;
-  padding: 0;
-  color: white;
-}
 
 .video {
     padding: 60px 0;
@@ -182,7 +172,7 @@ blockquote p {
   font-family: 'Muli';
   font-size: 15px;
   font-weight: 300;
-  text-align: center;
+  text-align: left;
   letter-spacing: .5px;
   color: white;
   padding-top: 0;
@@ -198,7 +188,7 @@ blockquote img {
 .credit {
   float: left;
   width: 30%;
-  text-align: center;
+  text-align: left;
   margin: 10px 0;
 }
 .name {
@@ -226,7 +216,7 @@ blockquote img {
 #container{
   width: 100%;    
   background: white;
-  text-align: center;
+  text-align: left;
   margin: 0 auto;    
 }
 
@@ -433,7 +423,7 @@ blockquote img {
   letter-spacing: 0.1px;
   line-height: 1.3em;
   text-transform: none;
-  text-align: center;
+  text-align: left;
 }
 
 .background--blue {
@@ -463,6 +453,7 @@ blockquote img {
   background-color: white;
   width: 100%;
   padding: 20px;
+  text-align: center;
   min-height: 180px;
   backface-visibility: hidden;
   -webkit-backface-visibility: hidden;
@@ -501,7 +492,7 @@ blockquote img {
   padding: 0px 0 20px 0px;
   margin: 30px 10px 0 0;
   display: block;
-  text-align: center;
+  text-align: left;
 }
 
 .prohibit_locations h3 {
@@ -529,7 +520,7 @@ blockquote img {
   padding: 4%;
   float: left;
   border-right: 2px dashed #ccc;
-  text-align: center;
+  text-align: left;
   margin: 40px 0;
 
 }
@@ -541,7 +532,7 @@ blockquote img {
   font-size: 41px;
   line-height: 1.4em;
   margin: 20px auto;
-  text-align: center;
+  text-align: left;
 }
 
 .half p {
@@ -909,6 +900,10 @@ a.back-to-top {
 
 @media (max-width: 770px) {
 
+  header h1 {
+      font-size: 44px;
+  }
+
   .quote-container, blockquote, .quote-container #resources-toggle, .license, .two, .gun_choice1,  .gun_choice2,  .gun_choice3,  .gun_choice4, .prohibit_locations, .video-content, #toggle-view, .sign {
     width: 100%;
   }
@@ -1056,14 +1051,14 @@ a.back-to-top {
   .right {
     border: none;
   }
-  .half h1 {
-    text-align: center;
-  }
 
   .btn {
     margin: 20px 0 0 0;
   }
 
+.callout {
+  padding: 50px 0;
+}
   blockquote {
     padding: 40px 0px;
     margin: 10px auto;
