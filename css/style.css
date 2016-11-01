@@ -310,13 +310,6 @@ img {
   margin: 80px 0;
 }
 
-.me {
-  background: url(../img/me.png) no-repeat center;
-  background-size: cover;
-  width: 350px;
-  height: 350px;
-}
-
 .background-pink {
   background-color: #FFF6F5;
   color: #2000B0;
@@ -324,27 +317,11 @@ img {
 
 .background-lightblue {
   background-color: #23adca;
+  color: white !important;
 }
 
 .background-orange {
   background-color: #CA4300;
-}
-
-.me:hover {
-  transform: rotate(360deg);
-  -webkit-transform: rotate(360deg);
-  -moz-transform: rotate(360deg);
-}
-
-.emoji {
-  margin-top: 50px;
-  margin-left: 126px;
-  position: relative;
-  width: 90px;
-}
-
-.me:hover .emoji {
-  display: none;
 }
 
 @media (max-width : 800px) {
@@ -414,10 +391,6 @@ img {
       width: 100%;
     }
 
-    .emoji {
-      display: none;
-    }
-
     .caption {
       width: 90%;
       margin: 10px auto;
@@ -440,9 +413,5 @@ img {
     display: block;
     }
 
-    .me {
-      float: none;
-      margin: 0 auto;
-    }
 }
 
