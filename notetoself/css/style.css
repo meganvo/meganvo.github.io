@@ -161,6 +161,12 @@ a:hover {
   font-weight: 400;
 }
 
+@media (min-width : 800px) {
+  .btn {
+    display: none;
+  }
+}
+
 @media (max-width : 800px) {
   body {
     padding: 20px 20px;
