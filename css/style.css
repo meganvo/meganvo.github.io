@@ -146,27 +146,18 @@ a:hover {
 
 .cardGroup {
   display: flex;
-  border-radius: 4px;
   flex-wrap: wrap;
 }
 
 .card {
   display: flex;
-  min-width: 48%;
-  max-width: 48%;
-  margin-right: 10px;
+  min-width: 47%;
+  max-width: 47%;
   flex-direction: column;
   border-radius: 3px;
   overflow: hidden;
-  margin-top: 10px;
+  margin: 20px 20px 20px 0;
   flex: 1 1 0%;
-  background: #fff;
-  box-shadow: 0 1px 4px rgba(0,0,0,.08);
-  border: 1px solid rgba(0,0,0,.09);
-}
-
-.card:hover {
-  box-shadow: 0 2px 5px rgba(0,0,20,0.25);
 }
 
 .card_header {
@@ -180,24 +171,14 @@ a:hover {
   background-position: center;
 }
 
-.card_description {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  font-size: 16px;
-  padding: 20px;
-  flex: 1 1 auto;
+.card .fa {
+  float:right;
+  font-size: 18px;
 }
 
-.card_descriptionTitle {
-  font-weight: 700;
-  line-height: 1.4em;
- }
-
-.card_descriptionText {
-  line-height: 21px;
- }
-
+.card h2 {
+  line-height: 18px;
+}
 .card a {
   border-bottom: none;
   font-weight: 700;
@@ -413,7 +394,6 @@ img {
     }
 
     h2, h3, p {
-      font-size: 18px;
       line-height: 1.4em;
     }
 
