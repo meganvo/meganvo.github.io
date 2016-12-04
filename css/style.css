@@ -180,71 +180,68 @@ a:hover {
 
 .case_study {
   text-align: left;
-
-}
-
-.case_study h1 {
-  border-bottom: 0;
-  margin: 30px 0 0 0;
-  padding: 0;
-  font-weight: 400;
-  font-size: 34px;
-  line-height: 18px;
 }
 
 .case_study p {
-  margin: 20px 0 0 0;
-  width: 80%;
+  margin: 0;
+  width: 100%;
 }
-
-
 
 .img_frame {
   position: relative;
   overflow: hidden;
-  background-color: #2000B0;
-  max-width: 800px;
-  margin-top: 30px;
+background-image: linear-gradient(-236deg, #003573 21%, #007BD0 92%);  max-width: 800px;
   margin-bottom: 100px;
 }
 
-.img_frame img {
+.case_study img {
   width: 100%;
   transition: all 0.4s ease-in-out;
 }
 
-.img_frame a:hover {
+.case_study a:hover {
   opacity: 1;
 }
 
-.img_frame:hover img {
+.case_study:hover img {
   opacity: .2;
   -webkit-transform: scale(1.2);
   -moz-transform: scale(1.2);
   transform: scale(1.2);
 }
 
-.img_frame .cta  {
-  position: absolute;
-  opacity: 0;
-  color: #FFF6F5;
-  left: 0;
-  right: 0;
-  top: 50%;
-  margin-left: auto;
-  margin-right: auto;
-}
 
-
-.img_frame:hover .cta {
+.case_study:hover .cta {
   opacity: 1;
 }
 
+.title {
+  opacity: 1;
+  color: #212121;
+  width: 100%;
+  padding: 20px;
+  background-color: #f4f4f4;
+  border-radius: 3px;
+  border: 1px solid #e0e0e0;
+}
+
+
+.img_frame .cta  {
+  position: absolute;
+  margin: auto;
+  left: 0; 
+  bottom: 0; 
+  right: 0;
+  top: 45%;
+  opacity: 0;
+  color: #FFF6F5;
+}
+
 .cta p {
-  font-size: 20px;
   text-align: center;
-  margin: 0 auto;
-  line-height: 12px;
+  font-size: 1.5em;
+  margin: 0 0 0 0px;
+  line-height: 0;
 }
 
 
@@ -421,6 +418,11 @@ img {
     .about-section {
       padding: 20px 0;
     }
+
+    .about-section p {
+  width: 100%;
+}
+
 
     .about-more {
       margin: 20px 0;
