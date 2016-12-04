@@ -434,7 +434,9 @@ img {
   margin-bottom: 20px;
 }
 
-
+#profile_links a {
+  font-size: 24px;
+}
     .about-more {
       margin: 20px 0;
     }
