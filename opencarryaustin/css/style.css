@@ -188,7 +188,7 @@ blockquote img {
 .credit {
   float: left;
   width: 30%;
-  text-align: left;
+  text-align: center;
   margin: 10px 0;
 }
 .name {
