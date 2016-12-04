@@ -343,29 +343,9 @@ img {
   margin: 5px 0;
 }
 
-
-.about-section:after {
-  background: linear-gradient(-20deg, #ffffff 5px, transparent 0), linear-gradient(20deg, #ffffff 5px, transparent 0);
-  background-position: left-bottom;
-  background-repeat: repeat-x;
-  background-size: 15px 15px;
-  content: " ";
-  display: block;
-  position: absolute;
-  bottom: 0px;
-  left: 0px;
-  width: 100%;
-  height: 15px;
-}
-
 .about-section ul li {
   display: inline;
   margin-right: 10px;
-}
-
-.about-more {
-  width: auto;
-  margin: 80px 0;
 }
 
 .background-pink {
@@ -396,8 +376,9 @@ img {
       float: none;
     }
 
-        .case_study h3{
-  width: 100%;
+  .case_study h3{
+    width: 100%;
+  }
 }
 
 @media (max-width : 550px) {
@@ -444,10 +425,6 @@ img {
       margin: 10px 0;
     }
 
-    .read-more-content {
-      margin: 30px 0;
-    }
-
     .button {
       margin: 10px 0;
       width: 100%;
@@ -474,8 +451,5 @@ img {
     .cardGroup, .card, .card_description {
     display: block;
     }
-
-
-
 }
 
