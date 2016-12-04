@@ -142,46 +142,32 @@ a:hover {
   border-bottom: 0;
   }
 
-/*Cards*/
 
-.cardGroup {
-  display: flex;
-  flex-wrap: wrap;
-}
+  .project {
+    width: 47%;
+    margin: 0 20px 40px 0;
+    float: left;
+  }
 
-.card {
-  display: flex;
-  min-width: 47%;
-  max-width: 47%;
-  flex-direction: column;
-  border-radius: 3px;
-  overflow: hidden;
-  margin: 20px 20px 20px 0;
-  flex: 1 1 0%;
-}
 
-.card_header {
-  position: relative;
-  display: block;
-  height: 200px;
-  width: 100%;
-  overflow: hidden;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-}
+  .project img {
+    width: 100%;
+  }
 
-.card .fa {
+
+.project .fa {
   float:right;
   font-size: 18px;
+  line-height: 41px;
 }
 
-.card h2 {
-  line-height: 18px;
-}
-.card a {
+.project a {
   border-bottom: none;
   font-weight: 700;
+}
+
+.project h2 {
+  margin: 10px 0 0 0;
 }
 
 /* Case Studies */
@@ -194,13 +180,16 @@ a:hover {
   border-bottom: 0;
 }
 
-.case_study h2 {
+.case_study h1 {
   font-weight: 700;
+  margin-bottom: 0;
+}
+
+.case_study h2 {
   margin-bottom: 10px;
+  margin-top: 0;
 }
-.case_study h3{
-  width: 80%;
-}
+
 
 .img_frame {
   position: relative;
@@ -208,6 +197,7 @@ a:hover {
   background-color: #2000B0;
   max-width: 800px;
   border-radius: 3px;
+  margin-top: 50px;
 }
 
 .img_frame img {
@@ -329,6 +319,10 @@ img {
   margin-right: 10px;
 }
 
+.about-section a {
+  color: white;
+}
+
 .background-pink {
   background-color: #FFF6F5;
   color: #2000B0;
@@ -344,9 +338,9 @@ img {
 }
 
 @media (max-width : 800px) {
-   .card {
-      min-width: 100%;
-      max-width: 100%;
+   .project {
+      width: 100%;
+
     }
 
     .right {
@@ -428,8 +422,6 @@ img {
       margin-bottom: 20px;
     }
 
-    .cardGroup, .card, .card_description {
-    display: block;
-    }
+  
 }
 
