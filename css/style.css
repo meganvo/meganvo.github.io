@@ -13,7 +13,7 @@ body {
   font-size: 18px;
   margin: 0;
   background-color: #FFF;
-  color: #4a4a4a;
+  color: #212121;
   text-align: left;
   line-height: 1.8em;
 }
@@ -82,7 +82,6 @@ p {
 }
 
 #profile_links {
-  float: right;
   margin-top: 15px;
 }
 
@@ -381,7 +380,7 @@ float: none;
     }
 
     img {
-      width: 98%;
+      width: 100%;
       margin: 0 auto;
     }
 
