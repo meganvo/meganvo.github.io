@@ -796,10 +796,6 @@ footer {
   display: block;
   height: 200px;
   margin: 50px auto;
-  -webkit-box-shadow: 11px 20px 169px -34px rgba(0,0,0,0.35);
--webkit-box-shadow: 11px 20px 169px -34px rgba(0,0,0,0.92);
--moz-box-shadow: 11px 20px 169px -34px rgba(0,0,0,0.92);
-box-shadow: 11px 20px 169px -34px rgba(0,0,0,0.92);
 }
 
 .me:hover {
