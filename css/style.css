@@ -143,14 +143,6 @@ a:hover {
   }
 
 
-  .project {
-    width: 47%;
-    margin: 0 20px 50px 0;
-    float: left;
-  }
-
-
-
 /* Case Studies */
 
 .case_study {
@@ -322,10 +314,6 @@ img {
 }
 
 @media (max-width : 1000px) {
-   .project {
-      width: 100%;
-float: none;
-    }
 
     .right {
       float: none;
@@ -424,9 +412,6 @@ float: none;
       margin-bottom: 20px;
     }
 
-.project {
-  margin-bottom: 40px;
-}
   
 }
 
