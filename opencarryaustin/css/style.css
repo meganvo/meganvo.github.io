@@ -896,6 +896,10 @@ a.back-to-top {
 
 @media (max-width: 770px) {
 
+  .half, .half .right, .callout, .inner_content, .decorative, .half h1 {
+    text-align: center;
+  }
+
   header h1 {
       font-size: 44px;
   }
@@ -955,8 +959,10 @@ a.back-to-top {
   }
 
   .gun_choice1 img, .gun_choice2 img, .gun_choice3 img, .gun_choice4 img {
-    width: 90%;
     height: auto;
+    margin: 0 auto;
+    max-width: none;
+    padding: 0;
   }
 
   header, .list--label, .inner_content, .footer_content, .graph img, .callout__content {
