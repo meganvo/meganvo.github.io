@@ -64,12 +64,19 @@ header nav h1 a {
   line-height: 0;
   margin-bottom: 40px;
   padding-top: 155px;
+    background-color: #f4f4f4;
+
 }
 
 .project_hero img {
   margin: 0 auto;
   width: 70%;
   padding: 0;
+  border-top: 1px solid #ccc;
+
+  border-right: 1px solid #ccc;
+
+  border-left: 1px solid #ccc;
 }
 
 .project_hero h1{
@@ -358,19 +365,6 @@ img {
   color: #2000B0;
 }
 
-.background-lightgrey {
-  background-color: #f5f5f5;
-  color: #212121;
-}
-
-.background-lightblue {
-  background-color: #F4FBFD;
-}
-
-.background-orange {
-  background-color: #CA4300;
-}
-
 @media (max-width : 1000px) {
 
     .right {
@@ -415,7 +409,6 @@ img {
 
     h1 {
       font-size: 28px;
-      letter-spacing: 0px;
     }
 
     h2, h3, p {
