@@ -25,6 +25,7 @@ header nav {
   text-align: center;
   padding: 0 80px;
   border-bottom: 1px solid #f5f5f5;
+  z-index: 99;
 }
 
 header nav span {
@@ -32,22 +33,35 @@ header nav span {
   color: #757575;
 }
 
-header nav a {
-  color: blue;
+
+
+.sub_nav a {
+    color: blue;
     text-decoration: none;
     display: inline-block;
     padding: 10px 10px;
     font-size: 13px;
-    text-transform: uppercase;z
-    z-index: 4;
-
+    text-transform: uppercase;
 }
 
+header nav h2 {
+  float: left;
+}
+
+header nav h2 a {
+  color: #212121;
+}
+
+.sub_nav {
+  float:right;
+  margin-top: 15px;
+}
 
 .project_hero {
   text-align: center;
   line-height: 0;
   margin-bottom: 40px;
+  padding-top: 155px;
 }
 
 .project_hero img {
@@ -59,7 +73,6 @@ header nav a {
 .project_hero h1{
   margin: 0;
   font-size: 52px;
-  padding-top: 130px;
 
 }
 
