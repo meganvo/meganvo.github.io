@@ -35,26 +35,28 @@ header nav span {
 
 
 
-.sub_nav a {
+.sub_nav h3 a {
     color: blue;
     text-decoration: none;
     display: inline-block;
-    padding: 10px 10px;
-    font-size: 13px;
-    text-transform: uppercase;
+    padding: 0px 10px;
 }
 
-header nav h2 {
+header nav h1 {
   float: left;
+  font-family: 'Karla';
+  text-transform: uppercase;
+  font-size: 14px;
+  letter-spacing: 1px;
+  line-height: 0;
+  margin-top: 27px;
 }
 
-header nav h2 a {
+header nav h1 a {
   color: #212121;
 }
-
 .sub_nav {
   float:right;
-  margin-top: 15px;
 }
 
 .project_hero {
@@ -72,12 +74,14 @@ header nav h2 a {
 
 .project_hero h1{
   margin: 0;
-  font-size: 52px;
+  font-size: 65px;
 }
 
 .project_hero p{
   margin: 0 0 70px 0;
   color: #757575;
+  font-size: 32px;
+  letter-spacing: -1px;
 }
 /*Typography*/ 
 
@@ -143,9 +147,6 @@ p {
   color: red;
 }
 
-#profile_links {
-  margin-top: 15px;
-}
 
 /* Links */
 
@@ -334,7 +335,6 @@ img {
 .about-section h1 {
   margin: 55px 0 85px 0;
   font-size: 48px;
-  font-weight: 300;
 }
 
 .about-section ul li {
@@ -468,6 +468,9 @@ header nav {
   display: none;
 }
 
+.project_hero {
+  padding-top: 0;
+}
 .project_hero h1 {
   padding-top: 40px;
 }
