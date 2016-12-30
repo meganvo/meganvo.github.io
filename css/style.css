@@ -406,7 +406,6 @@ img {
     }
 
     h2, h3, p {
-      line-height: 1.4em;
     }
 
     header p {
@@ -415,7 +414,7 @@ img {
 
     .about-section h1 {
       margin: 10px 0;
-      font-size: 34px;
+      font-size: 24px;
     }
 
     .button {
