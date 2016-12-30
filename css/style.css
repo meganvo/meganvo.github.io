@@ -18,6 +18,8 @@ body {
   line-height: 1.8em;
 }
 
+/*Navigation*/
+
 nav {
   background-color: white;
   position: fixed;
@@ -33,14 +35,6 @@ nav span {
   color: #757575;
 }
 
-
-
-.sub_nav h3 a {
-    color: blue;
-    text-decoration: none;
-    display: inline-block;
-    padding: 0px 10px;
-}
 
 nav h1 {
   float: left;
@@ -59,13 +53,21 @@ nav h1 a {
   float:right;
 }
 
+.sub_nav h3 a {
+    color: blue;
+    text-decoration: none;
+    display: inline-block;
+    padding: 0px 10px;
+}
+
+/* Project Hero */
+
 .project_hero {
   text-align: center;
   line-height: 0;
   margin-bottom: 40px;
   padding-top: 155px;
-    background-color: #f4f4f4;
-
+  background-color: #f4f4f4;
 }
 
 .project_hero img {
@@ -73,9 +75,7 @@ nav h1 a {
   width: 70%;
   padding: 0;
   border-top: 1px solid #ccc;
-
   border-right: 1px solid #ccc;
-
   border-left: 1px solid #ccc;
 }
 
@@ -89,13 +89,15 @@ nav h1 a {
   color: #757575;
   font-size: 32px;
 }
+
 /*Typography*/ 
 
 h1 {
-font-family: 'Forum', serif;
+  font-family: 'Forum', cursive;
   font-size: 38px;
   margin-bottom: 20px;
   line-height: 1.2em;
+  letter-spacing: 0px;
 }
 
 h2 {
@@ -159,7 +161,6 @@ p {
 a {
   color: #2000B0;
   text-decoration: none;
-
 }
 
 a:hover {
@@ -196,7 +197,7 @@ a:hover {
 
 .back a {
   border-bottom: 0;
-  }
+}
 
 
 /* Case Studies */
@@ -216,6 +217,7 @@ a:hover {
 .case_study h1 {
   margin-bottom: 0;
 }
+
 .img_frame {
   position: relative;
   overflow: hidden;
@@ -274,7 +276,6 @@ a:hover {
 }
 
 /*Layout*/
-
 
 ul {
   padding: 0;
@@ -357,11 +358,6 @@ img {
 }
 .about-section p {
   line-height: 1.5em;
-}
-
-.background-pink {
-  background-color: #FFF6F5;
-  color: #2000B0;
 }
 
 @media (max-width : 1000px) {
@@ -448,9 +444,6 @@ img {
 #profile_links a {
   font-size: 24px;
 }
-    .about-more {
-      margin: 20px 0;
-    }
 
     .about {
       padding: 20px 0;
