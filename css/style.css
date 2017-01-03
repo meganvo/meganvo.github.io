@@ -1,4 +1,4 @@
-html {
+wehtml {
   box-sizing: border-box;
   height: 100%;
   font-family: 'Libre Franklin', 'Times New Roman', serif;
@@ -80,14 +80,12 @@ nav h1 a {
 
 .project_hero h1{
   margin: 0;
-  font-size: 65px;
-  font-weight: 900;
+  font-size: 55px;
 }
 
-.project_hero p{
+.project_hero h2{
   margin: 0 0 70px 0;
   color: #757575;
-  font-size: 32px;
 }
 
 /*Typography*/ 
@@ -259,7 +257,7 @@ a:hover {
   left: 0; 
   bottom: 0; 
   right: 0;
-  top: 45%;
+  top: 50%;
   opacity: 0;
   color: #FFF6F5;
 }
@@ -447,7 +445,7 @@ img {
       padding: 20px 0;
       margin-bottom: 20px;
     }
-header nav {
+nav {
   display: none;
 }
 
@@ -455,7 +453,7 @@ header nav {
   padding-top: 0;
 }
 .project_hero h1 {
-  padding-top: 40px;
+  padding-top: 20px;
 }
 
 .project_hero h2 {

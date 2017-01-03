@@ -6,76 +6,87 @@
 	<meta name="keywords" content="product designer, austin, portfolio">
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 	<link rel="stylesheet" href="css/style.css">
-	  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
-
-	<link href='https://fonts.googleapis.com/css?family=Karla:400,400italic,700,700italic' rel='stylesheet' type='text/css'>
-	<link rel="stylesheet" href="css/font-awesome-4.6.3/css/font-awesome.min.css"> 
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+	<link rel="stylesheet" href="css/font-awesome-4.6.3/css/font-awesome.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Libre+Franklin:300,400,900" rel="stylesheet">
 </head>
 
 <body>
-	<header>
-		<nav>	
-			<h2><a href="index.html">Megan Vo</a></h2>
-			<div class="sub_nav">
-				<span>JUMP TO:</span>
-				<a href="#process" class="strong">Proposal Process</a>
-				<a href="#comparison" class="strong">Price Analysis</a>
-				<a href="#pattern_library" class="strong">Pattern Library</a>
-				<a href="#marketing" class="strong">Marketing</a>
-			</div>
-		</nav>
-	</header>
+	<nav>	
+		<h1><a href="index.html">Megan Vo</a></h1><div id="container">
+		<div class="sub_nav">
+			<h3><a href="#process" class="strong">Bidding Process</a>
+			<a href="#comparison" class="strong">Price Analysis</a>
+			<a href="#pattern_library" class="strong">Pattern Library</a>
+			<a href="#marketing" class="strong">Marketing</a></h3>
+		</div></div>
+	</nav>
 
-	<div class="project_hero background-lightblue">
-		<h1 class="strong">RigUp</h1>
+	<div class="project_hero">
+		<h1>RigUp</h1>
 		<h2>Making it easy to bid out complex oilfield jobs</h2>
-		<div class="animated fadeInUp"><img src="img/bidding_thumb.png"></div>
+		<div class="animated fadeInUp"><img src="img/rigup_thumb.png"></div>
 	</div>	
 
 	<!--         Process          -->
 	<div id="container">
 		<a id="process"></a>
-		<h2 class="strong">Proposal Process</h2>
-			<p>One of the first problems I tackled  was how we could improve the bidding process from beginning to end in the energy industry. This is when buyers bid out work to vendors and select who wins to perform the job. The process is scattered throughout faxes, phone calls, and a Rolodex. It's inefficent and not a secure way to protect confidential data.</p>
-
-			<h3>Submitting the request</h3>
-			<p>The process for creating a request rapidly evolved from manual emails → a humble modal → a multi-step wizard flow. It was important that we knew what data we needed to capture and how to chunk the information, before building a robust creation process.</p>
-	</div>
-	
-	<div class="full-width"><img src="img/bidding/begin.png"></div>
+		<h2>Bidding Process</h2>
+		<h3>Background</h3>
+		<p>For two years I lead design at RigUp, an oilfield services marketplace where we made bidding out work easier and more transparent, while maintaining safety and environmental standards.
+		<p>We rapidly iterate our core product, which is the bidding process where buyers in the oilfield bid out work to vendors and select who wins to perform the job. Historically, the process is inefficient and scattered across faxes, phone calls, and a Rolodex.</p>
+		<img src="img/bidding/process.png">			
+		<p>Here's the initial design implemented, a 6 step wizard UX:</p></div>	
+		
+		<div class="full-width"><img src="img/bidding/old_process.png"></div>
 
 	<div id="container">
-		<h3 class="strong">Vendor marketplace</h3>
+
+		<h3>Define the request</h3>
+		<p></p>
+	
+	<img src="img/bidding/step_one_a.png"></div>
+	<div class="full-width"><img src="img/bidding/step_one_b.png"></div>
+	<div class="full-width"><img src="img/bidding/step_one_c.png"></div>
+
+
+
+	<div id="container">
+
+		<h3>Specify Vendors</h3>
 		<p>Once the request is defined, buyers can select who they want to request a quote from. Finding vendors to bid out to is difficult since a lot of them are mom and pop shops without a website. As a result, many companies stick to using vendors that they already know - even if they aren't the safest or best for the job. I designed a marketplace that makes it easy for buyers to find vendors by their services, location, and safety ratings.<p>
+		<img src="img/bidding/step_two.png"></div>
+	<div class="full-width">
 
 		<img src="img/bidding/marketplace_mobile.png">
+	<div id="container">
 
-		<h2 class="strong">Managing the request</h2>
+		<h3>Managing the request</h3>
 		<p>After the request is sent, the user waits for the pricing submissions to roll in. Historically, the bidding process is scattered across phone calls, emails, and faxes. With RigUp, centralizing pricing and communication in one place ensures that confidential documents would not be lost in the shuffle.</p>
 		<p>During a sales demo of our product (user feedback comes from everywhere!), we learned that the design didn't scale well with large requests. The card UI for pricing made it difficult to flip through submissions.</p>
 	
-		<h3 class="strong">Submitting bids</h3>
-		<p>We also made submitting bids easier for vendors. Many vendors are out in the field away from their computers, so designing a mobile-first experience for them was crucial. Mobile usage is double the amount for vendor users compared to buyer users (32% vs 16%).</p>
+		<h3>Submitting bids</h3>
+		<p>We also made submitting bids easier for vendors. Many vendors are out in the field away from their computers, so designing a mobile-first experience for them was crucial. Mobile usage is double the amount for vendor users compared to buyer users (32% vs 16%).</p></div>
 		<div class="full-width"><img src="img/bidding/portal.png"></div>
-		<img src="img/bidding/states.png">
-		<p>Here's the latest iteration we've implemented:</p>
+			<div id="container">
+<img src="img/bidding/states.png">
 		<div class="full-width"><img src="img/bidding/rfq_details.png"><img src="img/bidding/pricing_details.png"></div>
 
 
 	<!--         Comparison          -->
 
 	<a id="comparison"></a>
-		<h2 class="strong"><a id="comparison">Comparing pricing</a></h2>
-		<p>We made it easy to bid out work but it was still difficult to simplify price comparison. There are a couple of reasons why it's been so challenging. Every vendor has a different way of pricing things.
-		<ul> Some prefer to quote a flat rate and others hourly. On top of that, add the complexity of varying line item names, discounts, taxes, and other cost variables. 
+		<h2>Price Analysis & Comparison</h2>
+		<h3>Background</h3>
+		<p>We made it easy to bid out work but it was still difficult to simplify price comparison. Every vendor has a different way of pricing and naming things. Some prefer to quote a flat rate and others hourly. On top of that, there's the added complexity of varying line item names, discounts, taxes, and other cost variables. I designed a solution that kept templates an in-app experience and eliminated the time-consuming demands of Excel, which streamlined user experience and ensured standardized pricing through input validation.</p> 
 
-		<p class="quote">“I loved the bidding process, but 99% of my time is still consumed on the weeklong effort of comparing each bid to one another.”</p>
+		<p class="quote">“I loved the bidding process, but 99% of my time is still consumed on the week long effort of comparing each bid to one another.”</p>
 
 		<p>To get things to line up, petroleum engineers must normalize pricing by manipulating cost variables in Excel, which could take weeks.</p>
 
 		<p>Traditionally, Excel templates are used to standardize pricing in the energy industry. However, Excel templates are often treated as a suggestion, not a requirement. Pricing continued to vary across the board - vendors would override locked cells, add their own line items, or completely neglect filling it out.</p>
 		
-		<p>I designed a solution that kept templates an in-app experience and eliminated the time-consuming demands of Excel Excel, which streamlined user experience and ensured standardized pricing through input validation.</p>
+	
 	</div>	
 
 	<div class="full-width">
@@ -86,6 +97,8 @@
 <div id="container">
 	<a id="pattern_library"></a>
 		<h2>Pattern Library</h2>
+				<h3>Background</h3>
+
 		<p>I joined RigUp early on as their only designer, where shipping fast to validate ideas were priority. Creating a design language wasn’t critical at this stage, but a year later I was leading a design team, and the site had quickly reached a level of complexity where our design debt was affecting our efficiency.</p>
 
 		<p>I determined that we were wasting time creating existing interface components - leading to an inconsistent user experience and bloating our code base with redundancy.</p>
