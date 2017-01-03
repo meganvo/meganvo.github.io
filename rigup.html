@@ -34,34 +34,39 @@
 		<h2>Bidding Process</h2>
 		<h3>Background</h3>
 		<p>For two years I lead design at RigUp, an oilfield services marketplace where we made bidding out work easier and more transparent, while maintaining safety and environmental standards.
-		<p>We rapidly iterate our core product, which is the bidding process where buyers in the oilfield bid out work to vendors and select who wins to perform the job. Historically, the process is inefficient and scattered across faxes, phone calls, and a Rolodex.</p>
+		<p>The bidding process where buyers in the oilfield bid out work to vendors and select who wins to perform the job. Historically, the process is inefficient and scattered across faxes, phone calls, and a Rolodex.</p>
 		<img src="img/bidding/process.png">			
-		<p>Here's the initial design for creating and sending a bid request, a 6 step wizard UX:</p></div>	
+		<section><p>Here's the initial design for creating and sending a bid request, a 6 step wizard UX.</p></div>	
 		
 		<div class="full-width"><img src="img/bidding/old_process.png"></div>
 	<div id="container">
-	<p>There were a couple of problems we discovered through usability testing and feedback from our customer success team.</p>
+	<p>There were a couple of problems we discovered through usability testing sessions, feedback from the customer success and sales team, and data analytics.</p>
 	<ul>
 	<li class="strong">Overcomplicated and slow</li>
-	<p>Blah blah blah</p>
-	<li class="strong">Isolated steps brought lack of context</li>
-	<p>Blah blah blah</p>
-	</ul>
+	<p>Chunking the bidding process into six separate steps decreased conversion rates. Using <a href="https://heapanalytics.com/" target="_blank">Heap</a>, I was able to pinpoint the drop-off point where we were losing users in the request creation process.</p>
+	<li class="strong">Lack of context</li>
+	<p>Isolating the steps did not give users enough context to understand the process. </p>
+	</ul></section>
 
+<section>
+	<p>I designed a new UX that reduced the process to 3 steps.</p>
+	<h3>Begin the request</h3>
+	<p>Instead of immersing the user in a lengthy request process to begin with, I designed a modal to prompt them with the absolute basics - what they are requesting and the type of request.</p>
+	<img src="img/bidding/step_one_a.png">
+</section>
+		
+<section>
+	<h3>Define the request</h3>
+	<p>Defining the request is where the majority of users dropped off in the bidding process. In the initial design, this was broken into three separate steps. I knew we needed to simplify the process - but how?</p>
 
-<p>I designed a new UX that reduced the process to 3 steps. 
-		<h3>Define the request</h3>
-		<p></p>
-	
-	<img src="img/bidding/step_one_a.png"></div>
+	<p>Before RigUp, bids are usually submitted as a PDF or Excel spreadsheet. I compared a bunch of bids and identified a pattern in how they were compiled. This insight informed my design for a UI that touched on a familiar frame of reference for users. The workscope and request details were the header of the submission, with line items and pricing information below that.</p>
+</div>
+
 	<div class="full-width"><img src="img/bidding/step_one_b.png"></div>
 	<div class="full-width"><img src="img/bidding/step_one_c.png"></div>
 
-
-
 	<div id="container">
-
-		<h3>Specify Vendors</h3>
+		<h3>Specify vendors</h3>
 		<p>Once the request is defined, buyers can select who they want to request a quote from. Finding vendors to bid out to is difficult since a lot of them are mom and pop shops without a website. As a result, many companies stick to using vendors that they already know - even if they aren't the safest or best for the job. I designed a marketplace that makes it easy for buyers to find vendors by their services, location, and safety ratings.<p>
 		<img src="img/bidding/step_two.png"></div>
 	<div class="full-width">
