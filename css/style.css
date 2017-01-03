@@ -1,7 +1,7 @@
 wehtml {
   box-sizing: border-box;
   height: 100%;
-  font-family: 'Libre Franklin', 'Times New Roman', serif;
+  font-family: 'Libre Franklin', sans-serif;
 }
 
 *, *:before, *:after {
