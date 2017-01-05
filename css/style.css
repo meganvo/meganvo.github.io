@@ -348,6 +348,11 @@ img {
 
 /* About Section */
 
+.top {
+  border-top: 3px solid blue;
+  margin: 0;
+}
+
 .about-section {
   color: #212121;
   background-color: white;
