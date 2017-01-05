@@ -88,6 +88,22 @@ nav h1 a {
   color: #757575;
 }
 
+/*Footer*/
+.end ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.end {
+  padding-top: 40px;
+  border-top: 1px solid #f5f5f5;
+}
+
+.emoji {
+  font-size: 48px;
+  line-height: 1em;
+}
+
 /*Typography*/ 
 
 h1 {
@@ -376,7 +392,7 @@ img {
 @media (max-width : 550px) {
     #container {
       margin-top: 0px;
-      width: 95%;
+      width: 90%;
     }
 
     header {
