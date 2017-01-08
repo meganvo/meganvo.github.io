@@ -631,6 +631,7 @@ blockquote img {
   border-radius: 6px;
   cursor: pointer;
     background: url(../images/x.gif) repeat;
+    text-align: center;
 
 }
 
