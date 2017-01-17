@@ -352,6 +352,8 @@ img {
 .top {
   border-top: 3px solid blue;
   margin: 0;
+    padding-top: 155px;
+
 }
 
 .about-section {
@@ -361,7 +363,7 @@ img {
 }
 
 .about-section h1 {
-  margin: 55px 0 85px 0;
+  margin: 0px 0 85px 0;
 }
 
 .about-section ul li {
@@ -436,6 +438,10 @@ img {
     .about-section h1 {
       margin: 40px 0;
       font-size: 24px;
+    }
+
+    .top {
+      padding-top: 0;
     }
 
     .button {
