@@ -138,10 +138,18 @@ p {
   font-weight: 400;
 }
 
-.da {
-  color: grey;
+.portrait {
+  float: left;
+  padding: 10px 40px 40px 0;
 }
 
+.portrait img{
+  margin: 0 0 10px 0;
+}
+
+.about_headline {
+
+}
 .strong {
   font-weight: 900;
 }
@@ -162,6 +170,13 @@ p {
   text-align: center;
 }
 
+.caption {
+    text-align: center;
+ color: grey;
+ font-size: 12px;
+ line-height: 0;
+ margin: 0;
+}
 .quote {
   font-size: 23px;
   padding: 25px;
@@ -391,6 +406,9 @@ img {
   .case_study h3{
     width: 100%;
   }
+      .portrait {
+      display: none;
+    }
 }
 
 @media (max-width : 550px) {
@@ -398,6 +416,12 @@ img {
       margin-top: 0px;
       width: 90%;
     }
+
+    .portrait {
+      display: inline;
+      float: none;
+    }
+
 
     header {
       margin: 0;
