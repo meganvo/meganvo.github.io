@@ -341,7 +341,7 @@ section {
 
 .full-width {
   max-width: 1200px;
-    margin: 0 auto;
+  margin: 0 auto;
 }
 
 
@@ -362,6 +362,46 @@ section {
 img {
   margin: 20px auto;
   width: 100%;
+}
+
+.prototype {
+  position: relative;
+  display: block;
+  background: url(../img/bidding/vendors.png) no-repeat center;
+  background-size: 1200px 627px;
+  background-repeat: no-repeat;
+  margin: 0 auto;
+  width: 1200px;
+  height: 627px;
+}
+
+.vendor_profile {
+  position: absolute;
+  width: 383px;
+  height: 487px;
+  top: 12%;
+  left: 68%;
+  display: none;
+    transition: all .6s ease;
+
+}
+
+.hotspot {
+  position: absolute;
+  top: 30%;
+  left: 45%;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px; 
+  background: rgba(208,1,27,0.46);
+  border: 1px solid #D0011B;
+  box-shadow: 0 2px 9px 0 rgba(0,0,0,0.24);
+  transition: all .6s ease;
+}
+.hotspot:hover {
+background: rgba(208,1,27,0.9);
+box-shadow: 0 2px 9px 0 rgba(0,0,0,0.85);
+cursor: pointer;
 }
 
 

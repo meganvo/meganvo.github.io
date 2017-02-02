@@ -9,6 +9,8 @@
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
 	<link rel="stylesheet" href="css/font-awesome-4.6.3/css/font-awesome.min.css">
 	<link href="https://fonts.googleapis.com/css?family=Libre+Franklin:300,400,900" rel="stylesheet">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<script src="js/index.js"></script>
 </head>
 
 <body>
@@ -33,25 +35,24 @@
 
 	<!--         Process          -->
 
-			<div id="container">
-	
-		<a id="process"></a>
-		<h2>Bidding Process</h2>
-		
+		<div id="container">
+			<a id="process"></a>
+			<h2>Bidding Process</h2>
 			<h3>Problem</h3><p>The bidding process is when buyers in the oilfield bid out work to vendors and select who wins to perform the job. Historically, the process is inefficient and scattered across faxes, phone calls, and a Rolodex.</p>
-		<img src="img/bidding/process.png">			
-		<section><p>Here's the initial design for creating and sending a bid request, a 6 step wizard UX.</p></div>	
-		
-		<div class="full-width"><img src="img/bidding/old_process.png"></div>
-	<div id="container">
-		
-	<p>There were a couple of problems we discovered through usability testing sessions, feedback from the customer success and sales team, and data analytics.</p>
-	<ul>
-	<li class="strong">Overcomplicated and slow</li>
-	<p>Chunking the bidding process into six separate steps decreased conversion rates. Using <a href="https://heapanalytics.com/" target="_blank">Heap</a>, I was able to pinpoint the drop-off point where we were losing users in the request creation process.</p>
-	<li class="strong">Lack of context</li>
-	<p>Isolating the steps did not give users enough context to understand the process, causing them to go back and forth between steps to modify their request.</p>
-	</ul></section>
+			<img src="img/bidding/process.png">			
+			<section>
+			<p>Here's the initial design for creating and sending a bid request, a 6 step wizard UX.</p>
+			</div>	
+			<div class="full-width"><img src="img/bidding/old_process.png"></div>
+
+		<div id="container">
+			<p>There were a couple of problems we discovered through usability testing sessions, feedback from the customer success and sales team, and data analytics.</p>
+			<ul>
+			<li class="strong">Low conversion rates</li>
+			<p>Chunking the bidding process into six separate steps decreased conversion rates. Using <a href="https://heapanalytics.com/" target="_blank">Heap</a>, I was able to pinpoint the drop-off point where we were losing users in the request creation process.</p>
+			<li class="strong">Lack of context</li>
+			<p>Isolating the steps did not give users enough context to understand the process, causing them to go back and forth between steps to modify their request.</p>
+			</ul>
 
 <section>
 	<p>I designed a new UX that reduced the process to 3 steps.</p>
@@ -77,20 +78,31 @@
 
 	<h3>Specify vendors</h3>
 	<p>Once the request is defined, buyers can select who they want to request a quote from. Finding vendors to bid out to is difficult since a lot of them are mom and pop shops without a website. As a result, many companies stick to using vendors that they already know - even if they aren't the safest or best for the job. I designed a marketplace that makes it easy for buyers to find vendors by their services, location, and safety ratings.<p>
+	</div>
 
-	<img src="img/bidding/marketplace_mobile.png">
+<div class="prototype">
+	<div class="vendor_profile animated slideInRight">		
+		<img src="img/bidding/vendor_profile.png">
+	</div>
 
-	<h3>Managing the request</h3>
-	<p>After the request is sent, the user waits for the pricing submissions to roll in. Historically, the bidding process is scattered across phone calls, emails, and faxes. With RigUp, centralizing pricing and communication in one place ensures that confidential documents would not be lost in the shuffle.</p></div>
-	<div class="full-width"><img src="img/bidding/rfq_details.png"></div>
+	<span class="hotspot animated tada infinite"></span>
+</div>
+
+
 
 	<div id="container">
-
+		<img src="img/bidding/marketplace_mobile.png">
+		<h3>Managing the request</h3>
+		<p>After the request is sent, the user waits for the pricing submissions to roll in. Historically, the bidding process is scattered across phone calls, emails, and faxes. With RigUp, centralizing pricing and communication in one place ensures that confidential documents would not be lost in the shuffle.</p>
+	</div>
+	<div class="full-width"><img src="img/bidding/rfq_details.png"></div>
+	<div id="container">
 	<h3>Submitting bids</h3>
 	<p>We also made submitting bids easier and secure for vendors. Designing a mobile-first experience for vendors was crucial since most of the time they're away from their computers and in the oilfield. Mobile usage is double the amount for vendor users compared to buyer users (32% vs 16%).</p></div>
 	<div class="full-width"><img src="img/bidding/portal.png"><img src="img/bidding/portal_onboarding.png"></div>
+	</div>
 	<div id="container">
-		<img src="img/bidding/states.png">
+	<img src="img/bidding/states.png">
 
 
 	<!--         Comparison          -->
@@ -203,5 +215,7 @@
 			</div>
 		</div>
 </section>
+</body>
 </html>
+
 

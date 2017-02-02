@@ -16,3 +16,10 @@ $('.read-more-hide').on('click', function(e) {
   p.prev('.read-more-show').removeClass('hide'); // Hide only the preceding "Read More"
   e.preventDefault();
 });
+
+// Show vendor profile
+$(document).ready(function() {
+		$(".prototype").click(function() {
+			$(".vendor_profile").toggle();
+		});
+	});
