@@ -174,12 +174,21 @@ p {
 }
 
 .caption {
-    text-align: center;
- color: grey;
- font-size: 12px;
- line-height: 0;
- margin: 0;
+  color: #222;
+  font-size: 14px;
+  margin: 0 auto;
+  width: 65%;
+  max-width: 700px;
+  overflow: hidden;
+  text-align: center;
 }
+
+
+.about-section caption {
+  text-align: center;
+}
+
+
 .quote {
   font-size: 23px;
   padding: 25px;
@@ -369,8 +378,9 @@ img {
   display: block;
   background: url(../img/bidding/vendors.png) no-repeat center;
   background-size: 1200px 627px;
+  cursor: pointer;
   background-repeat: no-repeat;
-  margin: 0 auto;
+  margin: 40px auto;
   width: 1200px;
   height: 627px;
 }
@@ -382,8 +392,7 @@ img {
   top: 12%;
   left: 68%;
   display: none;
-    transition: all .6s ease;
-
+  transition: all .6s ease;
 }
 
 .hotspot {
@@ -398,10 +407,10 @@ img {
   box-shadow: 0 2px 9px 0 rgba(0,0,0,0.24);
   transition: all .6s ease;
 }
+
 .hotspot:hover {
-background: rgba(208,1,27,0.9);
-box-shadow: 0 2px 9px 0 rgba(0,0,0,0.85);
-cursor: pointer;
+  background: rgba(208,1,27,0.9);
+  box-shadow: 0 2px 9px 0 rgba(0,0,0,0.85);
 }
 
 
