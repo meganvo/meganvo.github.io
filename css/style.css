@@ -184,8 +184,10 @@ p {
 }
 
 
-.about-section caption {
-  text-align: center;
+.about-section .caption {
+  font-size: 12px;
+  width: 100%;
+  line-height: 12px;
 }
 
 
