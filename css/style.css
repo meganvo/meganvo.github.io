@@ -272,10 +272,9 @@ padding: 0;
   margin: 0 0 10px 0;
 }
 
+
 .about-section a {
   font-weight: 400;
-  border-bottom: 1px solid blue;
-  padding-bottom: 3px;
 }
 
 .about-section p:first-of-type {
