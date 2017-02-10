@@ -501,6 +501,14 @@ section {
       padding-top: 0;
     }
 
+    .links {
+      margin-top: 20px;
+    }
+
+    .links ul {
+      margin-right: 50px;
+    }
+
     .button {
       margin: 10px 0;
       width: 100%;
@@ -521,10 +529,6 @@ section {
 
     .case_study {
       margin-bottom: 20px;
-    }
-
-    .profile_links a {
-      font-size: 24px;
     }
 
     .about {
