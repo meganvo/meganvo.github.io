@@ -54,7 +54,7 @@ p {
 }
 
 .caption {
-  color: #222;
+  color: grey;
   font-size: 14px;
   margin: 0 auto;
   width: 65%;
@@ -224,16 +224,48 @@ ul {
   line-height: 1em;
 }
 
-/*About Me*/
-
+/*Header Profile*/
 .top {
   margin: 0;
   padding-top: 100px;
 }
 
+.top .caption {
+  width: 100%;
+  text-align: left;
+  color: grey;
+}
+
+.links ul  {
+list-style: none;
+margin: 0 100px 20px 0;
+padding: 0;
+}
+
+.links {
+  float:left;
+  margin-top: 40px;
+  line-height: 1.8em;
+  font-size: 16px;
+}
+
+.links li {
+  margin: 0;
+  padding: 0;
+}
+
+.links li a {
+  color: grey;
+}
+.top sup {
+  font-size: 12px;
+}
+/*About Me*/
+
+
 .portrait {
   float: left;
-  padding: 10px 40px 40px 0;
+  padding: 0 40px 10px 0px;
 }
 
 .portrait img{
@@ -246,33 +278,16 @@ ul {
   padding-bottom: 3px;
 }
 
+.about-section p:first-of-type {
+  margin: 0;
+}
+
 .about-section .caption {
   font-size: 12px;
   width: 100%;
   line-height: 12px;
 }
 
-#profile_links {
-  margin: 0;
-  padding: 0;
-}
-
-#profile_links a {
-  border-bottom: 0;
-}
-
-#profile_links sup {
-  color: red;
-}
-
-.about-section ul li {
-  display: inline;
-  margin-right: 10px;
-}
-
-#profile_links li a {
-  font-size: 14px;
-}
 
 /* Case Studies */
 
@@ -508,7 +523,7 @@ section {
       margin-bottom: 20px;
     }
 
-    #profile_links a {
+    .profile_links a {
       font-size: 24px;
     }
 
