@@ -222,6 +222,7 @@ ul {
   line-height: 1em;
 }
 
+
 /*Header Profile*/
 .top {
   margin: 0;
@@ -263,16 +264,23 @@ padding: 0;
 
 .portrait {
   float: left;
-  padding: 0 40px 10px 0px;
+  padding-right: 30px;
+  width: 30%;
 }
 
 .portrait img{
   margin: 0 0 10px 0;
+
 }
 
 
 .about-section a {
   font-weight: 400;
+}
+
+.about-section p {
+  float:right;
+  width: 70%;
 }
 
 .about-section p:first-of-type {
