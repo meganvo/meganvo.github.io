@@ -128,7 +128,7 @@ nav h1 a {
 }
 
 .sub_nav h3 a {
-    color: blue;
+    color: #2000B0;
     display: inline-block;
     padding: 0px 10px;
     font-weight: 400;
@@ -235,10 +235,14 @@ ul {
   color: grey;
 }
 
+.top sup {
+  font-size: 12px;
+}
+
 .links ul  {
-list-style: none;
-margin: 0 100px 20px 0;
-padding: 0;
+  list-style: none;
+  margin: 0 100px 20px 0;
+  padding: 0;
 }
 
 .links {
@@ -256,9 +260,8 @@ padding: 0;
 .links li a {
   color: grey;
 }
-.top sup {
-  font-size: 12px;
-}
+
+
 /*About Me*/
 
 
@@ -272,7 +275,6 @@ padding: 0;
   margin: 0 0 10px 0;
 
 }
-
 
 .about-section a {
   font-weight: 400;
@@ -304,7 +306,6 @@ padding: 0;
 .case_study p {
   margin: 0 0 30px 0;
   width: 100%;
-  position: relative;
 }
 
 .case_study h2 {
