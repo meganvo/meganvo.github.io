@@ -97,10 +97,9 @@ nav {
   position: fixed;
   width: 100%;
   text-align: center;
-  padding: 10px 80px;
-  border-bottom: 1px solid #f5f5f5;
+  padding: 20px 80px;
   z-index: 99;
-    border-top: 1px solid #424242;
+  border-top: 3px solid #FFCF32;
 
 }
 
@@ -130,10 +129,9 @@ nav h1 a {
 
 .sub_nav h3 a {
     color: blue;
-    text-decoration: none;
     display: inline-block;
     padding: 0px 10px;
-    font-size: 12px;
+    font-weight: 400;
 }
 
 /* Links */
