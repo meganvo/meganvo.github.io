@@ -267,26 +267,26 @@ ul {
 
 .portrait {
   float: left;
+  width: 20%;
   padding-right: 30px;
-  width: 30%;
+  margin-left: 70px;
 }
 
 .portrait img{
-  margin: 0 0 10px 0;
-
+  margin: 0;
 }
 
-.about-section a {
-  font-weight: 400;
+.about-section h3 {
+  margin: 0;
 }
 
-.about-section p {
-  float:right;
+.profile {
+  float: right;
   width: 70%;
 }
 
-.about-section p:first-of-type {
-  margin: 0;
+.about-section p:last-of-type {
+  margin-bottom: 50px;
 }
 
 .about-section .caption {
