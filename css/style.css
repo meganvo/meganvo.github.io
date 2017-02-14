@@ -395,6 +395,20 @@ section {
   display: none !important;
 }
 
+/* Back to Top */
+a.back-to-top {
+  display: none;
+  width: 40px;
+  height: 40px;
+  text-indent: -9999px;
+  position: fixed;
+  z-index: 999;
+  right: 20px;
+  bottom: 20px;
+  border-radius: 3px;
+  background: #ccc url("../img/arrow_top.svg") no-repeat center 43%;
+}
+
 
 /* Project Prototypes */
 .prototype {
