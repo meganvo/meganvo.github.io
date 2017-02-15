@@ -213,7 +213,7 @@ ul {
 }
 
 .end {
-  padding-top: 40px;
+  padding: 40px 20px;
   border-top: 1px solid #f5f5f5;
 }
 
@@ -462,10 +462,7 @@ a.back-to-top {
 
   .case_study h3{
     width: 100%;
-  }
-      .portrait {
-      display: none;
-    }
+     
 }
 
 @media (max-width : 550px) {
@@ -475,8 +472,15 @@ a.back-to-top {
     }
 
     .portrait {
-      display: inline;
       float: none;
+      width: 100%;
+      margin: 0 auto;
+      padding: 0 20px;
+    }
+    .profile {
+      float: none;
+      margin: 0 auto;
+      width: 90%;
     }
 
 
