@@ -92,7 +92,8 @@ p {
 
 /*Navigation*/
 
-nav {
+/*display: flex;
+
   background-color: white;
   position: fixed;
   width: 100%;
@@ -100,7 +101,8 @@ nav {
   padding: 20px 80px;
   z-index: 99;
   border-top: 3px solid #FFCF32;
-
+   justify-content: space-between;
+  padding: 10px;
 }
 
 nav span {
@@ -121,7 +123,7 @@ nav h1 a {
   color: #212121;
 }
 
-/* Sub Navigation */
+/* Sub Navigation 
 
 .sub_nav {
   float:right;
@@ -132,7 +134,42 @@ nav h1 a {
     display: inline-block;
     padding: 0px 10px;
     font-weight: 400;
+}*/
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+  padding: 10px 50px;
+  border-top: 3px solid #FFCF32;
+  position: fixed;
+  width: 100%;
+  z-index: 9999;
 }
+
+  .nav_section {
+    display: flex;
+    align-items: center;
+  }
+
+    .nav_item {
+      padding: 5px 15px;
+      font-size: 15px;
+    }
+
+    .nav_item + .nav_item {
+      margin-left: 5px;
+    }
+
+.nav h1 {
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.nav h1 a {
+  color: #212121;
+}
+
 
 /* Links */
 
@@ -178,7 +215,7 @@ ul {
   text-align: center;
   line-height: 0;
   margin-bottom: 40px;
-  padding-top: 155px;
+  padding-top: 130px;
   background-color: #f4f4f4;
 }
 
@@ -263,36 +300,28 @@ ul {
 
 
 /*About Me*/
-
-
-.portrait {
-  float: left;
-  width: 20%;
-  padding-right: 30px;
-  margin-left: 70px;
-}
-
-.portrait img{
-  margin: 0;
+.about-section {
+  display: flex;
 }
 
 .about-section h3 {
   margin: 0;
 }
 
-.profile {
-  float: right;
-  width: 70%;
-}
-
-.about-section p:last-of-type {
-  margin-bottom: 50px;
-}
 
 .about-section .caption {
   font-size: 12px;
   width: 100%;
   line-height: 12px;
+}
+
+.portrait {
+  margin-right: 50px;
+}
+
+.portrait img{
+  margin: 0;
+  width: 200px;
 }
 
 
@@ -560,7 +589,7 @@ a.back-to-top {
       margin-bottom: 20px;
     }
 
-    nav {
+    .nav {
       display: none;
     }
 
