@@ -38,6 +38,11 @@ $('.about').click(function (event) {
   $('.about-section').scrollView();
 });
 
+$('.work').click(function (event) {
+  event.preventDefault();
+  $('.nav_work').scrollView();
+});
+
 //Jump to RigUp Case Study
 
 $('.ru_process').click(function (event) {
