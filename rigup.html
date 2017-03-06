@@ -17,7 +17,7 @@
 	      <h1><a href="index.html">Megan Vo</a></h1>
 	   </div>
 	  <div class="nav_section">
-	    <div class="nav_item"><a href="#process" class="ru_process">Bidding Process</a></div>
+	    <div class="nav_item"><a href="#process" class="ru_process">Bidding Redesign</a></div>
 	    <div class="nav_item"><a href="#comparison" class="ru_analysis">Price Comparison</a></div>
 	    <div class="nav_item"><a href="#pattern_library" class="ru_pattern">Pattern Library</a></div>
 	    <div class="nav_item"><a href="#marketing" class="ru_branding">Branding</a></div>
@@ -28,7 +28,7 @@
 		<div id="container">
 			<h1>RigUp</h1>
 			<h2>Making it easy to bid out complex oilfield jobs</h2>
-			<p>For two years I lead design at RigUp, an oilfield services marketplace where we made bidding out work easier.</p>
+			<p>For two years I lead design at RigUp where we made bidding easier for the oilfield.</p>
 		</div>
 		<div class="animated fadeInUp"><img src="img/rigup_thumb.png"></div>
 	</div>	
@@ -36,34 +36,44 @@
 	<!--         Process          -->
 
 		<div id="container">
+			<h3>Background</h3>
+			<p>RigUp is an oilfield services marketplace that connects engineers & vendors for an easier bidding process. I joined RigUp as the first designer and eventually led a small design team throughout the entire product development process.</p>
+			<p>We were a small (but rapidly growing) company, which meant I had to wear a lot hats. I tackled everything from front-end implementation, conducting usability tests, and driving marketing and branding design.</p>
+
 			<a id="process"></a>
-			<h2>Bidding Process</h2>
-			<h3>Problem</h3><p>The bidding process is when buyers in the oilfield bid out work to vendors and select who wins to perform the job. Historically, the process is inefficient and scattered across faxes, phone calls, and a Rolodex.</p>
-			<img src="img/bidding/process.png">			
-			<section>
-			<p>Here's the initial design for creating and sending a bid request, a 6 step wizard UX.</p>
+			<h2>Bidding Process Redesign</h2>
+
+			<h3>Problem</h3>
+			<!--<img src="img/bidding/process.png">-->	
+			<p>We noticed there was a downward trend in the amount of bid requests that were being sent out the past three months.</p>
+			<p>The initial bidding process was a 6 step wizard interface that was in need of a redesign. The UI was a result of technical and product debt; we were implementing MVP after MVP into the process without any design consideration.</p>
 		
 		<img src="img/bidding/old_process.png"></div>
 
 		<div id="container">
 			<h3>Research Insights</h3>
-			<p>There were a couple of problems we discovered through usability testing sessions, feedback from the customer success and sales team, and data analytics.</p>
+			<p>Before diving deep into ideation, I wanted to conduct some research. Through usability testing sessions, talking with users and data analytics, I discovered a couple of insights about the bidding process.</p>
 			<ul>
 			<li class="strong">Heavy initial cognitive load</li>
 			<p>Step one is filled with many inputs and forms for a user to process all at once.</p>
 			<li class="strong">Low conversion rates</li>
-			<p>The whole process only had a 46.15% conversion rate. We were able to pinpoint which steps had the highest dropoff rate which helped guide our research.</p>
+			<p>The process only had a 46.15% conversion rate. I identified the highest dropoffs points to help guide my research.</p>
 			<img src="img/bidding/funnel.png">
 			<li class="strong">Lack of context</li>
-			<p>Isolating the steps did not give users enough context to understand the process, causing them to go back and forth between steps to modify their request.</p>
+			<p>The isolated step UI did not group the information intuitively; causing users to go back and forth between steps to reference information.</p>
 			</ul>
+<section>
+	<h3>Ideation</h3>
+	<p>Due to a technical constraint, I couldn't change the functionality of the vendor selection - meaning it had to remain a separate step.
+		<img src="img/bidding/flow.png"> 
 
+</section>
 
 <section>
 	<h3>Solution</h3>
-	<p>I designed a new UX that reduced the process to 3 steps.</p>
-	<img src="img/bidding/flow.png">
-	<p>To begin the request, I designed a modal that prompted the user with the absolute basics: what they are requesting and the type of request, instead of overwhelimng the user off the bat with choices.</p>
+	<p>The new bidding process was reduced to three simple steps.</p>
+
+	<p>To begin the request the user is prompted with the basics, instead of overwhelimng the user off the bat with choices.</p>
 	</div>
 </section>
 <div class="full-width">
@@ -77,11 +87,22 @@
 
 	<span class="hotspot animated tada infinite"></span>
 </div>
+	<div id="container">
+		<img src="img/bidding/marketplace_mobile.png">
+	</div>
 <img src="img/bidding/5.png">
 </div>
 <!--<img src="img/bidding/step1.png"></div>	
 	<p class="caption center strong">Beginning the Request: Before & After</p>-->
 </section>
+<section>
+<div id="container">
+<h3>Results</h3>
+<p>In the following month, the amount of bid requests remained about the same. However, the conversion rate increased to 85.66% from 46.15%.
+Two months after implementation, bid requests increased and we were on the right track to meeting our quarterly GMV goal.   And more….unanticipated success!
+Increased user retention (Sales team liked this one)
+Less questions asked in Intercom (Support team appreciated this)</p>
+</div>
 
 <!--<section>
 	<div id="container">
@@ -106,9 +127,6 @@
 	</p>-->
 </section>
 
-	<div id="container">
-		<img src="img/bidding/marketplace_mobile.png">
-	</div>
 
 	<!--<div class="full-width"><img src="img/bidding/rfq_details.png"></div>
 			<p id="container" class="caption"><span class="strong">Bid Management</span> User can manage all received pricing and vendor communication in one place.
