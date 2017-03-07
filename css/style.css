@@ -63,6 +63,10 @@ p {
   text-align: center;
 }
 
+.gray {
+  color: gray;
+}
+
 .quote {
   font-size: 23px;
   padding: 25px;
@@ -71,7 +75,7 @@ p {
   line-height: 1.7em;
 }
 .strong {
-  font-weight: 900;
+  font-weight: 700;
 }
 
 .emphasis {
@@ -422,6 +426,12 @@ section {
 
 .hide {
   display: none !important;
+}
+
+.problem {
+  background-color: #F9FEFF;
+  border: 1px solid #BADDE4;
+  padding: 40px;
 }
 
 /* Back to Top */
