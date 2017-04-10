@@ -62,6 +62,7 @@ p {
   font-size: 18px;
   padding: 0;
   color: #4a4a4a;
+  margin-top: 0;
 }
 
 
@@ -74,7 +75,7 @@ p {
 
 
 .years {
-  padding: 0 10px;
+  padding: 20px 10px 0 0;
     display: inline-block;
 
 }
