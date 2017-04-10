@@ -33,13 +33,26 @@ h2 {
 a {
   text-decoration: none;
   padding-bottom: 5px;
-  border-bottom: 1px dotted red;
   color: black;
 }
 
 a:hover {
   color: red;
 }
+
+.active {
+    border-bottom: 1px dotted red;
+
+}
+.years {
+  padding: 0 10px;
+    display: inline-block;
+  }
+
+  .years:first-of-type {
+    padding: 0;
+  }
+
 
 .note a {
   text-decoration: none;
@@ -80,6 +93,7 @@ h1 {
   width: 65%;
   padding-left: 30px;
   display: block;
+  text-align: left;
 }
 
 .phone_container {
@@ -157,7 +171,12 @@ a:hover {
   .about {
     float: none;
     width: 100%;
+    text-align: center;
     padding: 0;
+  }
+
+  .years {
+    margin-top: 30px;
   }
 
   p {

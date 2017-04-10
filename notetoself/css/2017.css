@@ -9,6 +9,8 @@ html {
 }
 
 body{
+  background: url(../img/bg.png) repeat-x;
+
   background-color: #f9f7f3;
   color: #e05248;
   overflow: hidden;
@@ -82,7 +84,6 @@ p {
     overflow: hidden;
     z-index: -999;
     margin: 0 auto;
-    cursor: pointer;
 }
 
 .phone {
@@ -134,6 +135,7 @@ p {
   }
 
   .phone_container {
+    width: 100%;
  
 }
 
