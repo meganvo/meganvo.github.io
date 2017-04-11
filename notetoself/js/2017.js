@@ -24,7 +24,6 @@
     images[19] = "img/note/144.PNG"
     images[20] = "img/note/145.PNG"
     images[21] = "img/note/146.PNG"
-    images[22] = "img/note/147.PNG"
     images[23] = "img/note/148.PNG"
     images[24] = "img/note/149.PNG"
     images[25] = "img/note/150.PNG"
