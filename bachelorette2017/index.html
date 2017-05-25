@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<head>
+	<title>Bachelorette Fantasy League 2017</title>
+	<link href="reset.css" rel="stylesheet" type="text/css">
+	<link href="https://fonts.googleapis.com/css?family=Oxygen:300,400,700" rel="stylesheet">
+
+	<link href="style.css" rel="stylesheet" type="text/css">
+
+</head>
+	<body>
+		<div class="header">
+			<div class="ring">💍  🌹  💖</div>
+			<h1>Bachelorette Fantasy League 2017</h1>
+			<h2>Grubhub's Unofficially Sponsored 2017 Bachelor Fantasy League</h2>
+		</div>
+	<div class="container">
+		<ol id="leaderboard-list">
+		 	<script id="leaderboard-template" type="text/x-handlebars-template">
+			    <li class="card">
+			    	<div class="card-section">
+					    <span class="rank">{{num}}</span> <!--display row number-->
+					    <div class="avatar"></div>
+					    <div class="person">
+					    	<h1 class="name">{{cells.name}}</h1>
+					   		<h2 class="occupation">{{cells.occupation}}</h2>
+					   	</div>
+					  </div>
+		  		 	<div class="card-section">
+						<span class="total">{{cells.total}} {{cells.points}}</span>
+					</div>
+		   		</li>
+		 	</script>
+		</ol>
+	</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="sheetrock.min.js"></script>
+
+	</body>
+</html>
