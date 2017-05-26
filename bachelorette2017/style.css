@@ -48,7 +48,7 @@ font-family: 'Oxygen', sans-serif;
     line-height: 20px;
     font-weight: 700;
     border-radius: 100px;
-    background-color: #E86BA6;
+    background-color: #FF3000;
     width: 20px;
     height: 20px;
     top: 140px;
@@ -58,8 +58,15 @@ font-family: 'Oxygen', sans-serif;
 
 .avatar {
 	position: relative;
-	background-color: lightgrey;
 	margin: 0 30px 0 0;
+	border: 0;
+	    border-radius: 100px;
+
+}
+
+.avatar img {
+		background-color: #FF9E87;
+
 }
 
 .card {
@@ -104,7 +111,7 @@ ol {
 
 .name {
 	font-size: 28px;
-	color: #E86BA6;
+	color: #FF3000;
 	letter-spacing: 0;
 	padding: 0 0 10px 0;
 	font-weight: 700;
