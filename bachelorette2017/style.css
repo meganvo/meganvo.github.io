@@ -10,9 +10,8 @@ font-family: 'Oxygen', sans-serif;
 }
 
 .container {
-	margin: 50px auto;
+	margin: 80px auto;
 	text-align: left;
-		margin: 0 10px;
 }
 
 .header {
@@ -44,9 +43,7 @@ font-family: 'Oxygen', sans-serif;
 }
 
 .rose {
-	display: none;
-	top: -114px;
-    left: -60px;
+
 }
 
 .rank {
