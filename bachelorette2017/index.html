@@ -1,46 +1,56 @@
 <!DOCTYPE html>
 <html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <head>
-	<title>Bachelorette Fantasy League 2017</title>
+	<title>Bachelorette Fantasy League 2017</title>	
 	<link href="reset.css" rel="stylesheet" type="text/css">
 	<link href="https://fonts.googleapis.com/css?family=Oxygen:300,400,700" rel="stylesheet">
+
+
+
 	<link href="style.css" rel="stylesheet" type="text/css">	
 	<link href="animate.css" rel="stylesheet" type="text/css">
-
 
 </head>
 	<body>
 		<div class="header">
 			<div class="ring animated tada">💍</div>
 			<h1>Bachelorette Fantasy League 2017</h1>
-			<h2>Grubhub's Unofficially Sponsored 2017 Bachelor Fantasy League</h2>
 		</div>
 	<div class="container">
 		<ol id="leaderboard-list">
-		 	<script id="leaderboard-template" type="text/x-handlebars-template">
-			    <li class="card">
+		 	<script id="leaderboard-template" type="text/x-handlebars-template">		 
+			    <li class="card">  
 			    	<div class="card-section">
-					 
-					 <div class="avatar">
-					   <img src="{{cells.picture}}" width="150" height="150">  
-					   <div class="rank">{{num}}</div> 
-					  </div>
+					 	<div class="avatar">  
+					   		<img src="{{cells.picture}}" width="150" height="150">  
+					   		<div class="rank">{{num}}</div> 
 
-					    <div class="person">
+					  	</div>
+					  	<div class="person">
 					    	<h1 class="name">{{cells.name}}</h1>
 					   		<h2 class="occupation">{{cells.occupation}}</h2>
+					   		<span class="total">{{cells.total}} {{cells.points}}</span>
 					   	</div>
-					  </div>
-		  		 	<div class="card-section">
-						<span class="total">{{cells.total}} {{cells.points}}</span>
+					</div>
+
+					<div class="bio">
+						<p class="question">Do you have any special talents?</p>
+						<p>{{cells.talents}}</p>
+						<p class="question">Meatloaf said he would "do anything for love, but he won't do that." What will you not do?</p>
+						<p>{{cells.meatloaf}}</p>
+						<p class="question">Describe your ultimate fantasy date.</p>
+						<p>{{cells.date}}</p>
+						<p class="question">Do you believe a person can find love on reality tv?</p>
+						<p>{{cells.love}}</p>
 					</div>
 		   		</li>
 		 	</script>
 		</ol>
 	</div>
-
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <script src="sheetrock.min.js"></script>
+<script src="index.js"></script>
+
 
 	</body>
 </html>
