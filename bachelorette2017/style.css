@@ -42,10 +42,6 @@ font-family: 'Oxygen', sans-serif;
 	font-size: 80px;
 }
 
-.rose {
-
-}
-
 .rank {
     position: absolute;
     color: #fff;
@@ -150,8 +146,16 @@ ol {
 		margin: 0 auto;
 	}
 
+	.container {
+		margin: 0px 20px;
+	}
+
 	.avatar {
 		margin: 0 auto;
+	}
+
+	.card:first-of-type {
+		margin: 20px auto;
 	}
 
 	.person {
