@@ -29,7 +29,9 @@ font-family: 'Oxygen', sans-serif;
 }
 
 .header h1 {
-	font-size: 68px;
+		font-family: 'Great Vibes', cursive;
+
+	font-size: 78px;
 	padding: 20px 0;
 	font-weight: 700;
 }
@@ -94,10 +96,8 @@ ol {
 .person {
 	display: flex;
 	flex-direction: column;
-	overflow: hidden;
 	flex-wrap: wrap;
 	max-width: 250px;
-	line-height: 21px;
 }
 
 .occupation, .total {
@@ -113,7 +113,9 @@ ol {
 }
 
 .name {
-	font-size: 28px;
+	font-size: 40px;
+		font-family: 'Great Vibes', cursive;
+
 	color: #FF3000;
 	letter-spacing: 0;
 	padding: 0 0 8px 0;
