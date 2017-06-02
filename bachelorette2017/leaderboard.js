@@ -14,15 +14,15 @@ var Template = Handlebars.compile($('#leaderboard-template').html());
 $('#leaderboard-list').sheetrock({
   url: mySpreadsheet,
   query: "select A,B,C,D,E,F,G,H,I order by G desc",
-  fetchSize: 27,
+  fetchSize: 26,
   rowTemplate: Template
 });
 
-var Template = Handlebars.compile($('#dudes-template').html());
+var Template2 = Handlebars.compile($('#dudes-template').html());
 
 $('#dudes-list').sheetrock({
   url: mySpreadsheet,
   query: "select M,N,O order by M asc",
   fetchSize: 32,
-  rowTemplate: Template
+  rowTemplate: Template2
 });

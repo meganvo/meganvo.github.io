@@ -3,45 +3,73 @@
   transition: all 0.3s ease-out;
 }
 body {
-font-family: 'Oxygen', sans-serif;
+	font-family: 'Oxygen', sans-serif;
 	color: #333;
 	background-color: #FAF5EB;
 
 }
 
+h1 {
+	font-family: 'Great Vibes', cursive;
+	font-size: 78px;
+	color: #ff2f00;
+	text-align: center;
+}
+
+h3 {
+	text-transform: uppercase;
+    color: red;
+    text-align: center;
+    font-size: 15px;
+    letter-spacing: 1px;
+    font-weight: 700;
+}
+
 .container {
 	margin: 80px auto;
 	text-align: left;
+	max-width: 1000px;
 }
+
+/* HEADER */
 
 .header {
 	display: flex;
 	align-items: center;
 	flex-direction: column;
-	padding: 60px;
+	padding: 0 10px;
+  	justify-content: center;
 	background-color: #ff2f00;
 	color: white;
-	height: 500px;
+	height: 550px;
 	text-align: center;
 	background: url(img/rachel_header.png) no-repeat top;
   	background-size: cover;
 }
 
 .header h1 {
-	font-family: 'Great Vibes', cursive;
-	font-size: 78px;
 	padding: 20px 0;
-	font-weight: 700;
+	color: white;
 }
 
-
-.header h3 {
-	margin-bottom: 40px;
+.header p {
+	font-size: 18px;
+    text-align: center;
+    line-height: 24px;
+    padding-bottom: 30px
 }
 
+.header a {
+	color: white;
+	text-decoration: none;
+	border-bottom: 1px dotted white;
+	padding-bottom: 5px;
+}
 .ring {
 	font-size: 80px;
 }
+
+/* DUDES */
 
 #dudes-list {
 	display: flex;
@@ -51,40 +79,34 @@ font-family: 'Oxygen', sans-serif;
 	text-align: center;
 	font-size: 12px;
 	justify-content: center;
+	padding: 30px 0;
 }
 
 .dude {
 	display: flex;
     align-items: center;  
     flex-direction: column;
-    margin: 5px;
 }
 
 .dude img {
-	margin-bottom: 10px;
+	margin: 20px 5px 10px 5px;
+	border-radius: 100px;
 }
 
 .eliminated {
-	 opacity: .5;
-}
-.rank {
-    position: absolute;
-    color: #fff;
-    font-size: 13px;
-    line-height: 20px;
-    font-weight: 700;
-    border-radius: 100px;
-    background-color: #FF3000;
-    width: 20px;
-    height: 20px;
-    top: 140px;
-    left: 140px;
-    text-align: center;
+	opacity: .5;
+	filter: grayscale(100%);
 }
 
-.avatar {
-	position: relative;
-	margin: 0 30px 0 0;
+#dudes-list h3 {
+	font-size: 10px;
+	color: grey;
+}
+
+/* PLAYERS */
+
+#leaderboard-list {
+	margin: 50px 0;
 }
 
 .card {
@@ -93,26 +115,45 @@ font-family: 'Oxygen', sans-serif;
 	justify-content: space-between;
 	background-color: white;
 	padding: 20px 30px;
-	max-width: 1000px;
 	margin: 20px auto;
+	border-radius: 3px;
 }
 
 
-.card:first-of-type {
+#leaderboard-list .card:first-of-type {
 	margin-top: 50px;
 	margin-bottom: 50px;
 	padding: 20px;
-	border: 5px solid #FF3000;
+	border: 3px solid #FF3000;
  }
-
 
 .card-section { 
 	display:flex;
 	align-items: center;
 }
 
-ol {
-	margin: 0 !important;
+.avatar {
+	position: relative;
+	margin: 0 30px 0 0;
+}
+
+.avatar img {
+	border-radius: 100px;
+}
+
+.rank {
+    position: absolute;
+    color: #fff;
+    font-size: 16px;
+    line-height: 25px;
+    font-weight: 700;
+    border-radius: 100px;
+    background-color: #FF3000;
+    width: 25px;
+    height: 25px;
+    top: 110px;
+    left: 121px;
+    text-align: center;
 }
 
 .person {
@@ -120,6 +161,12 @@ ol {
 	flex-direction: column;
 	flex-wrap: wrap;
 	max-width: 250px;
+}
+
+.name {
+	font-size: 40px;
+	padding: 0 0 8px 0;
+	text-align: left;
 }
 
 .occupation, .total {
@@ -135,16 +182,6 @@ ol {
 	font-size: 14px;
 }
 
-.name {
-	font-size: 40px;
-		font-family: 'Great Vibes', cursive;
-
-	color: #FF3000;
-	letter-spacing: 0;
-	padding: 0 0 8px 0;
-	font-weight: 700;
-}
-
 
 .bio {
 	text-align: left;
@@ -152,7 +189,6 @@ ol {
 	margin: 10px 0 10px 0px;
 	max-width: 500px;
 }
-
 
 .question {
 	font-weight: 700;
