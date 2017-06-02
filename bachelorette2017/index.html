@@ -10,15 +10,25 @@
 	<link href="style.css" rel="stylesheet" type="text/css">	
 	<link href="animate.css" rel="stylesheet" type="text/css">
 </head>
+
 	<body>
 		<div class="header">
 			<div class="ring animated tada">💍</div>
 			<h1>Bachelorette Fantasy League</h1>
 			<h3>2017</h4>
+
+		<ol id="dudes-list">
+		 	<script id="dudes-template" type="text/x-handlebars-template">		 
+			    <li class="dude {{cells.eliminated}}">  
+					<img src="{{cells.picture}}" width="80" height="80">
+					<p>{{cells.dudeName}}</p>
+		   		</li>
+		 	</script>
+		</ol>
+
 		</div>
+
 	<div class="container">
-
-
 
 
 
@@ -30,7 +40,6 @@
 					 	<div class="avatar">  
 					   		<img src="{{cells.picture}}" width="150" height="150">  
 					   		<div class="rank">{{num}}</div> 
-
 					  	</div>
 					  	<div class="person">
 					    	<h1 class="name">{{cells.name}}</h1>
@@ -55,7 +64,7 @@
 	</div>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <script src="sheetrock.min.js"></script>
-<script src="index.js"></script>
+<script src="leaderboard.js"></script>
 
 	</body>
 </html>
