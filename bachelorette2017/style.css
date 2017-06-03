@@ -242,6 +242,10 @@ h3 {
 
 	 }
 
+	 #dudes-list h3 {
+	 	font-size: 9px;
+	 }
+
 
 	.header {
 		height: 300px;
