@@ -56,7 +56,6 @@ h3 {
 	font-size: 18px;
     text-align: center;
     line-height: 24px;
-    padding-bottom: 30px
 }
 
 .header a {
@@ -208,32 +207,55 @@ h3 {
 	}
 
 	.container {
-		margin: 0px 20px;
+		margin: 0px 10px;
 	}
 
 	.avatar {
 		margin: 0 auto;
 	}
 
-	.card:first-of-type {
-		margin: 20px auto;
+	.card, .card:first-of-type  {
+		margin: 15px 0 15px 0 !important;
+		padding: 10px;
+	}
+
+	.total {
+		margin: 0;
 	}
 
 	.person {
 		text-align: center;
-		margin: 20px 0;
+		margin: 10px 0;
 		max-width: 100%;
+
 	}
 
+	.name {
+				text-align: center;
+
+	}
+
+	#dudes-list {
+	  transform: scale(2);
+
+	 }
+
+
 	.header {
-		height: 200px;
+		height: 300px;
+		margin-bottom: 30px;
 	}
 
 	.header h1 {
-		font-size: 34px;
+		font-size: 54px;
 	}
 
 	.ring {
 		font-size: 40px;
+	}
+
+
+	#leaderboard-list {
+		margin: 20px 0;
 	}
 }
