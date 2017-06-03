@@ -235,6 +235,12 @@ h3 {
 
 	}
 
+	#dudes-list img  {
+	  width: 40px;
+	  height: 40px;
+	margin: 15px 5px 10px 5px;
+
+	 }
 
 
 	.header {
