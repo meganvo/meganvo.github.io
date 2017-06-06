@@ -1,0 +1,313 @@
+*, *:before, *:after {
+  box-sizing: inherit;
+  transition: all 0.3s ease-out;
+}
+body {
+	font-family: 'Oxygen', sans-serif;
+	color: #333;
+	background-color: #FAF5EB;
+	font-size: 14px;
+
+}
+
+h1 {
+	font-family: 'Great Vibes', cursive;
+	font-size: 78px;
+	color: #ff2f00;
+	text-align: center;
+}
+
+h3 {
+    text-transform: uppercase;
+    color: grey;
+    text-align: center;
+    font-size: 10px;
+    letter-spacing: 1.2px;
+    font-weight: 700;
+    line-height: 0px;
+}
+
+p {
+	font-size: 14px;
+	line-height: 21px;
+}
+
+.container {
+	margin: 80px auto;
+	text-align: left;
+	max-width: 1100px;
+}
+
+/* HEADER */
+
+.header {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	padding: 0 10px;
+  	justify-content: center;
+	background-color: #ff2f00;
+	color: white;
+	height: 550px;
+	text-align: center;
+	background: url(img/rachel_header.png) no-repeat top;
+  	background-size: cover;
+}
+
+.header h1 {
+	padding: 20px 0;
+	color: white;
+}
+
+.header p {
+	font-size: 18px;
+    text-align: center;
+    line-height: 24px;
+}
+
+.header a {
+	color: white;
+	text-decoration: none;
+	border-bottom: 1px dotted white;
+	padding-bottom: 5px;
+}
+.ring {
+	font-size: 80px;
+}
+
+/*DUDES */
+
+#dudes-list {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	align-items: center;  
+	text-align: center;
+	font-size: 12px;
+	justify-content: center;
+	padding: 30px 0;
+}
+
+
+.dude img {
+	margin: 20px 5px 10px 5px;
+	border-radius: 100px;
+}
+
+#dudes-list h3 {
+	font-size: 10px;
+	color: grey;
+}
+
+
+/* PLAYERS */
+
+#leaderboard-list {
+	margin: 20px 0;
+}
+
+.card {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-around;
+	align-items: center;
+	background-color: white;
+	padding: 30px;
+	margin: 20px;
+	border-radius: 3px;
+}
+
+#leaderboard-list .card:first-of-type {
+	border: 3px solid #FF3000;
+ }
+
+.card-section { 
+	display:flex;
+	align-items: center;
+}
+
+.avatar {
+	position: relative;
+	margin: 0 0 20px 0;
+}
+
+.avatar img {
+	border-radius: 200px;
+	width: 200px;
+	height: 200px;
+	border: 3px solid lightgrey;
+}
+
+.rank {
+    position: absolute;
+    color: #fff;
+    font-size: 16px;
+    line-height: 25px;
+    font-weight: 700;
+    border-radius: 50px;
+    background-color: #FF3000;
+    width: 25px;
+    height: 25px;
+    top: 155px;
+    left: 175px;
+    text-align: center;}
+
+.person {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	max-width: 250px;
+	align-content: center;
+	text-align: center;
+}
+
+.name {
+	font-size: 40px;
+	padding: 0 0 8px 0;
+}
+
+.occupation, .total {
+	text-align: center;
+	font-size: 18px;
+	color: grey;
+	letter-spacing: 0;
+	font-weight: 400;
+	line-height: 24px;
+}
+
+.bio {
+	text-align: left;
+	line-height: 24px;
+	max-width: 480px;
+}
+
+.question {
+	font-weight: 700;
+	margin-top: 10px;
+}
+
+/*
+.roster {
+	display: flex;
+	margin: 20px;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.roster img {
+	border-radius: 100px;
+	width: 65px;
+	height: 65px;
+	margin: 0 0 10px 0;
+	    border: 3px solid lightgrey;
+
+	    .roster img:first-of-type {
+	margin-left: 0;
+}
+
+.roster img:last-of-type{
+	margin-right: 0;
+}
+
+}*/
+
+.eliminated {
+	opacity: .3;
+	filter: grayscale(100%);
+}
+
+.hidepic {
+	display: none;
+}
+
+
+
+@media (max-width: 500px) {
+	.bio {
+		max-width: 100%;
+	}
+
+	.card-section {
+		flex-wrap: wrap;
+		flex-direction: column;
+		margin: 0 auto;
+	}
+
+	.container {
+		margin: 0px 10px;
+	}
+
+	.person{
+		flex-flow: row;
+		text-align: left;
+		max-width: 100%;
+	}
+
+	.avatar {
+		margin: 0 auto;
+	}
+
+	.card, .card:first-of-type  {
+		margin: 15px 0 15px 0 !important;
+		padding: 20px;
+	}
+
+	.avatar img {
+		width: 100px;
+		height: 100px;
+		margin-right: 20px;
+	}
+
+	.occupation, .total {
+		margin: 0;
+		text-align: left;
+		font-size: 14px;
+		line-height: 21px;
+	}
+
+	.rank {
+		top: 80px;
+		left: 80px;
+		font-size: 14px;
+	}
+
+	.name {
+		text-align: left;
+		font-size: 30px;
+
+	}
+
+	.roster {
+		margin: 20px 0;
+		justify-content: space-between;
+	}
+
+	.roster img  {
+	  width: 40px;
+	  height: 40px;
+
+	 }
+
+	 #dudes-list h3 {
+	 	font-size: 9px;
+	 }
+
+
+	.header {
+		height: 300px;
+		margin-bottom: 30px;
+	}
+
+	.header h1 {
+		font-size: 54px;
+	}
+
+	.ring {
+		font-size: 40px;
+	}
+
+
+	#leaderboard-list {
+		margin: 20px 0;
+	}
+}

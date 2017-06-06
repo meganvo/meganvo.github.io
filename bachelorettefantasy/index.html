@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<title>Bachelorette Fantasy League</title>	
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<link href="reset.css" rel="stylesheet" type="text/css">
+	<link href="https://fonts.googleapis.com/css?family=Oxygen:300,400,700" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Great+Vibes" rel="stylesheet">
+	<link href="style.css" rel="stylesheet" type="text/css">	
+	<link href="animate.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+	<div class="header">
+		<div class="ring animated tada">💍</div>
+		<h1>Bachelorette Fantasy League</h1>
+		<p>Scores are pulled from this <a href="https://docs.google.com/spreadsheets/d/1AHtG7k2Pn2t58aDKjFh2_3kWHrQdQkd6gwFTsem-GRk/edit?usp=sharing" target="_blank">spreadsheet</a> and updated weekly.</p>
+	</div>
+
+	<div class="container">
+
+		<ol id="dudes-list">
+		 	<script id="dudes-template" type="text/x-handlebars-template">			    
+			    <li class="dude {{cells.eliminated}}">  
+					<img src="{{cells.dudePicture}}" width="80" height="80">
+					<h3>{{cells.dudeName}}</h3>
+		   		</li>
+		 	</script>
+		</ol>
+
+		<ol id="leaderboard-list">	
+		 	<script id="leaderboard-template" type="text/x-handlebars-template">		 
+			    <li class="card">  
+			    	<div class="card-section person">
+					 	<div class="avatar">  
+					   		<img src="{{cells.picture}}">  
+					   		<div class="rank">{{num}}</div> 
+					  	</div>
+					  	<div>    
+					    	<h1 class="name">{{cells.name}}</h1>
+					   		<h2 class="occupation">{{cells.occupation}}</h2>
+					   		<p class="total">{{cells.total}} points</p>
+					   		
+					   	</div>
+					</div>
+
+					<div class="bio">
+						<!--<div class="roster">
+						  	<div class="{{cells.eliminated}}{{cells.show}}">
+							  	<img src="{{cells.dudePicture}}">
+							  	<h3>{{cells.dudeName}}</h3>
+							 </div>
+						  	<div class="{{cells.eliminated}}">
+							  	<img src="{{cells.dudePicture}}">
+							  	<h3>{{cells.dudeName}}</h3>
+							 </div>	
+						  	<div class="{{cells.eliminated}}">
+							  	<img src="{{cells.dudePicture}}">
+							  	<h3>{{cells.dudeName}}</h3>
+							 </div>	
+						  	<div class="{{cells.eliminated}}">
+							  	<img src="{{cells.dudePicture}}">
+							  	<h3>{{cells.dudeName}}</h3>
+							 </div>	
+						  	<div class="{{cells.eliminated}}">
+							  	<img src="{{cells.dudePicture}}">
+							  	<h3>{{cells.dudeName}}</h3>
+							 </div>	
+						  	<div class="{{cells.eliminated}}">
+							  	<img src="{{cells.dudePicture}}">
+							  	<h3>{{cells.dudeName}}</h3>
+							 </div>
+						</div>-->
+
+						<p class="question">Do you have any special talents?</p>
+						<p>{{cells.talents}}</p>
+						<p class="question">Meatloaf said he would "do anything for love, but he won't do that." What will you not do?</p>
+						<p>{{cells.meatloaf}}</p>
+						<p class="question">Describe your ultimate fantasy date.</p>
+						<p>{{cells.date}}</p>
+						<p class="question">Do you believe a person can find love on reality tv?</p>
+						<p>{{cells.love}}</p>
+					</div>
+		   		</li>
+		 	</script>
+		</ol>
+	</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="sheetrock.min.js"></script>
+<script src="leaderboard.js"></script>
+
+</body>
+</html>
