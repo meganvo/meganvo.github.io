@@ -156,7 +156,7 @@ p {
 	display: flex;
 	flex-direction: column;
 	flex-wrap: wrap;
-	max-width: 280px;
+	width: 280px;
 	align-content: center;
 	text-align: center;
 }
