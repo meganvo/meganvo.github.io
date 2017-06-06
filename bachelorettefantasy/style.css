@@ -6,7 +6,7 @@ body {
 	font-family: 'Oxygen', sans-serif;
 	color: #333;
 	background-color: #FAF5EB;
-	font-size: 14px;
+	font-size: 18px;
 
 }
 
@@ -28,8 +28,8 @@ h3 {
 }
 
 p {
-	font-size: 14px;
-	line-height: 21px;
+	font-size: 16px;
+	line-height: 24px;
 }
 
 .container {
@@ -156,7 +156,7 @@ p {
 	display: flex;
 	flex-direction: column;
 	flex-wrap: wrap;
-	max-width: 250px;
+	max-width: 280px;
 	align-content: center;
 	text-align: center;
 }
@@ -168,11 +168,14 @@ p {
 
 .occupation, .total {
 	text-align: center;
-	font-size: 18px;
 	color: grey;
 	letter-spacing: 0;
 	font-weight: 400;
 	line-height: 24px;
+}
+
+.total {
+	font-size: 14px;
 }
 
 .bio {
@@ -181,9 +184,11 @@ p {
 	max-width: 480px;
 }
 
+
+
 .question {
 	font-weight: 700;
-	margin-top: 10px;
+	margin-top: 20px;
 }
 
 /*
