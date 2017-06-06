@@ -14,7 +14,7 @@ var Template = Handlebars.compile($('#leaderboard-template').html());
 $('#leaderboard-list').sheetrock({
   url: mySpreadsheet,
   query: "select A,B,C,D,E,F,G,H,I,J,K,L order by G desc",
-  fetchSize: 26,
+  fetchSize: 6,
   rowTemplate: Template
 });
 
