@@ -441,9 +441,9 @@ p {
 		width: 100%;
 	}
 
-	.card, .card:first-of-type  {
-		margin: 15px 0 15px 0 !important;
-		padding: 20px;
+	.card {
+		margin: 20px 0;
+		padding: 30px;
 	}
 
 	.avatar img {
