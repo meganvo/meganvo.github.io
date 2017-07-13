@@ -17,6 +17,8 @@ h1 {
 	text-align: center;
 }
 
+
+
 h3 {
     text-transform: uppercase;
     color: grey;
@@ -24,12 +26,12 @@ h3 {
     font-size: 10px;
     letter-spacing: 1.2px;
     font-weight: 700;
-    line-height: 0px;
+    line-height: 1.8px;
 }
 
 p {
-	font-size: 16px;
-	line-height: 24px;
+	font-size: 14px;
+	line-height: 21px;
 }
 
 .container {
@@ -93,7 +95,8 @@ p {
 }
 
 #leaderboard-list .card:first-of-type {
-	border: 3px solid #FF3000;
+	box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+	margin-bottom: 40px;
  }
 
 .card-section { 
@@ -143,27 +146,32 @@ p {
 
 .occupation, .total {
 	text-align: center;
-	color: grey;
 	letter-spacing: 0;
-	font-weight: 400;
 	line-height: 24px;
 }
 
 .total {
 	font-size: 14px;
+	margin-top: 5px;
 }
 
 .bio {
 	text-align: left;
 	line-height: 24px;
-	max-width: 480px;
+	width: 550px;
 }
 
-
-
 .question {
-	font-weight: 700;
-	margin-top: 20px;
+	text-align: left;
+	color: #ccc;
+}
+
+.answer {
+	text-align: left;
+	font-size: 18px;
+	line-height: 1.4em;
+	margin: 10px 0 20px 0;
+	letter-spacing: .3px;
 }
 
 /* Roster */
@@ -172,15 +180,16 @@ p {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-between;
-	margin: 20px;
+	margin-bottom: 30px;
 }
 
 
 .rosterDude {
 	display: none;
-	width: 60px;
-	height: 60px;
+	width: 80px;
+	height: 80px;
 	border-radius: 100px;
+	border: 2px solid lightgrey;
 }
 
 .show {
@@ -192,11 +201,11 @@ p {
 .dudeName {
 	visibility: hidden;
 	opacity: 0;
-	width: 60px;
-	height: 60px;
+	width: 80px;
+	height: 80px;
 	border-radius: 100px;
 	background-color: #FF3000;
-	padding-top: 30px;
+	padding-top: 40px;
 }
 
 .dudeName h3 {
@@ -447,12 +456,14 @@ p {
 		margin-right: 20px;
 	}
 
-	.occupation, .total {
+	.occupation {
 		margin: 0;
 		text-align: left;
-		font-size: 14px;
+		font-size: 16px;
 		line-height: 21px;
 	}
+
+	.total {display: none;}
 
 	.rank {
 		top: 80px;
