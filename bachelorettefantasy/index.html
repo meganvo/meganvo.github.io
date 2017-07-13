@@ -20,15 +20,6 @@
 
 	<div class="container">
 
-		<ol id="dudes-list">
-		 	<script id="dudes-template" type="text/x-handlebars-template">			    
-			    <li class="dude {{cells.eliminated}}">  
-					<img src="{{cells.dudePicture}}" width="80" height="80">
-					<h3>{{cells.dudeName}}</h3>
-		   		</li>
-		 	</script>
-		</ol>
-
 		<ol id="leaderboard-list">	
 		 	<script id="leaderboard-template" type="text/x-handlebars-template">		 
 			    <li class="card">  
@@ -46,42 +37,49 @@
 					</div>
 
 					<div class="bio">
-						<!--<div class="roster">
-						  	<div class="{{cells.eliminated}}{{cells.show}}">
-							  	<img src="{{cells.dudePicture}}">
-							  	<h3>{{cells.dudeName}}</h3>
-							 </div>
-						  	<div class="{{cells.eliminated}}">
-							  	<img src="{{cells.dudePicture}}">
-							  	<h3>{{cells.dudeName}}</h3>
-							 </div>	
-						  	<div class="{{cells.eliminated}}">
-							  	<img src="{{cells.dudePicture}}">
-							  	<h3>{{cells.dudeName}}</h3>
-							 </div>	
-						  	<div class="{{cells.eliminated}}">
-							  	<img src="{{cells.dudePicture}}">
-							  	<h3>{{cells.dudeName}}</h3>
-							 </div>	
-						  	<div class="{{cells.eliminated}}">
-							  	<img src="{{cells.dudePicture}}">
-							  	<h3>{{cells.dudeName}}</h3>
-							 </div>	
-						  	<div class="{{cells.eliminated}}">
-							  	<img src="{{cells.dudePicture}}">
-							  	<h3>{{cells.dudeName}}</h3>
-							 </div>
-						</div>-->
+						<div class="roster">
+							  	<div class="rosterDude adam {{cells.adam}}"><div class="dudeName"><h3>Adam</h3></div></div>
+							  	<div class="rosterDude alex {{cells.alex}}"><div class="dudeName"><h3>Alex</h3></div></div>
+							  	<div class="rosterDude anthony {{cells.anthony}}"><div class="dudeName"><h3>Anthony</h3></div></div>
+							  	<div class="rosterDude blake_e {{cells.blake_e}}"><div class="dudeName"><h3>Blake E.</h3></div></div>
+							  	<div class="rosterDude blake_k {{cells.blake_k}}"><div class="dudeName"><h3>Blake K.</h3></div></div>
+							  	<div class="rosterDude brady {{cells.brady}}"><div class="dudeName"><h3>Brady</h3></div></div>
+							  	<div class="rosterDude bryan {{cells.bryan}}"><div class="dudeName"><h3>Bryan</h3></div></div>
+							  	<div class="rosterDude bryce {{cells.bryce}}"><div class="dudeName"><h3>Bryce</h3></div></div>
+							  	<div class="rosterDude dean {{cells.dean}}"><div class="dudeName"><h3>Dean</h3></div></div>
+							  	<div class="rosterDude demario {{cells.demario}}"><div class="dudeName"><h3>Demario</h3></div></div>
+							  	<div class="rosterDude eric {{cells.eric}}"><div class="dudeName"><h3>Eric</h3></div></div>
+							  	<div class="rosterDude fred {{cells.fred}}"><div class="dudeName"><h3>Fred</h3></div></div>
+							  	<div class="rosterDude grant {{cells.grant}}"><div class="dudeName"><h3>Grant</h3></div></div>
+							  	<div class="rosterDude iggy {{cells.iggy}}"><div class="dudeName"><h3>Iggy</h3></div></div>
+							  	<div class="rosterDude jack_stone {{cells.jack_stone}}"><div class="dudeName"><h3>Jack Stone</h3></div></div>
+							  	<div class="rosterDude jamey {{cells.jamey}}"><div class="dudeName"><h3>Jamey</h3></div></div>
+							  	<div class="rosterDude jedidiah {{cells.jedidiah}}"><div class="dudeName"><h3>Jedidiah</h3></div></div>
+							  	<div class="rosterDude jonathan {{cells.jonathan}}"><div class="dudeName"><h3>Jonathan</h3></div></div>
+							  	<div class="rosterDude josiah {{cells.josiah}}"><div class="dudeName"><h3>Josiah</h3></div></div>
+							  	<div class="rosterDude kenneth {{cells.kenneth}}"><div class="dudeName"><h3>Diggy</h3></div></div>
+							  	<div class="rosterDude kenny {{cells.kenny}}"><div class="dudeName"><h3>Kenny</h3></div></div>
+							  	<div class="rosterDude kyle {{cells.kyle}}"><div class="dudeName"><h3>Kyle</h3></div></div>
+							  	<div class="rosterDude lee {{cells.lee}}"><div class="dudeName"><h3>Lee</h3></div></div>
+							  	<div class="rosterDude lucas {{cells.lucas}}"><div class="dudeName"><h3>Lucas</h3></div></div>
+							  	<div class="rosterDude matt {{cells.matt}}"><div class="dudeName"><h3>Matt</h3></div></div>
+							  	<div class="rosterDude michael {{cells.michael}}"><div class="dudeName"><h3>Michael</h3></div></div>
+							  	<div class="rosterDude milton {{cells.milton}}"><div class="dudeName"><h3>Milton</h3></div></div>
+							  	<div class="rosterDude mohit {{cells.mohit}}"><div class="dudeName"><h3>Mohit</h3></div></div>
+							  	<div class="rosterDude peter {{cells.peter}}"><div class="dudeName"><h3>Peter</h3></div></div>
+							  	<div class="rosterDude rob {{cells.rob}}"><div class="dudeName"><h3>Rob</h3></div></div>
+							  	<div class="rosterDude will {{cells.will}}"><div class="dudeName"><h3>Will</h3></div></div>
+							</div>
 
-						<p class="question">Do you have any special talents?</p>
-						<p>{{cells.talents}}</p>
 						<p class="question">Meatloaf said he would "do anything for love, but he won't do that." What will you not do?</p>
 						<p>{{cells.meatloaf}}</p>
 						<p class="question">Describe your ultimate fantasy date.</p>
 						<p>{{cells.date}}</p>
 						<p class="question">What are your three worst attributes?</p>
 						<p>{{cells.worst}}</p>
-					</div>
+			
+						<p class="question">Do you have any special talents?</p>
+						<p>{{cells.talents}}</p>		</div>
 		   		</li>
 		 	</script>
 		</ol>
