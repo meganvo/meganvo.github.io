@@ -131,7 +131,6 @@ p {
 	display: flex;
 	flex-direction: column;
 	flex-wrap: wrap;
-	width: 280px;
 	align-content: center;
 	text-align: center;
 }
@@ -143,15 +142,14 @@ p {
 
 .occupation, .total {
 	text-align: center;
-	letter-spacing: 0;
 	line-height: 24px;
 }
 
-.total {
-	font-size: 14px;
-	margin-top: 5px;
-	color: grey;
+.occupation {
+	font-size: 16px;
 }
+
+
 
 .bio {
 	text-align: left;
@@ -455,8 +453,8 @@ p {
 	.occupation {
 		margin: 0;
 		text-align: left;
-		font-size: 16px;
-		line-height: 21px;
+		font-size: 12px;
+		line-height: 18px;
 	}
 
 	.total {display: none;}
