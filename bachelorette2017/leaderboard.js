@@ -13,16 +13,7 @@ var Template = Handlebars.compile($('#leaderboard-template').html());
 // Load leaderboard of scores
 $('#leaderboard-list').sheetrock({
   url: mySpreadsheet,
-  query: "select A,B,C,D,E,F,G,H,I order by G desc",
-  fetchSize: 26,
+  query: "select A,B,C,D,E,F,G,H,I,J,K,L,M,N,O,P,Q,R,S,T,U,V,W,X,Y,Z,AA,AB,AC,AD,AE,AF,AG,AH,AI,AJ,AK,AL,AM,AN,AO,AP,AQ,AR,AS order by G desc",
+  fetchSize: 25,
   rowTemplate: Template
-});
-
-var Template2 = Handlebars.compile($('#dudes-template').html());
-
-$('#dudes-list').sheetrock({
-  url: mySpreadsheet,
-  query: "select M,N,O order by M asc",
-  fetchSize: 32,
-  rowTemplate: Template2
 });
