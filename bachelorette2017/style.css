@@ -202,7 +202,7 @@ p {
 	height: 70px;
 	border-radius: 100px;
 	background-color: #FF3000;
-	padding-top: 35px;
+	padding-top: 25px;
 }
 
 .dudeName h3 {
@@ -276,6 +276,8 @@ p {
 .dean {
 	background: url(../bachelorette2017/img/dudes/dean.jpg);
 	background-size: 100% 100%;
+		opacity: .3;
+	filter: grayscale(100%);
 }
 .demario {
 	background: url(../bachelorette2017/img/dudes/demario.jpg);
