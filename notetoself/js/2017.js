@@ -1,5 +1,5 @@
     function pickimg(){
-    var imagenumber = 78 ;
+    var imagenumber = 122 ;
     var randomnumber = Math.random() ;
     var rand1 = Math.round( (imagenumber-1) * randomnumber) + 1;
     images = new Array
@@ -80,7 +80,49 @@
     images[76] = "img/note/201.PNG"
     images[77] = "img/note/202.PNG"
     images[78] = "img/note/161.PNG"
-
+    images[79] = "img/note/IMG_3054.jpeg"
+    images[80] = "img/note/IMG_3055.jpeg"
+    images[81] = "img/note/IMG_3057.jpeg"
+    images[82] = "img/note/IMG_3059.jpeg"
+    images[83] = "img/note/IMG_3060.jpeg"
+    images[84] = "img/note/IMG_3062.jpeg"
+    images[85] = "img/note/IMG_3063.jpeg"
+    images[86] = "img/note/IMG_3064.jpeg"
+    images[87] = "img/note/IMG_3066.jpeg"
+    images[88] = "img/note/IMG_3067.jpeg"
+    images[89] = "img/note/IMG_3068.jpeg"
+    images[90] = "img/note/IMG_3069.jpeg"
+    images[91] = "img/note/IMG_3070.jpeg"
+    images[92] = "img/note/IMG_3071.jpeg"
+    images[93] = "img/note/IMG_3072.jpeg"
+    images[94] = "img/note/IMG_3073.jpeg"
+    images[95] = "img/note/IMG_3074.jpeg"
+    images[97] = "img/note/IMG_3076.jpeg"
+    images[98] = "img/note/IMG_3077.jpeg"
+    images[99] = "img/note/IMG_3078.jpeg"
+    images[100] = "img/note/IMG_3079.jpeg"
+    images[101] = "img/note/IMG_3080.jpeg"
+    images[102] = "img/note/IMG_3081.jpeg"
+    images[103] = "img/note/IMG_3082.jpeg"
+    images[104] = "img/note/IMG_3083.jpeg"
+    images[105] = "img/note/IMG_3084.jpeg"
+    images[106] = "img/note/IMG_3085.jpeg"
+    images[107] = "img/note/IMG_3086.jpeg"
+    images[108] = "img/note/IMG_3087.jpeg"
+    images[109] = "img/note/IMG_3088.jpeg"
+    images[110] = "img/note/IMG_3089.jpeg"
+    images[111] = "img/note/IMG_3090.jpeg"
+    images[112] = "img/note/IMG_3091.jpeg"
+    images[113] = "img/note/IMG_3092.jpeg"
+    images[114] = "img/note/IMG_3093.jpeg"
+    images[115] = "img/note/IMG_3094.jpeg"
+    images[116] = "img/note/IMG_3095.jpeg"
+    images[117] = "img/note/IMG_3096.jpeg"
+    images[118] = "img/note/IMG_3097.jpeg"
+    images[119] = "img/note/IMG_3098.jpeg"
+    images[120] = "img/note/IMG_3099.jpeg"
+    images[121] = "img/note/IMG_3100.jpeg"
+    images[122] = "img/note/IMG_3103.jpeg"
 
     var image = images[rand1]
     document.randimg.src = image
