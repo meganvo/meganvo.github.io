@@ -8,16 +8,16 @@ html {
 }
 
 body{
-  background: url(../img/bg.png) repeat-x;
   background-color: #f9f7f3;
   color: #e05248;
-  overflow: hidden;
 }
+
 
 #container{
   max-width: 960px;
   text-align: center;
   margin: 0 auto;
+  padding: 20px;
 }
 
 h1 {
@@ -57,12 +57,22 @@ a:hover {
 
 p {
   margin: 0;
-  line-height: 1.6em;
-  font-size: 18px;
+  line-height: 1.8em;
+  font-size: 21px;
   padding: 0;
   color: #4a4a4a;
 }
 
+
+.site {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+.site-content {
+  flex: 1;
+}
 
 .about {
     padding: 30px 30px 0 30px;
@@ -70,7 +80,9 @@ p {
     display: block;
     text-align: center;
 }
-
+.about p {
+    margin: 15px 0 30px 0;
+  }
 
 .years {
   padding: 20px 10px;
@@ -79,8 +91,6 @@ p {
 }
 .phone_container {
     width: 450px;
-    max-height: 500px;
-    overflow: hidden;
     z-index: -999;
     margin: 0 auto;
 }
@@ -133,8 +143,13 @@ p {
     padding: 0;
   }
 
+.about p{
+  font-size: 16px;
+}
   .phone_container {
     width: 100%;
+  }
+}
  
 }
 
