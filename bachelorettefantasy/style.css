@@ -250,8 +250,6 @@ p {
 	background-size: 100% 100%;
 	opacity: .3;
 	filter: grayscale(100%);
-	opacity: .3;
-	filter: grayscale(100%);
 
 }
 .brady {
@@ -287,6 +285,8 @@ p {
 .eric {
 	background: url(../bachelorette2017/img/dudes/eric.png);
 	background-size: 100% 100%;
+	opacity: .3;
+	filter: grayscale(100%);
 }
 
 .fred {
@@ -401,6 +401,8 @@ p {
 .peter {
 	background: url(../bachelorette2017/img/dudes/peter.jpg);
 	background-size: 100% 100%;
+	opacity: .3;
+	filter: grayscale(100%);
 }
 .rob {
 	background: url(../bachelorette2017/img/dudes/rob.jpg);
