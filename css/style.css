@@ -19,7 +19,7 @@ body {
 }
 
 img {
-  margin: 20px auto;
+  margin: 40px 0 0 0;
   width: 100%;
 }
 
@@ -57,7 +57,6 @@ p {
   color: grey;
   font-size: 14px;
   margin: 0 auto;
-  width: 65%;
   max-width: 700px;
   overflow: hidden;
   text-align: center;
@@ -235,6 +234,9 @@ ul {
 .project_hero h1{
   margin: 0;
   font-size: 55px;
+  line-height: 1.1em;
+  margin-bottom: 20px;
+
 }
 
 .project_hero h2{
@@ -449,7 +451,7 @@ a.back-to-top {
 }
 
 
-/* Project Prototypes */
+/* Project Prototypes 
 .prototype {
   position: relative;
   display: block;
@@ -489,6 +491,7 @@ a.back-to-top {
   background: rgba(208,1,27,0.9);
   box-shadow: 0 2px 9px 0 rgba(0,0,0,0.85);
 }
+*/
 
 @media (max-width : 1000px) {
     .right {
@@ -507,9 +510,12 @@ a.back-to-top {
 @media (max-width : 550px) {
     #container {
       margin-top: 0px;
-      width: 90%;
+      width: 95%;
     }
 
+    .intro {
+      margin-top: 100px;
+    }
     .portrait {
       display: block;
       margin-right: 0;
@@ -593,14 +599,24 @@ a.back-to-top {
     }
 
     .nav {
+      border-bottom:1px solid #c6c6c6;
+      padding: 0 20px;
+      justify-content: center;
+    }
+
+    .nav_section:last-of-type {
       display: none;
     }
 
+    .nav_section: first-of-type {
+
+    }
+
     .project_hero {
-      padding: 0 20px;
+      padding: 0;
     }
     .project_hero h1 {
-      padding-top: 20px;
+      padding-top: 100px;
     }
 
     .project_hero h2 {
@@ -608,7 +624,7 @@ a.back-to-top {
     }
 
     .project_hero img {
-      width: 90%;
+      width: 95%;
     }
 
     .quote {
@@ -616,6 +632,11 @@ a.back-to-top {
       padding: 10px 0;
       font-size: 22px;
     }
+
+    .caption {
+      width:100%;
+    }
       
   }
+    }
 
