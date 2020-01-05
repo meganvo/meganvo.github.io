@@ -1,0 +1,165 @@
+---
+# Front matter comment to ensure Jekyll properly reads file.
+---
+
+// Imports
+@import "typography";
+@import "variables";
+@import "projects";
+
+body {
+    margin: 0 auto;
+    background-color: $siteBackground;
+}
+
+.wrapper {
+    max-width: 60em;
+    padding: 0 $spaceLarge;
+    margin: 0 auto;
+
+    @media (max-width:$breakpointMedium) {
+        padding: 0 $spaceLarge;
+    }
+
+    @media (max-width:$breakpointSmall) {
+        padding: $spaceSmall;
+    }
+
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+// Nav
+nav {
+      margin-bottom: $spaceLarge;
+}
+
+
+nav a {
+ 
+    margin-right: .5em;
+}
+
+.nav-wrapper {
+    max-width: 60em;
+    padding: $spaceMedium;
+    margin: 0 auto;
+    display: flex;
+    justify-content: flex-end;
+    background-color: $siteBackground;
+}
+
+.post .nav-wrapper {
+    justify-content: space-between;
+}
+
+
+.post h3 {
+    margin-top: 0;
+}
+
+// Footer
+
+nav ul, footer ul {
+    padding: 0px;
+    list-style: none;
+}
+
+footer ul li {
+    display: inline;
+    margin-right: $spaceMedium;
+}
+
+footer {
+    margin-top: $spaceExtraLarge;
+}
+
+
+a {
+    text-decoration: none;
+    color: $accentColor;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+ul {
+    padding: 0;
+    list-style-type: none;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+}
+
+// Intro
+
+#intro {
+    text-align: center;
+    padding-bottom: $spaceSmall;
+
+    @media (max-width:$breakpointSmall) {
+        padding: $spaceSmall 0 $spaceSmall 0;
+    }
+}
+
+.name {
+    font-family: $headingTypeface;
+    font-weight: 700;
+    font-size: 5rem;
+    margin: 0;
+    color: black;
+
+    @media (max-width:$breakpointSmall) {
+        font-size: 2rem;
+    }
+
+}
+
+.current-role {
+    font-family: $headingTypeface;
+    margin-top: 0;
+    margin-bottom: $spaceSmall;
+    color: $secondaryText;
+
+    @media (max-width:$breakpointSmall) {
+        font-size: 1.5rem;
+    }
+
+}
+
+// About
+
+#work {
+    padding-top: $spaceMedium 0;
+}
+
+ul .contact-links {
+    display: inline;
+}
+
+#guiding-principles {
+    padding: $spaceMedium $spaceLarge;
+    background-color: $accentColor;
+    border-radius: 6px;
+    color: white;
+    margin: $spaceLarge auto;
+
+    @media (max-width:$breakpointSmall) {
+        border-radius: 0;
+        padding: $spaceSmall $spaceMedium;
+    }
+
+}
+
+#contact-links i {
+    margin-right: 10px;
+    width: 15px;
+}
+ 

@@ -1,2 +1,6 @@
-name: Megan Vo, Product Designer
+title: Megan Vo, Product Designer
 markdown: kramdown
+url: http://meganvo.github.io/new
+sass:
+sass_dir: _sass
+livereload: true     # You no longer need to include --livereload

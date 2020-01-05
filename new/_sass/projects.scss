@@ -1,0 +1,84 @@
+@import "variables";
+.projects li {
+    margin-bottom: $spaceMedium;
+}
+
+.tile {
+    border-radius: 3px;
+    padding: $spaceSmall $spaceSmall $spaceSmall 0;
+}
+
+.thumbnail img {
+    border-radius: 6px;
+
+    @media (max-width:$breakpointSmall) {
+        padding: 0;
+    }
+
+}
+
+
+.tile-info {
+    @media (max-width:$breakpointSmall) { 
+        margin-top: $spaceSmall;
+    }
+
+     @media (max-width:$breakpointMedium) { 
+        margin-top: $spaceSmall;
+    }
+
+}
+
+.tile-title {
+    margin: 0;
+    font-size: 2.5rem;
+    font-weight: 500;
+}
+
+.tile-summary {
+    margin: .5rem 0;
+    font-size: 2rem;
+    color: $secondaryText;
+    margin-bottom: $spaceSmall;
+}
+
+.tile:first-of-type {
+    margin-top: 0;
+}
+
+.company {
+    color: $secondaryText;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+#fun .tile-title, #fun .tile-summary  {
+    font-size: 1.5rem;
+}
+
+#fun .tile-info {
+    margin-top: $spaceSmall;
+}
+
+#fun h3 {
+    margin-top: $spaceLarge;
+}
+
+.hvr-grow {
+    display: inline-block;
+    vertical-align: middle;
+    transform: translateZ(0);
+    box-shadow: 0 0 0 rgba(0, 0, 0, 0);
+    backface-visibility: hidden;
+    -moz-osx-font-smoothing: grayscale;
+    transition-duration: 0.3s;
+    transition-property: transform;
+}
+
+.hvr-grow:hover,
+.hvr-grow:focus,
+.hvr-grow:active {
+    transform: scale(1.1);
+}
+
+

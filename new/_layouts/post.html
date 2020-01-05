@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+	<html>
+		{% include header.html %}
+		<body>
+		{% include nav-post.html %}
+			<div class="wrapper">
+				<img src="{{ page.hero }}"/>
+				{{ content }}
+				{% include footer.html %}
+			</div>
+		</body>
+	</html>
