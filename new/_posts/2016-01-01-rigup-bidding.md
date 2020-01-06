@@ -18,5 +18,23 @@ The bid creation process had a 46.15% conversion rate. By identifying the highes
 ### Outcome
 The conversion rate increased to 85.66%. Two months after implementation, bid requests increased as well and we were on the right track to meeting our quarterly GMV goal. Additional unanticipated success included increased user retention and less usability questions asked to our customer support team about the bidding process.
 
+![alt text]({{ site.baseurl }}/images/rigup/concept_1.png)
+![alt text]({{ site.baseurl }}/images/rigup/concept_2.png)
+![alt text]({{ site.baseurl }}/images/rigup/request_1.png)
+![alt text]({{ site.baseurl }}/images/rigup/request_2.png)
+![alt text]({{ site.baseurl }}/images/rigup/request_3.png)
+![alt text]({{ site.baseurl }}/images/rigup/request_4.png)
+![alt text]({{ site.baseurl }}/images/rigup/request_5.png)
+![alt text]({{ site.baseurl }}/images/rigup/submit_1.png)
+![alt text]({{ site.baseurl }}/images/rigup/submit_2.png)
+![alt text]({{ site.baseurl }}/images/rigup/review_1.png)
+![alt text]({{ site.baseurl }}/images/rigup/review_2.png)
+
+
+
+
+
+
+
 
 

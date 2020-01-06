@@ -8,6 +8,14 @@
     padding: $spaceSmall $spaceSmall $spaceSmall 0;
 }
 
+.peojects li:hover {
+    cursor: pointer !important;
+}
+
+li a:hover {
+    text-decoration: none !important;
+}
+
 .thumbnail img {
     border-radius: 6px;
 

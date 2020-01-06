@@ -14,15 +14,15 @@ title: Megan Vo, Product Designer
 		<h3 class="section-title">Selected work</h3>
 		<ul class="projects">
 			{% for post in site.posts %}
-			<li>	
+			<li><a href="{{ post.url }}">	
 				<div class="row middle-sm middle-md middle-lg tile hvr-grow">
 					<img src="{{ post.thumbnail }}" class="thumbnail col-xs-12 col-sm-12 col-md-4 col-lg-4">
 					<div class="tile-info col-xs-12 col-sm-12 col-md-8 col-lg-8">
-						<h2 class="tile-title"><a href="{{ post.url }}">{{ post.title }}</a></h2>
+						<h2 class="tile-title">{{ post.title }}</h2>
 						<h2 class="tile-summary">{{ post.summary }}</h2>
 						<span class="company">{{ post.company }}</span>
 					</div>	
-				</div>
+				</div></a>
 			</li>
 			{% endfor %}
 			<li>
