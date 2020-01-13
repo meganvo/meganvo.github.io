@@ -1,81 +1,104 @@
 ---
 layout: default
-title: Megan Vo, Product Designer
+title: Product Designer
 ---
 <div class="wrapper">
 	<section id="intro"> <!--class="fadeIn animated">-->
-		<div>
-			<h1 class="name">Megan Mai Vo</h1>
-			<h1 class="current-role">Senior Product Designer @ Grubhub</h1>
-		</div>	
-	</section>
-
-	<section id="work">
-		<h3 class="section-title">Selected work</h3>
-		<ul class="projects">
-			{% for post in site.posts %}
-			<li><a href="{{ post.url }}">	
+	<div>
+		<h1 class="name">Megan Mai Vo</h1>
+		<h1 class="current-role">Senior Product Designer @ Grubhub</h1>
+	</div>
+</section>
+<section id="work">
+	<h3 class="section-title">Selected work</h3>
+	<ul class="projects">
+		{% for post in site.posts %}
+			<li><a href="{{ post.url }}">
 				<div class="row middle-sm middle-md middle-lg tile hvr-grow">
 					<img src="{{ post.thumbnail }}" class="thumbnail col-xs-12 col-sm-12 col-md-4 col-lg-4">
 					<div class="tile-info col-xs-12 col-sm-12 col-md-8 col-lg-8">
 						<h2 class="tile-title">{{ post.title }}</h2>
 						<h2 class="tile-summary">{{ post.summary }}</h2>
 						<span class="company">{{ post.company }}</span>
-					</div>	
+					</div>
 				</div></a>
 			</li>
-			{% endfor %}
-			<li>
-				<div class="row middle-sm middle-md middle-lg tile">
-					<img src="../images/neon_thumb.png" alt="" class="thumbnail col-xs-12 col-sm-12 col-md-4 col-lg-4">
-					<div class="tile-info col-xs-12 col-sm-12 col-md-8 col-lg-8">
-						<span class="secondary-text">Coming soon</span>
-						<h2 class="tile-title">Driver App Redesign</h2>
-						<h2 class="tile-summary">Rethinking our delivery driver app from the ground up</h2>
-						<span class="company">Grubhub</span>
-					</div>
+		{% endfor %}
+		<li>
+			<div class="row middle-sm middle-md middle-lg tile">
+				<img src="../images/neon_thumb.png" class="thumbnail col-xs-12 col-sm-12 col-md-4 col-lg-4">
+				<div class="tile-info col-xs-12 col-sm-12 col-md-8 col-lg-8">
+					<span class="secondary-text">Coming soon</span>
+					<h2 class="tile-title">Driver App Redesign</h2>
+					<h2 class="tile-summary">Rethinking our delivery driver app from the ground up</h2>
+					<span class="company">Grubhub</span>
 				</div>
+			</div>
+		</li>
+	</ul>
+</section>
+<section id="fun">
+	<h3 class="section-title">Selected fun</h3>
+	<ul class="projects row">
+		<li class="col-xs-12 col-sm-6 col-md-6 col-lg-4"><a href="http://meganvo.github.io/opencarryaustin" target="_blank">
+			<div class="tile hvr-grow">
+				<img src=" ../images/opencarry_thumb.png" class="thumbnail">
+				<div class="tile-info">
+					<h2 class="tile-title">Open Carry Austin</h2>
+					<h2 class="tile-summary">Learn about Texas gun laws and locate gun-free locations</h2>
+					<span class="company">HTML, CSS, JS</span>
+				</div>
+			</div>
+		</a>
+	</li>
+	<li class="col-xs-12 col-sm-6 col-md-6 col-lg-4">
+		<a href="https://public.tableau.com/profile/megan.vo8526#!/vizhome/ChicagoRideshareandTrainAnalysis/RideshareDashboard" target="_blank">
+			<div class="tile hvr-grow">
+				
+				<img src="../images/rideshare_thumb.png" class="thumbnail">
+				<div class="tile-info">
+					<h2 class="tile-title">Chicago Rideshare Dashboard</h2>
+					<h2 class="tile-summary">Explore rideshare volume by neighborhood</h2>
+					<span class="company">Excel, SQL, Tableau</span>
+				</div>
+				
+			</div>	</a>
+		</li>
+		<li class="col-xs-12 col-sm-6 col-md-6 col-lg-4">
+			<a href="http://meganvo.github.io/notetoself/" target="_blank">
+				<div class="tile hvr-grow">
+					<img src="../images/notetoself_thumb.png" class="thumbnail">
+					<div class="tile-info">
+						<h2 class="tile-title"><a href="http://meganvo.github.io/notetoself/" target="_blank">Note to Self</a></h2>
+						<h2 class="tile-summary">Cataloging 6 years of nonsensical iPhone notes</h2>
+						<span class="company">HTML, CSS, JS</span>
+					</div>
+					
+				</div>
+			</a>
+		</li>
+			<li class="col-xs-12 col-sm-6 col-md-6 col-lg-4">
+			<a href="https://trackmyplants.glideapp.io/" target="_blank">
+				<div class="tile hvr-grow">
+					<img src=" ../images/plants_thumb.png" class="thumbnail">
+					<div class="tile-info">
+						<h2 class="tile-title"><a href="https://trackmyplants.glideapp.io/" target="_blank">Plant tracker</a></h2>
+						<h2 class="tile-summary">Tracking the life and death of my plants</h2>
+						<span class="company">Google Sheets, Glide App</span>
+					</div>
+				</div>			</a>
+			</li>
+		<li class="col-xs-12 col-sm-6 col-md-6 col-lg-4">
+			<a href="http://meganvo.github.io/bachelorettefantasy/" target="_blank">
+				<div class="tile hvr-grow">
+					<img src=" ../images/bachelorette_thumb.png" class="thumbnail">
+					<div class="tile-info">
+						<h2 class="tile-title"><a href="http://meganvo.github.io/bachelorettefantasy/" target="_blank">The Bachelorette Fantasy League</a></h2>
+						<h2 class="tile-summary">Google Sheets powered leaderboard</h2>
+						<span class="company">Google Sheets, HTML, CSS</span>
+					</div>
+				</div>			</a>
 			</li>
 		</ul>
-	</section>
-
-	<section id="fun">
-		<h3 class="section-title">Selected fun</h3>
-
-		<ul class="projects row">
-			<li class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
-				<div class="tile hvr-grow">
-					<a href="http://meganvo.github.io/opencarryaustin" target="_blank">
-						<img src=" ../images/opencarry_thumb.png" alt="" class="thumbnail">
-						<div class="tile-info">
-							<h2 class="tile-title"><a href="http://meganvo.github.io/opencarryaustin" target="_blank">Open Carry Austin</a></h2>
-							<h2 class="tile-summary">Texas open carry gun laws 101</h2>
-						</div>
-					</a>
-				</div>
-			</li>
-			<li class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
-				<div class="tile hvr-grow">
-					<a href="http://meganvo.github.io/notetoself/" target="_blank">
-						<img src=" ../images/notetoself_thumb.png" alt="" class="thumbnail">
-						<div class="tile-info">
-							<h2 class="tile-title"><a href="http://meganvo.github.io/notetoself/" target="_blank">Note to Self</a></h2>
-							<h2 class="tile-summary">Cataloging 6 years of nonsensical iPhone notes</h2>
-						</div>
-					</a>
-				</div>
-			</li>
-			<li class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
-				<div class="tile hvr-grow">
-					<a href="http://meganvo.github.io/bachelorettefantasy/" target="_blank">
-						<img src=" ../images/bachelorette_thumb.png" alt="" class="thumbnail">
-						<div class="tile-info">
-							<h2 class="tile-title"><a href="http://meganvo.github.io/bachelorettefantasy/" target="_blank">Bachelorette Fantasy League</a></h2>
-							<h2 class="tile-summary">My favorite guilty pleasure</h2>
-						</div>
-					</a>
-				</div>
-			</li>
-		</ul>	
 	</section>
 </div>

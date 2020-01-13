@@ -1,40 +1,65 @@
 ---
 layout: post
 title: Bid Management
-summary: Request quotes for complex oilfield jobs and compare pricing
+summary: Request & compare complex quotes from numerous bidders
 company: RigUp
 date: 2016-01-01
+year: 2016
 thumbnail: ../images/rigup_thumb.png
-hero: /images/rigup/hero.png
+hero: /images/rigup_thumb.png
 
 ---
+### Overview
+{: .post-wrapper}
+RigUp is an oilfield services marketplace that connects engineers & vendors for an easier bidding process. As the first designer at a small but rapidly growing company, I had to wear a lot hats. I tackled everything from front-end implementation, conducting usability tests, and driving marketing and branding design.
+{: .post-wrapper}
 
 ### Problem
-The bid creation process was in need of a redesign. The UX was a result of technical and product debt; we were implementing MVP after MVP into the process without any design consideration. It was time to clean up and scale.
+{: .post-wrapper}
+The bid creation process had a 46.15% conversion rate. By identifying the highest dropoffs points, I was able to guide my research in where to investigate. 
+{: .post-wrapper}
 
-The bid creation process had a 46.15% conversion rate. By identifying the highest dropoffs points, I was able to guide my research in where to investigate.
+![alt text]({{ site.baseurl }}/images/rigup/funnel.png)
+{: .post-img}
+
+By identifying the highest dropoffs points, I was able to guide my research in where to investigate. Through usability testing sessions, talking with users and data analytics, I discovered a couple of insights about the bidding process. Step one was initially overwhelming - users were being confronted with many inputs.
+{: .post-wrapper}
+
+![alt text]({{ site.baseurl }}/images/rigup/plan_step1.png)
+{: .post-img}
+
+Step one
+{: .post-img-caption}
+
+Users were going back and forth between steps to reference information.
+Through card sorting tests, I was able to better understand how users categorize the information.
+{: .post-wrapper}
+
+![alt text]({{ site.baseurl }}/images/rigup/plan_cardsort.png)
+{: .post-img}
 
 
 ### Outcome
-The conversion rate increased to 85.66%. Two months after implementation, bid requests increased as well and we were on the right track to meeting our quarterly GMV goal. Additional unanticipated success included increased user retention and less usability questions asked to our customer support team about the bidding process.
+{: .post-wrapper .post-section-title}
 
-![alt text]({{ site.baseurl }}/images/rigup/concept_1.png)
-![alt text]({{ site.baseurl }}/images/rigup/concept_2.png)
+The conversion rate increased to 85.66%. Two months after implementation, bid requests increased and we were on the right track to meeting our quarterly GMV goal. Additional unanticipated success included increased user retention and a decrease in calls to our customer support team.
+{: .post-wrapper}
+
+To begin the request the user is prompted with the basics, instead of overwhelimng the user off the bat with choices.
+{: .post-wrapper}
+
 ![alt text]({{ site.baseurl }}/images/rigup/request_1.png)
+{: .post-img}
+
+
+
+
+
 ![alt text]({{ site.baseurl }}/images/rigup/request_2.png)
+{: .post-img}
 ![alt text]({{ site.baseurl }}/images/rigup/request_3.png)
+{: .post-img}
 ![alt text]({{ site.baseurl }}/images/rigup/request_4.png)
+{: .post-img}
 ![alt text]({{ site.baseurl }}/images/rigup/request_5.png)
-![alt text]({{ site.baseurl }}/images/rigup/submit_1.png)
-![alt text]({{ site.baseurl }}/images/rigup/submit_2.png)
-![alt text]({{ site.baseurl }}/images/rigup/review_1.png)
-![alt text]({{ site.baseurl }}/images/rigup/review_2.png)
-
-
-
-
-
-
-
-
-
+{: .post-img}

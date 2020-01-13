@@ -8,7 +8,7 @@
     padding: $spaceSmall $spaceSmall $spaceSmall 0;
 }
 
-.peojects li:hover {
+.projects a:hover {
     cursor: pointer !important;
 }
 
@@ -16,9 +16,11 @@ li a:hover {
     text-decoration: none !important;
 }
 
-.thumbnail img {
-    border-radius: 6px;
+.thumbnail, .thumbnail img {
+    border-radius: 8px !important;
+}
 
+.thumbnail img {
     @media (max-width:$breakpointSmall) {
         padding: 0;
     }
@@ -41,7 +43,13 @@ li a:hover {
     margin: 0;
     font-size: 2.5rem;
     font-weight: 500;
+    color: $textColor;
 }
+
+.tile-title a {
+    color: $textColor;
+}
+
 
 .tile-summary {
     margin: .5rem 0;
@@ -88,5 +96,65 @@ li a:hover {
 .hvr-grow:active {
     transform: scale(1.1);
 }
+
+.post-hero {
+    text-align: center;
+    line-height: 0;
+}
+
+.post-hero img {
+    object-fit: cover;
+    height: 500px;
+    width: 70%;
+    border-radius: 8px;
+
+     @media (max-width:$breakpointSmall) { 
+        height: 300px;
+        width: 100%;
+        border-radius: 0;
+    }
+
+}
+
+.post-wrapper {
+    padding: 0 20%;
+
+      @media (max-width:$breakpointSmall) { 
+        padding: 0;
+    }
+
+     @media (max-width:$breakpointMedium) { 
+        padding: 0;
+    }
+}
+
+.post-section-title {
+    margin-top: $spaceMedium;
+}
+
+.post-img {
+    margin: $spaceLarge 0 0 0;
+}
+
+.post-img-caption {
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: $spaceLarge;
+    color: $secondaryText;
+}
+
+.post-intro h1 {
+    font-weight: 700;
+
+      @media (max-width:$breakpointSmall) { 
+        margin-top: 0;
+    }
+}
+
+.post-intro h2 {
+    margin-top: 0;
+    font-size: 1.4em;
+}
+
 
 
