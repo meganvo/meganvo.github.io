@@ -3,8 +3,9 @@
 ---
 
 // Imports
-
-@import 'typography', 'variables', 'projects';
+@import "typography";
+@import "variables";
+@import "projects";
 
 body {
     margin: $spaceExtraLarge auto;

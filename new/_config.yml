@@ -1,7 +1,6 @@
 title: Megan Vo, Product Designer
 markdown: kramdown
-url: http://meganvo.github.io/new
+baseurl: http://meganvo.github.io/new
 sass:
 sass_dir: _sass
 livereload: true     # You no longer need to include --livereload
-theme: jekyll-theme-primer
