@@ -7,6 +7,33 @@
 @import "variables";
 @import "projects";
 
+@media only screen and (max-width: $breakpointMedium) {
+    .hvr-grow  {
+        /*CSS3 animation properties*/
+        -webkit-animation: none !important;
+        -moz-animation: none !important;
+        -o-animation: none !important;
+        -ms-animation: none !important;
+        animation: none !important;
+
+        /*CSS3 transition properties*/
+        -o-transition-property: none !important;
+        -moz-transition-property: none !important;
+        -ms-transition-property: none !important;
+        -webkit-transition-property: none !important;
+        transition-property: none !important;
+
+        /*CSS3 transform properties*/
+        -o-transform: none !important;
+        -moz-transform: none !important;
+        -ms-transform: none !important;
+        -webkit-transform: none !important;
+        transform: none !important;
+    }
+}
+
+
+
 body {
     margin: $spaceExtraLarge auto;
     background-color: $siteBackground;
@@ -22,7 +49,7 @@ body {
     margin: 0 auto;
 
     @media (max-width:$breakpointMedium) {
-        padding: 0 $spaceLarge;
+        padding: 0 $spaceMedium;
     }
 
     @media (max-width:$breakpointSmall) {
@@ -38,6 +65,7 @@ img {
 }
 
 // Nav
+
 nav {
       margin-bottom: $spaceLarge;
       position: fixed;
@@ -47,8 +75,6 @@ nav {
       width: 100%;
       z-index: 3;
 }
-
-
 
 nav a {
     margin-right: .5em;
@@ -80,27 +106,9 @@ nav h1 {
   font-family: $siteTypeface;
 }
 
-.post .nav-wrapper {
-    justify-content: space-between;
-}
-
-
-.post h3 {
-    margin-top: 0;
-}
-
-
-
-// Footer
-
-nav ul, footer ul {
+nav ul {
     padding: 0px;
     list-style: none;
-}
-
-footer ul li {
-    display: inline;
-    margin-right: $spaceMedium;
 }
 
 
@@ -110,19 +118,12 @@ a {
     color: $accentColor;
 }
 
-a:hover {
-    text-decoration: underline;
-}
 
 ul {
     padding: 0;
     list-style-type: none;
 }
 
-.logo {
-    display: flex;
-    justify-content: center;
-}
 
 // Intro
 
@@ -164,6 +165,7 @@ ul {
 .about-me-img {
     border-radius: 8px;
 }
+
 #contact-links {
         margin-top: 2rem;
 
@@ -177,36 +179,9 @@ ul {
     padding: 4px 8px;
 }
 
-#credits a {
-  padding: 2px;
-
-}
 
 #contact-links a:hover, #credits a:hover {
     text-decoration: none;
-        border-bottom: 2px solid #2161f2;
-
-}
-
-
-
-
-#contact-links span {
-    margin-left: 10px;
-}
-
-
-#guiding-principles {
-    padding: $spaceMedium $spaceLarge;
-    background-color: $accentColor;
-    border-radius: 6px;
-    color: white;
-    margin: $spaceLarge auto;
-
-    @media (max-width:$breakpointSmall) {
-        border-radius: 0;
-        padding: $spaceSmall $spaceMedium;
-    }
 
 }
 
@@ -214,5 +189,3 @@ ul {
     margin-right: 10px;
     width: 15px;
 }
- 
-

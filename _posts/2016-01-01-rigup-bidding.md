@@ -19,13 +19,13 @@ RigUp is an oilfield services marketplace that connects engineers & vendors for 
 The bid creation process had a 46.15% conversion rate. By identifying the highest dropoffs points, I was able to guide my research in where to investigate. 
 {: .post-wrapper}
 
-![alt text]({{ site.baseurl }}/images/rigup/funnel.png)
+![Conversion funnel]({{ site.baseurl }}/images/rigup/funnel.png)
 {: .post-img}
 
 By identifying the highest dropoffs points, I was able to guide my research in where to investigate. Through usability testing sessions, talking with users and data analytics, I discovered a couple of insights about the bidding process. Step one was initially overwhelming - users were being confronted with many inputs.
 {: .post-wrapper}
 
-![alt text]({{ site.baseurl }}/images/rigup/plan_step1.png)
+![Old: Step 1]({{ site.baseurl }}/images/rigup/plan_step1.png)
 {: .post-img}
 
 Step one
@@ -35,7 +35,7 @@ Users were going back and forth between steps to reference information.
 Through card sorting tests, I was able to better understand how users categorize the information.
 {: .post-wrapper}
 
-![alt text]({{ site.baseurl }}/images/rigup/plan_cardsort.png)
+![Card Sort]({{ site.baseurl }}/images/rigup/plan_cardsort.png)
 {: .post-img}
 
 
@@ -48,18 +48,17 @@ The conversion rate increased to 85.66%. Two months after implementation, bid re
 To begin the request the user is prompted with the basics, instead of overwhelimng the user off the bat with choices.
 {: .post-wrapper}
 
-![alt text]({{ site.baseurl }}/images/rigup/request_1.png)
+![New Request Flow: Step 1]({{ site.baseurl }}/images/rigup/request_1.png)
 {: .post-img}
 
-
-
-
-
-![alt text]({{ site.baseurl }}/images/rigup/request_2.png)
+![New Request Flow: Step 2]({{ site.baseurl }}/images/rigup/request_2.png)
 {: .post-img}
-![alt text]({{ site.baseurl }}/images/rigup/request_3.png)
+
+![New Request Flow: Step 3]({{ site.baseurl }}/images/rigup/request_3.png)
 {: .post-img}
-![alt text]({{ site.baseurl }}/images/rigup/request_4.png)
+
+![New Request Flow: Step 4]({{ site.baseurl }}/images/rigup/request_4.png)
 {: .post-img}
-![alt text]({{ site.baseurl }}/images/rigup/request_5.png)
+
+![New Request Flow: Step 5]({{ site.baseurl }}/images/rigup/request_5.png)
 {: .post-img}

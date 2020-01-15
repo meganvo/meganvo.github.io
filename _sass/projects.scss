@@ -1,39 +1,14 @@
 @import "variables";
-.projects li {
-    margin-bottom: $spaceMedium;
+#work li, #fun li {
+    margin: $spaceMedium 0;
 }
 
-.tile {
-    border-radius: 3px;
-    padding: $spaceSmall $spaceSmall $spaceSmall 0;
+#work img, #fun img {
+    border-radius: 8px;
 }
-
-.projects a:hover {
-    cursor: pointer !important;
-}
-
-li a:hover {
-    text-decoration: none !important;
-}
-
-.thumbnail, .thumbnail img {
-    border-radius: 8px !important;
-}
-
-.thumbnail img {
-    @media (max-width:$breakpointSmall) {
-        padding: 0;
-    }
-
-}
-
 
 .tile-info {
-    @media (max-width:$breakpointSmall) { 
-        margin-top: $spaceSmall;
-    }
-
-     @media (max-width:$breakpointMedium) { 
+    @media (max-width:$breakpointSmall) and (max-width:$breakpointMedium) { 
         margin-top: $spaceSmall;
     }
 
@@ -58,10 +33,6 @@ li a:hover {
     margin-bottom: $spaceSmall;
 }
 
-.tile:first-of-type {
-    margin-top: 0;
-}
-
 .company {
     color: $secondaryText;
     text-transform: uppercase;
@@ -76,9 +47,6 @@ li a:hover {
     margin-top: $spaceSmall;
 }
 
-#fun h3 {
-    margin-top: $spaceLarge;
-}
 
 .hvr-grow {
     display: inline-block;
@@ -97,11 +65,6 @@ li a:hover {
     transform: scale(1.1);
 }
 
-@media (hover: none) {
-   .hvr-grow {
-      display: none;
-   }
-}
 
 
 .post-hero {
@@ -134,6 +97,19 @@ li a:hover {
     }
 }
 
+.post-intro h1 {
+    font-weight: 700;
+
+      @media (max-width:$breakpointSmall) { 
+        margin-top: 0;
+    }
+}
+
+.post-intro h2 {
+    margin-top: 0;
+    font-size: 1.4em;
+}
+
 .post-section-title {
     margin-top: $spaceMedium;
 }
@@ -149,32 +125,23 @@ li a:hover {
     color: $secondaryText;
 }
 
-.post-intro h1 {
-    font-weight: 700;
-
-      @media (max-width:$breakpointSmall) { 
-        margin-top: 0;
-    }
-}
-
-.post-intro h2 {
-    margin-top: 0;
-    font-size: 1.4em;
-}
 
 #post-end {
     margin-top: $spaceExtraLarge;
     padding-top: $spaceLarge;
     border-top: 1px solid #ccc;
 
-
       @media (max-width:$breakpointSmall) { 
         margin-top: $spaceMedium;
     }
 }
+
+#post-end li {
+    margin: $spaceMedium 0;
+}
+
 #post-end h4, #post-end p {
     margin: 0 !important;
-   
 }
 
 
