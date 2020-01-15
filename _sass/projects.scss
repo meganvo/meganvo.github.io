@@ -159,6 +159,11 @@ li a:hover {
     margin-top: $spaceExtraLarge;
     padding-top: $spaceLarge;
     border-top: 1px solid #ccc;
+
+
+      @media (max-width:$breakpointSmall) { 
+        margin-top: $spaceMedium;
+    }
 }
 #post-end h4, #post-end p {
     margin: 0 !important;
