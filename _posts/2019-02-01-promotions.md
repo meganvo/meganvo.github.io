@@ -42,7 +42,7 @@ In order to grow the product, we needed to take a step back and think beyond its
 ![alt text]({{ site.baseurl }}/images/promotions/sprint.jpg)
 {: .post-img}
 
-![alt text]({{ site.baseurl }}/images/promotions/sprint_2.jpg)
+![alt text]({{ site.baseurl }}/images/promotions/sprint2.jpg)
 {: .post-img}
 
 Through their knowledge, we determined the new creation experience should **educate restaurants** on how Promotions worked, provide **advanced targeting** and **guide restaurants** on what offers are profitable, yet still attract customers. 
