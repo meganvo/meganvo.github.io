@@ -88,14 +88,3 @@ The last step allows restaurants review to view their campaign details before la
 Step 4: Review
 {: .post-img-caption}
 
-### Smart Promotions 
-{: .post-wrapper}
-January 2020
-{: .post-wrapper .company}
-{: .post-wrapper}
-![alt text]({{ site.baseurl }}/images/promotions/smartpromotions_mobile.png)
-{: .post-img}
-
-![alt text]({{ site.baseurl }}/images/promotions/smartpromotions_desktop.png)
-{: .post-img}
-
