@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Bid Management
-summary: Request & compare complex quotes from numerous bidders
+summary: Request, receive, & compare job quotes
 company: RigUp
 date: 2016-01-01
 year: 2016
