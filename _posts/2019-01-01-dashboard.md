@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Insights
-summary: Actionable data-backed insights for restaurants
+summary: Data-fueled recommendations for restaurants
 description: 
 company: Grubhub
 date: 2019-01-01
