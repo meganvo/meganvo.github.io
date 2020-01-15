@@ -43,10 +43,24 @@
     font-size: 1.5rem;
 }
 
+#work .tile-title, #work .tile-summary  {
+      @media (max-width:$breakpointSmall) { 
+    font-size: 1.5rem;
+}
+}
+
+
 #fun .tile-info {
     margin-top: $spaceSmall;
 }
 
+#work .tile-info {
+      @media (max-width:$breakpointSmall) { 
+       margin-top: $spaceSmall;
+       margin-bottom: $spaceMedium;
+    }
+
+}
 
 .hvr-grow {
     display: inline-block;
