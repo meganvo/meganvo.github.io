@@ -38,8 +38,8 @@ body {
     margin: $spaceExtraLarge auto;
     background-color: $siteBackground;
 
-       @media (max-width:$breakpointSmall) {
-    margin: $spaceLarge auto;
+       @media (max-width:$breakpointSmall) and (max-width:$breakpointMedium) {
+    margin: $spaceMedium auto;
     }
 }
 
@@ -67,7 +67,6 @@ img {
 // Nav
 
 nav {
-      margin-bottom: $spaceLarge;
       position: fixed;
       top: 0;
       left: 0;
