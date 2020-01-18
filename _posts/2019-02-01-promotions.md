@@ -88,3 +88,11 @@ The last step allows restaurants review to view their campaign details before la
 Step 4: Review
 {: .post-img-caption}
 
+
+<!--### Smart Promotions Launch
+{: .post-wrapper}
+
+<video src="{{ site.baseurl }}/images/promotions/budget_animate.mp4" type="video/mp4" autoplay="" loop=""></video>
+{: .post-img}-->
+
+
