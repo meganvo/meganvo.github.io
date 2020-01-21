@@ -89,10 +89,16 @@ Step 4: Review
 {: .post-img-caption}
 
 
-<!--### Smart Promotions Launch
+### Smart Promotions Launch
 {: .post-wrapper}
 
+![alt text]({{ site.baseurl }}/images/promotions/smartpromotions_desktop.png)
+{: .post-img}
+
+![alt text]({{ site.baseurl }}/images/promotions/smartpromotions_mobile.png)
+{: .post-img}
+
 <video src="{{ site.baseurl }}/images/promotions/budget_animate.mp4" type="video/mp4" autoplay="" loop=""></video>
-{: .post-img}-->
+{: .post-img}
 
 
