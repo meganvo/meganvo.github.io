@@ -92,6 +92,9 @@ Step 4: Review
 ### Smart Promotions Launch
 {: .post-wrapper}
 
+![alt text]({{ site.baseurl }}/images/promotions/sp_landing.png)
+{: .post-img}
+
 ![alt text]({{ site.baseurl }}/images/promotions/smartpromotions_desktop.png)
 {: .post-img}
 
