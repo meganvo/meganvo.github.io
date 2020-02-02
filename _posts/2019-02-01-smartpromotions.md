@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Smart Promotions
-summary: Launching a new product 
+title: Smart Promotions Launch
+summary: 
 company: Grubhub
 date: 2019-02-01
 year: 2019
