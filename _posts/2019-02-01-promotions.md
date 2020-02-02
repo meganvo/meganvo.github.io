@@ -1,30 +1,31 @@
 ---
 layout: post
 title: Targeted Promotions
-summary: Launch promotions with customizable offers & diner targeting
+summary: Redesigning the creation flow to increase campaign length
 description: 
 company: Grubhub
 date: 2019-02-01
-year: 2018–2019
+year: 2018
 thumbnail: ../images/promotions_thumb.png
 hero: /images/promotions_thumb.png
 
 
 ---
-Targeted promotions allowed restaurants to create promotions based on their business goals. I led the design of Promotions across several product phases - from MVP, scaling it as we expanded the feature set, and launching Smart Promotions.
+Targeted promotions allowed restaurants to create promotions based on their business goals. I led design across several product phases - from MVP, scaling it as we expanded the feature set, and launching Smart Promotions.
 {: .post-wrapper}
-
-
-## Promotion Creation Flow
-{: .post-wrapper}
-April 2018
-{: .post-wrapper .company}
-
 
 ### Problem
 {: .post-wrapper}
-We initially launched targeted promotions with just two types - new diner and happy hours.  As we expanded our targeting options, the creation flow couldn't scale in a small modal. We also wanted to understand why restaurants kept starting and stopping campaigns. 
+
+We launched targeted promotions with just two types - new diner and happy hours. As we expanded our targeting options, the creation flow couldn't scale in a small modal. We also wanted to understand why restaurants kept starting and stopping campaigns. 
 {: .post-wrapper}
+
+#### **Almost 20% of campaigns created were stopped within a day.** 
+{: .post-wrapper .red}
+
+#### **Creation modal couldn't scale to allow more targeting options.**
+{: .post-wrapper .red}
+
 
 ![alt text]({{ site.baseurl }}/images/promotions/creation_old_landing.png)
 {: .post-img}
@@ -36,7 +37,9 @@ The first time user experience didn't offer any education or onboarding to what 
 The creation flow was contained within a modal with limited targeting and promotion types.
 {: .post-img-caption}
 
-In order to grow the product, we needed to take a step back and think beyond its current MVP state. **We ran a week long design sprint.** To kick it off, we conducted expert interviews across stakeholders in Finance, Support, Sales departments to share their insights. 
+### Running a design sprint
+{: .post-wrapper}
+We needed to take a step back and think beyond its current MVP state and run a design sprint. To kick it off, we conducted expert interviews across stakeholders in Finance, Support, Sales departments to share their insights. 
 {: .post-wrapper}
 
 ![alt text]({{ site.baseurl }}/images/promotions/sprint.jpg)
@@ -51,7 +54,11 @@ Through their knowledge, we determined the new creation experience should **educ
 ### Outcome
 {: .post-wrapper}
 
-We created a four step creation flow that guided restaurants throughout the process.
+#### **Less than 1% of campaigns were stopped within a day.**
+{: .post-wrapper .green }
+
+
+The new creation flow guided restaurants throughout the process.
 {: .post-wrapper}
 
 First time users would view a landing page that introduced them to the product and set expectations before jumping into creation mode.
@@ -87,21 +94,3 @@ The last step allows restaurants review to view their campaign details before la
 {: .post-img}
 Step 4: Review
 {: .post-img-caption}
-
-
-### Smart Promotions Launch
-{: .post-wrapper}
-
-![alt text]({{ site.baseurl }}/images/promotions/sp_landing.png)
-{: .post-img}
-
-![alt text]({{ site.baseurl }}/images/promotions/smartpromotions_desktop.png)
-{: .post-img}
-
-![alt text]({{ site.baseurl }}/images/promotions/smartpromotions_mobile.png)
-{: .post-img}
-
-<video src="{{ site.baseurl }}/images/promotions/budget_animate.mp4" type="video/mp4" autoplay="" loop=""></video>
-{: .post-img}
-
-

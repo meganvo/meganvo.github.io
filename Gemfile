@@ -13,7 +13,7 @@ gem "minima", "~> 2.5"
 # uncomment the line below. To upgrade, run `bundle update github-pages`.
 gem "github-pages", "~> 203", group: :jekyll_plugins
 gem "jekyll-github-metadata"
-
+gem 'faraday', '0.17.3'
 # If you have any plugins, put them here!
 group :jekyll_plugins do
   gem "jekyll-feed", "~> 0.12"
