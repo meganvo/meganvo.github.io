@@ -80,14 +80,17 @@ nav a {
     font-size: 1.1rem;
     font-weight: 500;
     color: $secondaryText;
-          transition: color 0.3s;
-
+    transition: color 0.3s;
 }
 
 nav a:hover {
     color: $textColor !important;
     text-decoration: none;
 }
+
+.links a:last-of-type {
+        margin-right: 0;
+    }
 
 .nav-wrapper {
     max-width: 900px;
@@ -97,7 +100,13 @@ nav a:hover {
     display: flex;
     justify-content: space-between;
     align-items: center;
+
+      @media (max-width:$breakpointSmall) {
+    justify-content: center;
 }
+}
+
+
 
 nav h1 {
     margin-top: 0;
@@ -109,6 +118,13 @@ nav ul {
     padding: 0px;
     list-style: none;
 }
+
+.home a {
+      @media (max-width:$breakpointSmall) {
+        display: none;
+    }
+}
+
 
 
 
