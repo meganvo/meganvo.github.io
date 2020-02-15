@@ -179,6 +179,10 @@ ul {
 
 .about-me-img {
     border-radius: 8px;
+
+     @media (max-width:$breakpointSmall) {
+        margin-top: $spaceMedium;
+    }
 }
 
 #contact-links {
