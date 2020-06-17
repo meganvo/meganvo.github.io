@@ -21,10 +21,10 @@ We launched targeted promotions with just two types - new diner and happy hours.
 {: .post-wrapper}
 
 #### **Almost 20% of campaigns created were stopped within a day.** 
-{: .post-wrapper .red}
+{: .post-wrapper}
 
 #### **Creation modal couldn't scale to allow more targeting options.**
-{: .post-wrapper .red}
+{: .post-wrapper}
 
 
 ![alt text]({{ site.baseurl }}/images/promotions/creation_old_landing.png)
