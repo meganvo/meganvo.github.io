@@ -9,10 +9,11 @@ thumbnail: ../images/rigup_thumb.png
 hero: /images/rigup_thumb.png
 
 ---
-### Overview
-{: .post-wrapper}
 RigUp is an oilfield services marketplace that connects engineers & vendors for an easier bidding process. As the first designer at a small but rapidly growing company, I had to wear a lot hats. I tackled everything from front-end implementation, conducting usability tests, and driving marketing and branding design.
 {: .post-wrapper}
+
+![alt text]({{ site.baseurl }}/images/rigup_thumb.png)
+
 
 ### Problem
 {: .post-wrapper}

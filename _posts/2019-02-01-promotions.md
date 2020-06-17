@@ -14,23 +14,18 @@ hero: /images/promotions_thumb.png
 Targeted promotions allowed restaurants to create promotions based on their business goals. I led design across several product phases - from MVP, scaling it as we expanded the feature set, and launching Smart Promotions.
 {: .post-wrapper}
 
+![alt text]({{ site.baseurl }}/images/promotions_thumb.png)
+
 ### Problem
 {: .post-wrapper}
 
 We launched targeted promotions with just two types - new diner and happy hours. As we expanded our targeting options, the creation flow couldn't scale in a small modal. We also wanted to understand why restaurants kept starting and stopping campaigns. 
 {: .post-wrapper}
 
-#### **Almost 20% of campaigns created were stopped within a day.** 
+##### • Almost 20% of campaigns created were stopped within a day.
 {: .post-wrapper}
-
-#### **Creation modal couldn't scale to allow more targeting options.**
+##### • Creation modal couldn't scale to allow more targeting options.
 {: .post-wrapper}
-
-
-![alt text]({{ site.baseurl }}/images/promotions/creation_old_landing.png)
-{: .post-img}
-The first time user experience didn't offer any education or onboarding to what Targeted Promotions was.
-{: .post-img-caption}
 
 ![alt text]({{ site.baseurl }}/images/promotions/creation_old.png)
 {: .post-img}
@@ -55,7 +50,7 @@ Through their knowledge, we determined the new creation experience should **educ
 {: .post-wrapper}
 
 #### **Less than 1% of campaigns were stopped within a day.**
-{: .post-wrapper .green }
+{: .post-wrapper }
 
 
 The new creation flow guided restaurants throughout the process.

@@ -1,41 +1,13 @@
 ---
-layout: post
+layout: encrypted
 title: Insights
 summary: Data-fueled recommendations for restaurants
-description: 
+description: Grubhub has tons of data on what makes a restaurant successful. I designed an Insights Dashboard to transform this complex data into actionable recommendations to help restaurants improve their performance.
 company: Grubhub
 date: 2019-01-01
 year: 2018
 thumbnail: ../images/insights_thumb.png 
 hero: /images/insights_thumb.png 
+
+encrypted: 3bb1bf36c1e3db871693f40e22514ea23d3342cf1f73cfafaf7bc671ddea26ecU2FsdGVkX197oDEQOWiEwjJ+CJuE5xjMGn5Bifn/SgQhAkP1wPuWvnYWYveE6i3xKP0SQj7OgmbrBC5h4DP9nBDMOvA8RFelU/Natx+dv4Vl9v9gogT8hNh7IrU0SpMID5nJB3jTFCOEDnUULR9msKeuhhHBsYrp2ywxPSPXXX31d440OM1VtQYofghu2YAEqIfBQDqMjLRcfwm02LQUf9zhb+H90J08qrR9+HZb2BdrQ4O2PhetJ9afI1+xM6H4vgqxRt7ru3mvhSPXIQwygqYrCjJfKu2NZr8H2XzfvWWaZR8NkZim+iWGuHsNb6eQQUByT54dBcYd2GRm+K2ThBb69Mh6xR3nUvzc1u7WsoLrCzn3m1h/yR+3qwQKBlcrKA6xlnexL8JCJ7NBBsvEznEUPkTUz2oHXsU1TtNrB+RX4dOT/67JDC/en2feP/5fg6llvmYzP66V8UAbV5q8rTU5yjV+Cfh5vLYnwN1e+l7S4HjzsYo4IcHbur2qt5TTEZvxWJJ/UEq0jKhhpMlHshZcT4fh8nK81Jd9gkCvjBI/0IUcqO2LgwkceKnNbVyvtefT6vYl2TDP1bMYebzvaMyKG9s2hMLnFurE1Vu6viCfeW45Aif/vurvo9uf7WK05DBri5Kmh8XT0prwEl3zq1vxhuWQ8FRqPYCb/xXhoe9ALQXusbvvHbxJk/57MrGwVAk/YXdGBmupy1lOO9pOMWivIf++R6rvrISm6Sdotw8/x5MbWdamblmn48MYuui/4yARBUVk0BMcpzgey6XJSHyMbINwgAJf93oMNFoltswYYFkLPxw4uGZW9kAHwH9YXxaipOE5DMOUkbpC/Ia6GRHnQT2PIno33hV7lk+9T1xuG1ci4uG7AH2cnELilby68HIYhdf5nrXLIp7UXdvVasCCWk3lep41FlC7H8aSbHpK8H4Gel/eOSh9Mbxzp+SHqsJMjuUl75Tdu6vf162IJk8km3erPYSgpruTZwpe3iglcYVGdB3X/hPrBED5YxjCDwvt9PK8OcBVFOhNaQcXfuVzUKDZqq6ta8OuzyMhx8BYRxLad8PQVul9oo4sDpuoJaSV5VFGChgf1gCJR31DybtKbzqlvtiZu3j/t5Bw8nM=
 ---
-Grubhub has tons of data on what makes a restaurant successful. I worked on the Insights Dashboard to transform this complex data into actionable recommendations that help restaurants improve their performance across the conversion funnel.
-{: .post-wrapper}
-
-### Challenge
-{: .post-wrapper}
-
-Our internal team has a dashboard that surfaces restaurant performance across the conversion funnel. This allows them to pinpoint where customers drop off and offer recommendations on how to improve this - like uploading photos to their menu. Since restaurants didn’t have access to this, they had to explain all of this over the phone or email which wasn't a scalable solution. We needed to leverage this data and surface it in our restaurant management app.
-{: .post-wrapper}
-
-![alt text]({{ site.baseurl }}/images/insights/dashboard_mobile.png)
-{: .post-img}
-
-![alt text]({{ site.baseurl }}/images/insights/dashboard_desktop.png)
-{: .post-img}
-
-
-![alt text]({{ site.baseurl }}/images/insights/concept_1.png)
-{: .post-img}
-
-
-![alt text]({{ site.baseurl }}/images/insights/concept_2.png)
-{: .post-img}
-
-
-![alt text]({{ site.baseurl }}/images/insights/concept_3.png)
-{: .post-img}
-
-
-
-

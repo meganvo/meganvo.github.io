@@ -142,7 +142,6 @@
 
 #post-end {
     margin-top: $spaceExtraLarge;
-    padding-top: $spaceLarge;
     border-top: 1px solid #ccc;
 
       @media (max-width:$breakpointSmall) { 
@@ -159,3 +158,28 @@
 }
 
 
+.password {
+    background-color: blue;
+    margin-top: 20px;
+    padding: 10px 30px 30px 30px;
+    color: white;
+    border-radius: 8px;
+
+    input {
+        padding: 10px;
+    }
+
+p:first-of-type {
+    margin-bottom: 0;
+}
+p:last-of-type {
+    margin-top: 0;
+}
+    h4 {
+        margin-top: 0 !important; 
+    }
+}
+
+#encrypt_password {
+    padding: 10px;
+}
