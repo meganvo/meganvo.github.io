@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Targeted Promotions
-summary: Increasing campaign length with a redesigned creation flow
+summary: Increasing campaign creation with a scalable creation flow
 description: 
 company: Grubhub
 date: 2019-02-01
