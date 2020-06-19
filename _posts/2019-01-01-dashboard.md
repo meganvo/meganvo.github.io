@@ -1,7 +1,7 @@
 ---
 layout: encrypted
-title: Insights
-summary: Data-fueled recommendations for restaurants
+title: Insights Dashboard
+summary: Data-driven recommendations for restaurants
 description: Grubhub has tons of data on what makes a restaurant successful. I designed an Insights Dashboard to transform this complex data into actionable recommendations to help restaurants improve their performance.
 company: Grubhub
 date: 2019-03-01
