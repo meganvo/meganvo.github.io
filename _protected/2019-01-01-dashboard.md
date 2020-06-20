@@ -7,7 +7,7 @@ company: Grubhub
 date: 2019-01-01
 year: 2018
 thumbnail: ../images/insights_thumb.png 
-hero: /images/insights_thumb.png 
+hero: /images/insights/hero.png 
 ---
 ### Challenge
 Our internal team has a dashboard that surfaces restaurant performance across the conversion funnel. This allows them to pinpoint where customers drop off and offer recommendations on how to improve this - like uploading photos to their menu. 
