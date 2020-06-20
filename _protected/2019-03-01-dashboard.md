@@ -4,7 +4,7 @@ title: Insights
 summary: Data-fueled recommendations for restaurants
 description: Grubhub has tons of data on what makes a restaurant successful. I designed an Insights Dashboard to transform this complex data into actionable recommendations to help restaurants improve their performance.
 company: Grubhub
-date: 2019-01-01
+date: 2019-03-01
 year: 2018
 thumbnail: ../images/insights_thumb.png 
 hero: /images/insights/hero.png 
@@ -30,7 +30,6 @@ Since restaurants didn’t have access to this, they had to explain all of this 
 ![foo](/images/insights/timetarget_1.png)
 
 ![foo](/images/insights/lowereta.png)
-
 
 
 
