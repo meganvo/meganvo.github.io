@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Targeted Promotions
+title: Creation flow redesign
 summary: Increasing campaign creation with a scalable creation flow
 description: 
 company: Grubhub
