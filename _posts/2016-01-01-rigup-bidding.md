@@ -4,7 +4,6 @@ title: Bid Management
 summary: Request, receive, & compare job quotes
 company: RigUp
 date: 2016-01-01
-year: 2016
 thumbnail: ../images/rigup_thumb.png
 hero: /images/rigup_thumb.png
 

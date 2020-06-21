@@ -37,7 +37,7 @@
 body {
     margin: $spaceExtraLarge auto;
     background-color: $siteBackground;
-
+    color: $textColor;
        @media (max-width:$breakpointSmall) and (max-width:$breakpointMedium) {
     margin: $spaceMedium auto;
     }
@@ -146,7 +146,7 @@ ul {
     padding-bottom: $spaceSmall;
 
     @media (max-width:$breakpointSmall) {
-        padding: $spaceSmall 0 $spaceSmall 0;
+        display: none;
     }
 }
 
@@ -155,24 +155,20 @@ ul {
     font-weight: 700;
     font-size: 5rem;
     margin: 0;
-    color: black;
-
-    @media (max-width:$breakpointSmall) {
-        font-size: 3rem;
+    color: $textColor;
+        @media (max-width:$breakpointMedium) {
+        font-size: 2.5rem;
     }
-
 }
 
+
 .current-role {
-    font-family: $headingTypeface;
-    margin-top: 0;
-    margin-bottom: $spaceSmall;
     color: $secondaryText;
-
-    @media (max-width:$breakpointSmall) {
-        font-size: 2rem;
+    padding-top: 0;
+    margin: 0;
+    @media (max-width:$breakpointMedium) {
+        font-size: 2.5rem;
     }
-
 }
 
 // About

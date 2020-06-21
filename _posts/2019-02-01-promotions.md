@@ -5,7 +5,6 @@ summary: Increasing campaign creation with a scalable creation flow
 description: 
 company: Grubhub
 date: 2019-02-01
-year: 2018
 thumbnail: ../images/promotions_thumb.png
 hero: /images/promotions_thumb.png
 

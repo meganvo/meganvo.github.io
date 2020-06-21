@@ -1,17 +1,15 @@
 @import "variables";
-#work li, #fun li {
-    margin: $spaceMedium 0;
+
+//Index
+
+#work li,
+#fun li {
+    margin: $spaceMedium 0 $spaceLarge 0;
 }
 
-#work img, #fun img {
+#work img,
+#fun img {
     border-radius: 8px;
-}
-
-.tile-info {
-    @media (max-width:$breakpointSmall) and (max-width:$breakpointMedium) { 
-        margin-top: $spaceSmall;
-    }
-
 }
 
 .tile-title {
@@ -19,12 +17,14 @@
     font-size: 2.5rem;
     font-weight: 500;
     color: $textColor;
+    @media (max-width: $breakpointMedium) {
+        padding-top: $spaceExtraSmall;
+    }
 }
 
 .tile-title a {
     color: $textColor;
 }
-
 
 .tile-summary {
     margin: .5rem 0;
@@ -39,27 +39,16 @@
     font-weight: 500;
 }
 
-#fun .tile-title, #fun .tile-summary  {
+#fun .tile-title,
+#fun .tile-summary {
     font-size: 1.5rem;
 }
 
-#work .tile-title, #work .tile-summary  {
-      @media (max-width:$breakpointSmall) { 
-    font-size: 1.5rem;
-}
-}
-
-
-#fun .tile-info {
-    margin-top: $spaceSmall;
-}
-
-#work .tile-info {
-      @media (max-width:$breakpointSmall) { 
-       margin-top: $spaceSmall;
-       margin-bottom: $spaceMedium;
+#work .tile-title,
+#work .tile-summary {
+    @media (max-width: $breakpointSmall) {
+        font-size: 1.5rem;
     }
-
 }
 
 .hvr-grow {
@@ -80,6 +69,7 @@
 }
 
 
+// Post
 
 .post-hero {
     text-align: center;
@@ -91,30 +81,26 @@
     height: 500px;
     width: 70%;
     border-radius: 8px;
-
-     @media (max-width:$breakpointSmall) { 
+    @media (max-width: $breakpointSmall) {
         height: 300px;
-        width: 100%; 
+        width: 100%;
         border-radius: 0;
     }
 }
 
 .post-wrapper {
     padding: 0 20%;
-
-      @media (max-width:$breakpointSmall) { 
+    @media (max-width: $breakpointSmall) {
         padding: 0;
     }
-
-     @media (max-width:$breakpointMedium) { 
+    @media (max-width:$breakpointMedium) {
         padding: 0;
     }
 }
 
 .post-intro h1 {
     font-weight: 700;
-
-      @media (max-width:$breakpointSmall) { 
+    @media (max-width: $breakpointSmall) {
         margin-top: 0;
     }
 }
@@ -139,12 +125,10 @@
     color: $secondaryText;
 }
 
-
 #post-end {
     margin-top: $spaceExtraLarge;
     border-top: 1px solid #ccc;
-
-      @media (max-width:$breakpointSmall) { 
+    @media (max-width: $breakpointSmall) {
         margin-top: $spaceMedium;
     }
 }
@@ -153,10 +137,13 @@
     margin: $spaceMedium 0;
 }
 
-#post-end h4, #post-end p {
+#post-end h4,
+#post-end p {
     margin: 0 !important;
 }
 
+
+// Password
 
 .password {
     background-color: blue;
@@ -164,19 +151,17 @@
     padding: 10px 30px 30px 30px;
     color: white;
     border-radius: 8px;
-
     input {
         padding: 10px;
     }
-
-p:first-of-type {
-    margin-bottom: 0;
-}
-p:last-of-type {
-    margin-top: 0;
-}
+    p:first-of-type {
+        margin-bottom: 0;
+    }
+    p:last-of-type {
+        margin-top: 0;
+    }
     h4 {
-        margin-top: 0 !important; 
+        margin-top: 0 !important;
     }
 }
 
