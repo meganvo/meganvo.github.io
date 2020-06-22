@@ -146,9 +146,8 @@ ul {
     padding-bottom: $spaceSmall;
 
     @media (max-width:$breakpointSmall) {
-        font-size: 2rem;
-                margin-top: $spaceSmall;
-                padding-bottom: 0;
+        margin-top: $spaceSmall;
+        padding-bottom: 0;
     }
 }
 
@@ -159,7 +158,10 @@ ul {
     margin: 0;
     color: $textColor;
         @media (max-width:$breakpointMedium) {
-            font-size: 3rem;
+            font-size: 2rem;
+    }
+        @media (max-width:$breakpointSmall) {
+            font-size: 2rem;
     }
 }
 
@@ -170,7 +172,9 @@ ul {
     margin-top: $spaceExtraSmall;
     @media (max-width:$breakpointMedium) {
         font-size: 2rem;
-
+    }
+         @media (max-width:$breakpointSmall) {
+            font-size: 1.5rem;
     }
 }
 
