@@ -1,77 +1,14 @@
 ---
-layout: post
+layout: encrypted
 title: Creation flow redesign
 summary: Increasing campaign creation with a scalable creation flow
-description: 
-company: Grubhub
+description: Targeted promotions allowed restaurants to create promotions based on their business goals. We launched targeted promotions with just two types - new diner and happy hours. As we expanded our targeting options, we needed to scale the creation flow to allow for more promotion types and targeting options.
+company: Grubhub • Password protected
 date: 2019-02-01
 thumbnail: ../images/promotions_thumb.png
 hero: /images/promotions_thumb.png
 
 
+
+encrypted: 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
 ---
-Targeted promotions allowed restaurants to create promotions based on their business goals. I led design across several product phases - from MVP, scaling it as we expanded the feature set, and launching Smart Promotions.
-{: .post-wrapper}
-
-![alt text]({{ site.baseurl }}/images/promotions/hero.png)
-
-### Problem
-{: .post-wrapper}
-
-We launched targeted promotions with just two types - new diner and happy hours. As we expanded our targeting options, the creation flow couldn't scale in a small modal. We also wanted to understand why restaurants kept starting and stopping campaigns. 
-{: .post-wrapper}
-
-#### Almost 20% of campaigns created were stopped within a day.
-{: .post-wrapper .secondary-text}
-
-![alt text]({{ site.baseurl }}/images/promotions/creation_old.png)
-{: .post-img}
-The creation flow was contained within a modal with limited targeting and promotion types.
-{: .post-img-caption}
-
-{: .post-wrapper}
-We needed to take a step back and think beyond its current MVP state and run a design sprint. To kick it off, we conducted expert interviews across stakeholders in Finance, Support, Sales departments to share their insights. 
-{: .post-wrapper}
-
-![alt text]({{ site.baseurl }}/images/promotions/sprint.jpg)
-{: .post-img}
-
-Through their knowledge, we determined the new creation experience should educate restaurants on how Promotions worked, provide targeting and guide restaurants on what offers are profitable, yet still attract customers. 
-{: .post-wrapper}
-
-### Outcome
-{: .post-wrapper}
-
-#### **Less than 1% of campaigns were stopped within a day.**
-{: .post-wrapper }
-
-
-The new creation flow guided restaurants throughout the process.
-{: .post-wrapper}
-
-
-![alt text]({{ site.baseurl }}/images/promotions/01_intro.png)
-{: .post-img}
-Landing page set expectations and educated restaurants on the process before diving into the creation flow
-{: .post-wrapper .post-img-caption}
-
-
-![alt text]({{ site.baseurl }}/images/promotions/02_goals.png)
-{: .post-img}
-We used illustrations to help restaurants easily identify which promotion type was right for them
-{: .post-wrapper .post-img-caption}
-
-
-
-![alt text]({{ site.baseurl }}/images/promotions/03_details.png)
-{: .post-img}
-Recommendations provide guidance on what attracts customers while also balancing profitability
-{: .post-wrapper .post-img-caption}
-
-
-
-![alt text]({{ site.baseurl }}/images/promotions/04_review.png)
-{: .post-img}
-Allow restaurants review to view their campaign and what to expect next
-{: .post-wrapper .post-img-caption}
-
