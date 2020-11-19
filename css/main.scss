@@ -159,7 +159,7 @@ ul {
 
     @media (max-width:$breakpointMedium) {
         margin-top: $spaceSmall;
-        padding-bottom: $spaceMedium;
+        padding-bottom: $spaceSmall;
     }
 }
 
@@ -201,12 +201,16 @@ ul {
     }
 }
 
+#contact-links ul {
+    display: inline-flex;
+}
+
 #contact-links {
         margin-top: 2rem;
 
 }
 #contact-links li  {
-    margin-bottom: 25px;
+    margin-right: 25px;
 }
 
 #contact-links a, .about-me-content a {
