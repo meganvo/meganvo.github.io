@@ -203,9 +203,10 @@ ul {
 
 
 #contact-links {
+display: inline-flex;
 }
 #contact-links li  {
-    margin-bottom: 18pxpx;
+    margin-right: 18px;
 }
 
 #contact-links a, .about-me-content a {
