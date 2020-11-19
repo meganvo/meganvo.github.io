@@ -38,8 +38,9 @@ body {
     margin: $spaceExtraLarge auto;
     background-color: $siteBackground;
     color: $textColor;
-       @media (max-width:$breakpointSmall) and (max-width:$breakpointMedium) {
-    margin: $spaceSmall auto;
+
+       @media (max-width:$breakpointSmall) {
+    margin: $spaceMedium auto;
     }
 }
 
@@ -204,10 +205,17 @@ ul {
 
 #contact-links {
 display: inline-flex;
+ @media (max-width:$breakpointSmall) {
+        display: block;
+    }
 }
 
 #contact-links li  {
     margin-right: 18px;
+    @media (max-width:$breakpointSmall) {
+        margin-right: 0;
+        margin-bottom: 18px;
+    }
 }
 
 #contact-links a, .about-me-content a {
@@ -232,4 +240,9 @@ display: inline-flex;
 }
 .red {
     color: #C8403B;
+}
+
+#credits p {
+    font-size: 1.3em;
+    color: $secondaryText;
 }
