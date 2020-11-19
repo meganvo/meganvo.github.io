@@ -39,12 +39,12 @@ body {
     background-color: $siteBackground;
     color: $textColor;
        @media (max-width:$breakpointSmall) and (max-width:$breakpointMedium) {
-    margin: $spaceMedium auto;
+    margin: $spaceSmall auto;
     }
 }
 
 .wrapper {
-    max-width: 900px;
+    max-width: 750px;
     padding: 0 $spaceLarge;
     margin: 0 auto;
 
@@ -149,7 +149,7 @@ ul {
 // Intro
 
 #intro {
-    padding-bottom: $spaceLarge;
+    padding-bottom: $spaceSmall;
 
     @media (max-width:$breakpointSmall) {
         margin-top: $spaceSmall;
@@ -201,12 +201,10 @@ ul {
     }
 }
 
-#contact-links ul {
-    display: inline-flex;
-}
 
 #contact-links {
         margin-top: 2rem;
+        display: inline-flex;
 
 }
 #contact-links li  {
