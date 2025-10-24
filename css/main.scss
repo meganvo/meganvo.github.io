@@ -150,7 +150,6 @@ ul {
 // Intro
 
 #intro {
-    padding-bottom: $spaceSmall;
 
     @media (max-width:$breakpointSmall) {
         margin-top: $spaceSmall;
@@ -166,8 +165,6 @@ ul {
 
 .name {
     font-family: $headingTypeface;
-    font-weight: 700;
-    font-size: 3rem;
     margin: 0;
     color: $textColor;
         @media (max-width:$breakpointMedium) {
