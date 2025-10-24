@@ -40,7 +40,7 @@ body {
     color: $textColor;
 
        @media (max-width:$breakpointSmall) {
-    margin: $spaceMedium auto;
+    margin: 0em auto;
     }
 }
 
